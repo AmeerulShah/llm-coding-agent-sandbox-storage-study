@@ -1,0 +1,230 @@
+{
+ "fail_by_cls": {
+  "system": 617022,
+  "pseudo": 22897,
+  "env": 586242,
+  "runtime": 1252336,
+  "repo": 9494348,
+  "home": 60055,
+  "git": 92686,
+  "tmp": 241370
+ },
+ "fail_kinds": {
+  "other": 665267,
+  "locale": 1457436,
+  "python": 2113719,
+  "path": 95849,
+  "git": 8034685
+ },
+ "write_top": {
+  "tmp": [
+   [
+    "/tmp/<other>",
+    187983318
+   ]
+  ],
+  "git": [
+   [
+    ".git/index*",
+    329595135
+   ],
+   [
+    ".git/objects",
+    7669
+   ],
+   [
+    ".git/logs",
+    212
+   ],
+   [
+    ".git/refs",
+    41
+   ],
+   [
+    ".git/ORIG_HEAD.lock",
+    41
+   ],
+   [
+    ".git/AUTO_MERGE",
+    41
+   ]
+  ],
+  "repo": [
+   [
+    "source/other",
+    1490921588
+   ]
+  ]
+ },
+ "mut_by_kind_group": {
+  "rename|pyc": 143883,
+  "unlink|tmp": 100130,
+  "chmod|tmp": 60478,
+  "truncate|tmp": 45522,
+  "mkdir|tmp": 36497,
+  "mkdir|pyc": 30714,
+  "utime|tmp": 26238,
+  "unlink|pyc": 22509,
+  "rmdir|tmp": 14288,
+  "chmod|pyc": 8660,
+  "utime|pyc": 8660,
+  "link|tmp": 5947,
+  "link|repo": 2413,
+  "rename|tmp": 1664,
+  "rename|git": 540,
+  "rename|home": 462,
+  "unlink|repo": 374,
+  "chmod|system": 283,
+  "unlink|system": 223,
+  "mkdir|repo": 219
+ },
+ "mut_pyc_share": 0.4200689967264756,
+ "mut_git_share": 0.0016788811638153113,
+ "top_decile_read_share_by_cat": {
+  "echo": 0.0,
+  "edit": 0.002,
+  "env": 0.0,
+  "other": 0.0,
+  "read": 0.001,
+  "script": 0.089,
+  "search": 0.498,
+  "test": 0.384,
+  "vcs": 0.026
+ },
+ "first_test": {
+  "tasks_with_tests": 357,
+  "first_test_pos_med": 0.30952380952380953,
+  "ws_by_first_test_med": 0.8614167593678167
+ },
+ "mismatch_by_cat": {
+  "echo": 0.039,
+  "edit": 0.069,
+  "env": 0.01,
+  "other": 0.015,
+  "read": 0.01,
+  "script": 0.156,
+  "search": 0.023,
+  "test": 0.656,
+  "vcs": 0.021
+ },
+ "mismatch_rate_by_cat": {
+  "echo": 0.7692,
+  "edit": 0.0301,
+  "env": 0.5556,
+  "other": 0.2963,
+  "read": 0.001,
+  "script": 0.0317,
+  "search": 0.0034,
+  "test": 0.2001,
+  "vcs": 0.0047
+ },
+ "static": {
+  "v242": {
+   "n": 441,
+   "fs_share": 0.6050389032975176,
+   "test_tasks": 1.0,
+   "shares": {
+    "search": 0.21480177843645795,
+    "read": 0.27751018895887364,
+    "test": 0.09540570581696925,
+    "script": 0.1232400889218229,
+    "edit": 0.11272693590218599,
+    "vcs": 0.12782512041496852,
+    "echo": 0.0255650240829937,
+    "env": 0.0006020748425342719,
+    "other": 0.022323082623193775
+   }
+  },
+  "v246": {
+   "n": 264,
+   "fs_share": 0.5907457879088206,
+   "test_tasks": 0.8977272727272727,
+   "shares": {
+    "search": 0.19871159563924679,
+    "read": 0.2640609514370664,
+    "vcs": 0.10660307234886025,
+    "test": 0.06665014866204162,
+    "edit": 0.12797324083250744,
+    "echo": 0.06175668979187314,
+    "script": 0.11124876114965312,
+    "other": 0.06231417244796829,
+    "env": 0.0006813676907829534
+   }
+  }
+ },
+ "untraced": {
+  "n": 57,
+  "tool_s_med": 7.0569999999999995,
+  "share_med": 0.05775
+ },
+ "ablation": {
+  "median": [
+   {
+    "mode": "default",
+    "final_MiB": 2.996,
+    "write_MiB": 5.172,
+    "read_MiB": 135.637,
+    "meta": 115379.0,
+    "rc_match": 0.977
+   },
+   {
+    "mode": "no bytecode",
+    "final_MiB": 0.035,
+    "write_MiB": 0.814,
+    "read_MiB": 137.492,
+    "meta": 117140.0,
+    "rc_match": 0.977
+   },
+   {
+    "mode": "precompiled",
+    "final_MiB": 0.087,
+    "write_MiB": 0.327,
+    "read_MiB": 150.012,
+    "meta": 124983.0,
+    "rc_match": 0.977
+   }
+  ],
+  "paired": {
+   "red_pre_final": 0.9653290530634387,
+   "red_np_write": 0.778658357628633,
+   "inc_np_read": 0.021049911530830245,
+   "inc_pre_read": 0.07821864729674921,
+   "red_pre_write": 0.7884046485113722
+  }
+ },
+ "provisioning": {
+  "median": {
+   "django|clone": 3.5882,
+   "django|copy": 4.6324,
+   "django|overlay": 0.0029,
+   "django|worktree": 3.4858,
+   "pytest|clone": 0.1758,
+   "pytest|copy": 0.767,
+   "pytest|overlay": 0.0038,
+   "pytest|worktree": 0.1549,
+   "requests|clone": 0.0304,
+   "requests|copy": 0.7056,
+   "requests|overlay": 0.003,
+   "requests|worktree": 0.029,
+   "sphinx|clone": 0.6118,
+   "sphinx|copy": 2.9034,
+   "sphinx|overlay": 0.003,
+   "sphinx|worktree": 0.7178,
+   "sympy|clone": 0.7252,
+   "sympy|copy": 1.3871,
+   "sympy|overlay": 0.0032,
+   "sympy|worktree": 0.7491
+  },
+  "image_growth": {
+   "django": 13661221,
+   "sympy": 26483155,
+   "sphinx": 3302994,
+   "pytest": 1929488,
+   "requests": 775294
+  }
+ },
+ "e2e": {
+  "base_MiB_med": 41.783387184143066,
+  "opt_MiB_med": 0.1584606170654297
+ }
+}
