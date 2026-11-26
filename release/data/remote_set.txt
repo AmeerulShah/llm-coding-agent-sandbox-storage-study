@@ -1,4 +1,0 @@
-django__django-15037
-django__django-14672
-psf__requests-1921
-sphinx-doc__sphinx-8056
