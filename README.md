@@ -1,6 +1,6 @@
 # LLM coding-agent sandbox storage study
 
-Code and data for the paper *Metadata-Heavy, Write-Light: System-Call Analysis and Copy-on-Write Optimization of Python Sandboxes for LLM Coding Agents* by Ameerul Ali Shah Pattan. The paper replays 16,219 recorded tool calls of an LLM coding agent under system-call tracing to measure how agent sandboxes use storage, then measures storage optimizations for them.
+Code and data for the paper *Characterizing and Optimizing File-System I/O of LLM Coding-Agent Workloads: Implications for AI Agent Sandbox Infrastructure* by Ameerul Ali Shah Pattan. The paper replays 16,219 recorded tool calls of an LLM coding agent under system-call tracing to measure how agent sandboxes use storage, then measures storage optimizations for them.
 
 ## What is here
 
