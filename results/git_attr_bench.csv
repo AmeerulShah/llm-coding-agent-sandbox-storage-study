@@ -1,0 +1,1743 @@
+instance,step,cmd,config,rc,same_output,seconds,meta_ops,failed,gitattributes_failed,stratum
+django__django-10554,0,"git grep -n ""ORDER BY"" django/db/models/sql/",attr_tree,0,1,0.0059,155,46,0,history
+django__django-10554,0,"git grep -n ""ORDER BY"" django/db/models/sql/",default,0,1,0.0046,139,44,4,history
+django__django-10554,1,"git grep -n ""def get_order_by"" django/db/models/sql/compiler.py",attr_tree,0,1,0.0041,155,52,0,history
+django__django-10554,1,"git grep -n ""def get_order_by"" django/db/models/sql/compiler.py",default,0,1,0.0038,140,51,4,history
+django__django-10554,3,"git grep -n ""combined_queries"" django/db/models/sql/query.py",default,0,1,0.0043,140,51,4,history
+django__django-10554,3,"git grep -n ""combined_queries"" django/db/models/sql/query.py",attr_tree,0,1,0.0042,155,52,0,history
+django__django-10554,4,"git grep -n -i ""combined_queries"" django/",attr_tree,0,1,0.0877,6831,46,0,history
+django__django-10554,4,"git grep -n -i ""combined_queries"" django/",default,0,1,0.0241,9070,329,289,history
+django__django-10554,5,"git grep -n ""def clone"" django/db/models/sql/query.py",attr_tree,0,1,0.0053,155,52,0,history
+django__django-10554,5,"git grep -n ""def clone"" django/db/models/sql/query.py",default,0,1,0.0051,140,51,4,history
+django__django-10554,7,"git grep -n -e ""def order_by"" -e ""def values_list"" django/db/models/query.py",attr_tree,0,1,0.0052,155,52,0,history
+django__django-10554,7,"git grep -n -e ""def order_by"" -e ""def values_list"" django/db/models/query.py",default,0,1,0.0045,139,50,3,history
+django__django-10554,11,"git grep -n ""def _values"" django/db/models/query.py",attr_tree,0,1,0.0052,155,52,0,history
+django__django-10554,11,"git grep -n ""def _values"" django/db/models/query.py",default,0,1,0.0045,139,50,3,history
+django__django-10554,13,"git grep -n ""def set_values"" django/db/models/sql/query.py",default,0,1,0.0046,140,51,4,history
+django__django-10554,13,"git grep -n ""def set_values"" django/db/models/sql/query.py",attr_tree,0,1,0.0052,155,52,0,history
+django__django-10554,16,"git grep -n ""class OrderBy""",default,0,1,0.0334,15233,327,287,history
+django__django-10554,16,"git grep -n ""class OrderBy""",attr_tree,0,1,0.0964,12290,46,0,history
+django__django-10554,18,"git grep -n ""def resolve_expression"" django/db/models/expressions.py",attr_tree,0,1,0.0047,155,52,0,history
+django__django-10554,18,"git grep -n ""def resolve_expression"" django/db/models/expressions.py",default,0,1,0.0040,139,50,3,history
+django__django-10554,20,"git grep -n ""def find_ordering_name"" django/db/models/sql/compiler.py",default,0,1,0.0044,140,51,4,history
+django__django-10554,20,"git grep -n ""def find_ordering_name"" django/db/models/sql/compiler.py",attr_tree,0,1,0.0044,155,52,0,history
+django__django-10554,23,"git grep -n ""self.select ="" django/db/models/sql/compiler.py",attr_tree,0,1,0.0047,155,52,0,history
+django__django-10554,23,"git grep -n ""self.select ="" django/db/models/sql/compiler.py",default,0,1,0.0041,140,51,4,history
+django__django-10554,24,"git grep -n ""self.select"" django/db/models/sql/compiler.py",attr_tree,0,1,0.0048,155,52,0,history
+django__django-10554,24,"git grep -n ""self.select"" django/db/models/sql/compiler.py",default,0,1,0.0045,140,51,4,history
+django__django-10554,25,"git grep -n ""def get_select"" django/db/models/sql/compiler.py",attr_tree,0,1,0.0045,155,52,0,history
+django__django-10554,25,"git grep -n ""def get_select"" django/db/models/sql/compiler.py",default,0,1,0.0041,140,51,4,history
+django__django-10554,32,"git grep -n ""order"" tests/queries/test_qs_combinators.py",attr_tree,0,1,0.0046,155,52,0,history
+django__django-10554,32,"git grep -n ""order"" tests/queries/test_qs_combinators.py",default,0,1,0.0042,138,49,2,history
+django__django-10554,37,"git grep -n ""def union"" django/db/models/query.py",attr_tree,0,1,0.0047,155,52,0,history
+django__django-10554,37,"git grep -n ""def union"" django/db/models/query.py",default,0,1,0.0038,139,50,3,history
+django__django-10554,39,"git grep -n ""def _combinator_query"" django/db/models/query.py",attr_tree,0,1,0.0045,155,52,0,history
+django__django-10554,39,"git grep -n ""def _combinator_query"" django/db/models/query.py",default,0,1,0.0041,139,50,3,history
+django__django-10554,41,"git grep -n ""def get_combinator_sql"" django/db/models/sql/compiler.py",attr_tree,0,1,0.0043,155,52,0,history
+django__django-10554,41,"git grep -n ""def get_combinator_sql"" django/db/models/sql/compiler.py",default,0,1,0.0039,140,51,4,history
+django__django-10554,49,"git grep -n ""def clear_ordering"" django/db/models/sql/query.py",attr_tree,0,1,0.0046,155,52,0,history
+django__django-10554,49,"git grep -n ""def clear_ordering"" django/db/models/sql/query.py",default,0,1,0.0046,140,51,4,history
+django__django-10554,51,"git grep -n -A 10 ""class ReservedName"" tests/queries/models.py",attr_tree,0,1,0.0043,155,52,0,history
+django__django-10554,51,"git grep -n -A 10 ""class ReservedName"" tests/queries/models.py",default,0,1,0.0040,138,49,2,history
+django__django-10554,53,"git grep -n ""ordering ="" tests/queries/models.py",attr_tree,0,1,0.0043,155,52,0,history
+django__django-10554,53,"git grep -n ""ordering ="" tests/queries/models.py",default,0,1,0.0038,138,49,2,history
+django__django-10554,55,"git grep -n ""class Item"" tests/queries/models.py",attr_tree,0,1,0.0045,155,52,0,history
+django__django-10554,55,"git grep -n ""class Item"" tests/queries/models.py",default,0,1,0.0042,138,49,2,history
+django__django-10554,62,"git grep -n ""supports_slicing_ordering_in_compound""",default,0,1,0.0400,15233,365,325,history
+django__django-10554,62,"git grep -n ""supports_slicing_ordering_in_compound""",attr_tree,0,1,0.0881,12290,46,0,history
+django__django-10554,69,"git grep -n ""def _chain"" django/db/models/query.py",default,0,1,0.0046,139,50,3,history
+django__django-10554,69,"git grep -n ""def _chain"" django/db/models/query.py",attr_tree,0,1,0.0049,155,52,0,history
+django__django-10554,72,"git grep -n ""def chain"" django/db/models/sql/query.py",default,0,1,0.0055,140,51,4,history
+django__django-10554,72,"git grep -n ""def chain"" django/db/models/sql/query.py",attr_tree,0,1,0.0045,155,52,0,history
+django__django-10554,74,"git grep -n ""class Col("" django/",attr_tree,0,1,0.0700,6831,46,0,history
+django__django-10554,74,"git grep -n ""class Col("" django/",default,0,1,0.0267,9070,256,216,history
+django__django-10554,76,"git grep -n ""set_source_expressions"" django/db/models/sql/compiler.py",attr_tree,0,1,0.0048,155,52,0,history
+django__django-10554,76,"git grep -n ""set_source_expressions"" django/db/models/sql/compiler.py",default,0,1,0.0039,140,51,4,history
+django__django-10554,78,"git grep -n ""self.select"" django/db/models/sql/compiler.py",attr_tree,0,1,0.0048,155,52,0,history
+django__django-10554,78,"git grep -n ""self.select"" django/db/models/sql/compiler.py",default,0,1,0.0042,140,51,4,history
+django__django-10554,80,"git grep -n ""def pre_sql_setup"" django/db/models/sql/compiler.py",default,0,1,0.0042,140,51,4,history
+django__django-10554,80,"git grep -n ""def pre_sql_setup"" django/db/models/sql/compiler.py",attr_tree,0,1,0.0044,155,52,0,history
+django__django-10554,82,"git grep -n ""def setup_query"" django/db/models/sql/compiler.py",attr_tree,0,1,0.0047,155,52,0,history
+django__django-10554,82,"git grep -n ""def setup_query"" django/db/models/sql/compiler.py",default,0,1,0.0042,140,51,4,history
+django__django-10554,95,"git grep -n ""def clear_select_fields"" django/db/models/sql/query.py",default,0,1,0.0045,140,51,4,history
+django__django-10554,95,"git grep -n ""def clear_select_fields"" django/db/models/sql/query.py",attr_tree,0,1,0.0050,155,52,0,history
+django__django-10554,101,git diff django/db/models/sql/query.py,default,0,1,0.0051,139,46,4,history
+django__django-10554,101,git diff django/db/models/sql/query.py,attr_tree,0,1,0.0059,163,52,0,history
+django__django-10554,106,"git log --grep=""29692"" -p",default,0,1,0.1947,181,74,12,history
+django__django-10554,106,"git log --grep=""29692"" -p",attr_tree,0,1,0.1993,179,67,0,history
+django__django-10554,108,"git grep -i ""combined_queries"" django/db/models/sql/",default,0,1,0.0042,139,44,4,history
+django__django-10554,108,"git grep -i ""combined_queries"" django/db/models/sql/",attr_tree,0,1,0.0045,155,46,0,history
+django__django-10554,118,git diff django/db/models/sql/query.py,default,0,1,0.0047,139,46,4,history
+django__django-10554,118,git diff django/db/models/sql/query.py,attr_tree,0,1,0.0047,163,52,0,history
+django__django-10554,122,git status,default,0,1,0.0258,19541,1439,0,history
+django__django-10554,122,git status,attr_tree,0,1,0.0251,19543,1439,0,history
+django__django-11141,4,"git log -S ""getattr(module, '__file__', None) is None"" -p",default,0,1,6.3891,159218,159117,159055,history
+django__django-11141,4,"git log -S ""getattr(module, '__file__', None) is None"" -p",attr_tree,0,1,8.5362,173,67,0,history
+django__django-11141,5,"git log --grep=""28814"" -p",attr_tree,0,1,0.1956,205,93,0,history
+django__django-11141,5,"git log --grep=""28814"" -p",default,0,1,0.2053,235,128,40,history
+django__django-11141,24,"git log --grep=""29091"" -p",attr_tree,0,1,0.2143,180,71,0,history
+django__django-11141,24,"git log --grep=""29091"" -p",default,0,1,0.2150,186,82,16,history
+django__django-11141,25,"git log --grep=""23406"" -p",default,0,1,0.2113,191,90,20,history
+django__django-11141,25,"git log --grep=""23406"" -p",attr_tree,0,1,0.1990,181,75,0,history
+django__django-11141,29,git diff django/db/migrations/loader.py,attr_tree,0,1,0.0049,124,39,0,history
+django__django-11141,29,git diff django/db/migrations/loader.py,default,0,1,0.0040,124,39,0,history
+django__django-11141,34,git diff django/db/migrations/loader.py,attr_tree,0,1,0.0042,124,39,0,history
+django__django-11141,34,git diff django/db/migrations/loader.py,default,0,1,0.0039,124,39,0,history
+django__django-11141,37,git diff django/db/migrations/loader.py,attr_tree,0,1,0.0042,124,39,0,history
+django__django-11141,37,git diff django/db/migrations/loader.py,default,0,1,0.0044,124,39,0,history
+django__django-11141,39,git status,default,0,1,0.0339,19649,1441,0,history
+django__django-11141,39,git status,attr_tree,0,1,0.0279,19649,1441,0,history
+django__django-11141,40,git diff django/db/migrations/loader.py,attr_tree,0,1,0.0046,124,39,0,history
+django__django-11141,40,git diff django/db/migrations/loader.py,default,0,1,0.0042,124,39,0,history
+django__django-11141,41,git diff --check,default,0,1,0.0090,9268,33,0,history
+django__django-11141,41,git diff --check,attr_tree,0,1,0.0133,9268,33,0,history
+django__django-11149,8,"git log -S ""auto_created"" -- django/contrib/admin/options.py",default,0,1,0.4559,160,60,3,history
+django__django-11149,8,"git log -S ""auto_created"" -- django/contrib/admin/options.py",attr_tree,0,1,0.5400,168,62,0,history
+django__django-11149,9,git show 825f0beda804e48e9197fcf3b0d909f9f548aa47 -- django/contrib/admin/options.py,attr_tree,0,1,0.0055,173,68,0,history
+django__django-11149,9,git show 825f0beda804e48e9197fcf3b0d909f9f548aa47 -- django/contrib/admin/options.py,default,0,1,0.0049,169,69,6,history
+django__django-11149,17,git show 825f0beda804e48e9197fcf3b0d909f9f548aa47 -- django/contrib/admin/options.py | grep -E '^[+-]' | grep -v -E '^[+-]{3}',attr_tree,0,1,0.0053,257,92,0,history
+django__django-11149,17,git show 825f0beda804e48e9197fcf3b0d909f9f548aa47 -- django/contrib/admin/options.py | grep -E '^[+-]' | grep -v -E '^[+-]{3}',default,0,1,0.0082,253,93,6,history
+django__django-11149,21,git diff django/contrib/admin/options.py,default,0,1,0.0060,124,39,0,history
+django__django-11149,21,git diff django/contrib/admin/options.py,attr_tree,0,1,0.0058,124,39,0,history
+django__django-11149,24,git status,attr_tree,0,1,0.0389,19521,1438,0,history
+django__django-11149,24,git status,default,0,1,0.0373,19522,1438,0,history
+django__django-11149,25,git diff django/contrib/admin/options.py,default,0,1,0.0043,124,39,0,history
+django__django-11149,25,git diff django/contrib/admin/options.py,attr_tree,0,1,0.0044,124,39,0,history
+django__django-11206,6,"git log -S ""abs(exponent) + len(digits)"" -p",default,0,1,6.3796,156188,156087,156025,history
+django__django-11206,6,"git log -S ""abs(exponent) + len(digits)"" -p",attr_tree,0,1,7.7137,173,67,0,history
+django__django-11206,17,"git log -S ""1.234e-300"" -p",attr_tree,0,1,8.6298,173,67,0,history
+django__django-11206,17,"git log -S ""1.234e-300"" -p",default,0,1,6.8506,156186,156085,156023,history
+django__django-11206,20,git diff django/utils/numberformat.py,attr_tree,0,1,0.0048,123,39,0,history
+django__django-11206,20,git diff django/utils/numberformat.py,default,0,1,0.0044,123,39,0,history
+django__django-11206,23,git status,attr_tree,0,1,0.0269,19536,1439,0,history
+django__django-11206,23,git status,default,0,1,0.0276,19536,1439,0,history
+django__django-11206,24,"git log --grep=""number_format"" --grep=""numberformat"" --oneline -n 30",attr_tree,0,1,0.2118,148,56,0,history
+django__django-11206,24,"git log --grep=""number_format"" --grep=""numberformat"" --oneline -n 30",default,0,1,0.1924,148,56,0,history
+django__django-11206,31,git diff,attr_tree,0,1,0.0102,9186,32,0,history
+django__django-11206,31,git diff,default,0,1,0.0106,9185,32,0,history
+django__django-11206,37,git diff django/utils/numberformat.py,default,0,1,0.0048,123,39,0,history
+django__django-11206,37,git diff django/utils/numberformat.py,attr_tree,0,1,0.0047,123,39,0,history
+django__django-11206,44,git diff tests/utils_tests/test_numberformat.py,attr_tree,0,1,0.0042,123,39,0,history
+django__django-11206,44,git diff tests/utils_tests/test_numberformat.py,default,0,1,0.0046,123,39,0,history
+django__django-11206,46,git status,attr_tree,0,1,0.0337,19535,1439,0,history
+django__django-11206,46,git status,default,0,1,0.0267,19535,1439,0,history
+django__django-11239,3,"git log --grep=""28322"" -p || git log --grep=""28322""",attr_tree,0,1,0.1926,177,71,0,history
+django__django-11239,3,"git log --grep=""28322"" -p || git log --grep=""28322""",default,0,1,0.1987,183,82,16,history
+django__django-11239,9,git status,default,0,1,0.0274,19535,1439,0,history
+django__django-11239,9,git status,attr_tree,0,1,0.0259,19535,1439,0,history
+django__django-11239,13,git diff django/db/backends/postgresql/client.py,attr_tree,0,1,0.0071,125,39,0,history
+django__django-11239,13,git diff django/db/backends/postgresql/client.py,default,0,1,0.0041,125,39,0,history
+django__django-11239,16,git status,default,0,1,0.0300,19536,1439,0,history
+django__django-11239,16,git status,attr_tree,0,1,0.0260,19536,1439,0,history
+django__django-11239,17,git diff,default,0,1,0.0100,9186,32,0,history
+django__django-11239,17,git diff,attr_tree,0,1,0.0089,9185,32,0,history
+django__django-11433,0,"git grep -n ""cleaned_data"" | grep -i ""model""",attr_tree,0,1,0.1052,12328,55,0,history
+django__django-11433,0,"git grep -n ""cleaned_data"" | grep -i ""model""",default,0,1,0.0304,15271,629,585,history
+django__django-11433,2,"git log -S ""value_omitted_from_data"" -p django/forms/models.py",default,0,1,0.4032,180,72,4,history
+django__django-11433,2,"git log -S ""value_omitted_from_data"" -p django/forms/models.py",attr_tree,0,1,0.3217,186,73,0,history
+django__django-11433,3,"git log -S ""Leave defaults for fields that aren't in POST data"" -p django/forms/models.py",attr_tree,0,1,0.3170,186,73,0,history
+django__django-11433,3,"git log -S ""Leave defaults for fields that aren't in POST data"" -p django/forms/models.py",default,0,1,0.3660,180,72,4,history
+django__django-11433,4,git show 4bc6b939944183533ae74791d21282e613f63a96,default,0,1,0.0069,192,89,16,history
+django__django-11433,4,git show 4bc6b939944183533ae74791d21282e613f63a96,attr_tree,0,1,0.0084,186,78,0,history
+django__django-11433,5,"git grep -n ""def __getitem__"" django/forms/",default,0,1,0.0045,261,45,5,history
+django__django-11433,5,"git grep -n ""def __getitem__"" django/forms/",attr_tree,0,1,0.0045,271,46,0,history
+django__django-11433,9,"git grep -n ""test_default_populated_on_optional_field"" tests/model_forms/tests.py",attr_tree,0,1,0.0047,155,52,0,history
+django__django-11433,9,"git grep -n ""test_default_populated_on_optional_field"" tests/model_forms/tests.py",default,0,1,0.0040,138,49,2,history
+django__django-11433,11,"git grep -n ""construct_instance"" django/forms/models.py",attr_tree,0,1,0.0040,155,52,0,history
+django__django-11433,11,"git grep -n ""construct_instance"" django/forms/models.py",default,0,1,0.0038,138,49,2,history
+django__django-11433,12,"git log --all --grep=""7068""",attr_tree,0,1,0.3941,174,55,0,history
+django__django-11433,12,"git log --all --grep=""7068""",default,0,1,0.3943,174,55,0,history
+django__django-11433,13,"git grep -n ""cleaned_data"" tests/model_forms/tests.py",attr_tree,0,1,0.0048,155,52,0,history
+django__django-11433,13,"git grep -n ""cleaned_data"" tests/model_forms/tests.py",default,0,1,0.0046,138,49,2,history
+django__django-11433,14,"git grep -n ""class ModelFormOptions"" django/forms/models.py",attr_tree,0,1,0.0047,155,52,0,history
+django__django-11433,14,"git grep -n ""class ModelFormOptions"" django/forms/models.py",default,0,1,0.0044,138,49,2,history
+django__django-11433,18,"git grep -n ""SETTINGS"" tests/runtests.py",attr_tree,0,1,0.0043,155,52,0,history
+django__django-11433,18,"git grep -n ""SETTINGS"" tests/runtests.py",default,0,1,0.0038,137,48,1,history
+django__django-11433,25,"git grep -n ""def construct_instance""",attr_tree,0,1,0.0998,12286,46,0,history
+django__django-11433,25,"git grep -n ""def construct_instance""",default,0,1,0.0473,15229,306,266,history
+django__django-11433,33,"git grep ""value_omitted_from_data""",attr_tree,0,1,0.1096,12286,46,0,history
+django__django-11433,33,"git grep ""value_omitted_from_data""",default,0,1,0.0417,15229,307,267,history
+django__django-11433,36,"git grep ""empty_value"" django/forms/fields.py",attr_tree,0,1,0.0043,155,52,0,history
+django__django-11433,36,"git grep ""empty_value"" django/forms/fields.py",default,0,1,0.0041,138,49,2,history
+django__django-11433,37,git show f5c6d3c8d9fa2158734858fa0a7ac917c384cb97,default,0,1,0.0054,190,90,18,history
+django__django-11433,37,git show f5c6d3c8d9fa2158734858fa0a7ac917c384cb97,attr_tree,0,1,0.0058,182,77,0,history
+django__django-11433,40,"git grep ""FileField"" django/forms/models.py",attr_tree,0,1,0.0046,155,52,0,history
+django__django-11433,40,"git grep ""FileField"" django/forms/models.py",default,0,1,0.0041,138,49,2,history
+django__django-11433,50,"git grep ""MODE_CHOICES"" tests/model_forms/models.py",default,0,1,0.0041,138,49,2,history
+django__django-11433,50,"git grep ""MODE_CHOICES"" tests/model_forms/models.py",attr_tree,0,1,0.0040,155,52,0,history
+django__django-11433,54,git diff tests/model_forms/tests.py,attr_tree,0,1,0.0044,159,52,0,history
+django__django-11433,54,git diff tests/model_forms/tests.py,default,0,1,0.0045,133,44,2,history
+django__django-11433,56,git diff tests/model_forms/tests.py,attr_tree,0,1,0.0130,159,52,0,history
+django__django-11433,56,git diff tests/model_forms/tests.py,default,0,1,0.0043,133,44,2,history
+django__django-11433,60,git diff django/forms/models.py,default,0,1,0.0053,123,39,0,history
+django__django-11433,60,git diff django/forms/models.py,attr_tree,0,1,0.0039,123,39,0,history
+django__django-11433,61,git status,default,0,1,0.0268,19539,1439,0,history
+django__django-11433,61,git status,attr_tree,0,1,0.0272,19541,1439,0,history
+django__django-11790,5,git log -n 1 5ceaf14686ce626404afb6a5fbd3d8286410bf13 -p,attr_tree,0,1,0.0049,180,75,0,history
+django__django-11790,5,git log -n 1 5ceaf14686ce626404afb6a5fbd3d8286410bf13 -p,default,0,1,0.0039,182,82,12,history
+django__django-11790,16,git diff django/contrib/auth/forms.py,default,0,1,0.0085,124,39,0,history
+django__django-11790,16,git diff django/contrib/auth/forms.py,attr_tree,0,1,0.0043,124,39,0,history
+django__django-11790,20,git status,attr_tree,0,1,0.0242,19647,1441,0,history
+django__django-11790,20,git status,default,0,1,0.0343,19646,1441,0,history
+django__django-11790,21,git diff,default,0,1,0.0097,9263,32,0,history
+django__django-11790,21,git diff,attr_tree,0,1,0.0097,9263,32,0,history
+django__django-11815,18,"git grep -n ""EnumSerializer""",default,0,1,0.0320,15367,278,238,history
+django__django-11815,18,"git grep -n ""EnumSerializer""",attr_tree,0,1,0.1118,12414,46,0,history
+django__django-11815,29,"git grep ""TextEnum""",default,0,1,0.0446,15367,333,293,history
+django__django-11815,29,"git grep ""TextEnum""",attr_tree,0,1,0.0892,12414,46,0,history
+django__django-11815,30,"git grep ""RegexFlag""",default,0,1,0.0481,15367,339,299,history
+django__django-11815,30,"git grep ""RegexFlag""",attr_tree,0,1,0.0831,12414,46,0,history
+django__django-11815,33,"git log -S ""EnumSerializer"" --oneline",attr_tree,0,1,8.1653,156,57,0,history
+django__django-11815,33,"git log -S ""EnumSerializer"" --oneline",default,0,1,6.9107,159055,158962,158910,history
+django__django-11815,34,git show 4b1529e2cb -- django/db/migrations/serializer.py,attr_tree,0,1,0.0032,174,69,0,history
+django__django-11815,34,git show 4b1529e2cb -- django/db/migrations/serializer.py,default,0,1,0.0030,170,70,6,history
+django__django-11815,39,git status,attr_tree,0,1,0.0380,19644,1441,0,history
+django__django-11815,39,git status,default,0,1,0.0280,19645,1441,0,history
+django__django-11815,40,git diff -- django/db/migrations/serializer.py,attr_tree,0,1,0.0044,110,32,0,history
+django__django-11815,40,git diff -- django/db/migrations/serializer.py,default,0,1,0.0044,110,32,0,history
+django__django-11815,42,git status,default,0,1,0.0385,19644,1441,0,history
+django__django-11815,42,git status,attr_tree,0,1,0.0284,19644,1441,0,history
+django__django-11999,0,"git grep -n ""get_.*_display""",attr_tree,0,1,0.1522,12428,46,0,history
+django__django-11999,0,"git grep -n ""get_.*_display""",default,0,1,0.0597,15382,283,243,history
+django__django-11999,1,"git diff -U10 django/db/models/fields/__init__.py | head -n 100 || sed -n '750,780p' django/db/models/fields/__init__.py",attr_tree,0,1,0.0066,203,57,0,history
+django__django-11999,1,"git diff -U10 django/db/models/fields/__init__.py | head -n 100 || sed -n '750,780p' django/db/models/fields/__init__.py",default,0,1,0.0058,179,53,4,history
+django__django-11999,3,"git log -S ""get_%s_display"" -p",default,0,1,6.7252,159675,159574,159508,history
+django__django-11999,3,"git log -S ""get_%s_display"" -p",attr_tree,0,1,9.0510,177,71,0,history
+django__django-11999,4,"git log -n 10 -S ""partialmethod"" -p",default,0,1,7.4036,159710,159603,159528,history
+django__django-11999,4,"git log -n 10 -S ""partialmethod"" -p",attr_tree,0,1,9.5609,192,80,0,history
+django__django-11999,6,"git grep -n ""contribute_to_class"" django/db/models/base.py",default,0,1,0.0042,139,50,3,history
+django__django-11999,6,"git grep -n ""contribute_to_class"" django/db/models/base.py",attr_tree,0,1,0.0046,155,52,0,history
+django__django-11999,11,"git grep ""class Whiz"" tests/model_fields/",attr_tree,0,1,0.0043,191,46,0,history
+django__django-11999,11,"git grep ""class Whiz"" tests/model_fields/",default,0,1,0.0040,173,42,2,history
+django__django-11999,16,"git log -p -S ""def curry"" -n 1",default,0,1,0.3614,5208,5107,5045,history
+django__django-11999,16,"git log -p -S ""def curry"" -n 1",attr_tree,0,1,0.4128,173,67,0,history
+django__django-11999,19,"git log -p -S ""get_%s_display"" django/db/models/fields/__init__.py",default,0,1,0.4284,184,76,8,history
+django__django-11999,19,"git log -p -S ""get_%s_display"" django/db/models/fields/__init__.py",attr_tree,0,1,0.4263,186,73,0,history
+django__django-11999,25,"git log -S ""get_%s_display"" -p | grep -C 3 ""hasattr"" || true",default,0,1,6.8031,159717,159578,159508,history
+django__django-11999,25,"git log -S ""get_%s_display"" -p | grep -C 3 ""hasattr"" || true",attr_tree,0,1,8.7727,219,78,0,history
+django__django-11999,27,git show 3004d7057f2798c348e263d5d902eeb1e20464d5 -- django/db/models/fields/__init__.py,attr_tree,0,1,0.0027,152,55,0,history
+django__django-11999,27,git show 3004d7057f2798c348e263d5d902eeb1e20464d5 -- django/db/models/fields/__init__.py,default,0,1,0.0025,152,55,0,history
+django__django-11999,28,"git log -S ""get_%s_display"" --oneline",attr_tree,0,1,9.2600,157,58,0,history
+django__django-11999,28,"git log -S ""get_%s_display"" --oneline",default,0,1,6.8577,159643,159550,159497,history
+django__django-11999,29,"git log --all --grep=""partialmethod"" --oneline",attr_tree,0,1,0.3821,163,51,0,history
+django__django-11999,29,"git log --all --grep=""partialmethod"" --oneline",default,0,1,0.3873,163,51,0,history
+django__django-11999,30,git show 5b1c389603 -- django/db/models/fields/__init__.py,attr_tree,0,1,0.0042,176,68,0,history
+django__django-11999,30,git show 5b1c389603 -- django/db/models/fields/__init__.py,default,0,1,0.0038,174,71,8,history
+django__django-11999,31,"git grep -n ""def _get_FIELD_display""",attr_tree,0,1,0.1052,12428,46,0,history
+django__django-11999,31,"git grep -n ""def _get_FIELD_display""",default,0,1,0.0350,15382,327,287,history
+django__django-11999,39,"git grep ""partialmethod"" django/db/models/fields/__init__.py",default,0,1,0.0045,140,51,4,history
+django__django-11999,39,"git grep ""partialmethod"" django/db/models/fields/__init__.py",attr_tree,0,1,0.0046,155,52,0,history
+django__django-11999,40,"git log --grep=""get_FIELD_display"" --oneline",attr_tree,0,1,0.2236,143,51,0,history
+django__django-11999,40,"git log --grep=""get_FIELD_display"" --oneline",default,0,1,0.1955,143,51,0,history
+django__django-11999,44,git diff django/db/models/fields/__init__.py,attr_tree,0,1,0.0053,163,52,0,history
+django__django-11999,44,git diff django/db/models/fields/__init__.py,default,0,1,0.0044,139,46,4,history
+django__django-11999,50,git status,default,0,1,0.0305,19656,1441,0,history
+django__django-11999,50,git status,attr_tree,0,1,0.0403,19657,1441,0,history
+django__django-12209,1,"git log --grep=""29260"" -p",default,0,1,0.1929,177,76,10,history
+django__django-12209,1,"git log --grep=""29260"" -p",attr_tree,0,1,0.2224,177,71,0,history
+django__django-12209,2,"git grep -n -C 15 ""Skip an UPDATE when adding an instance"" django/db/models/base.py",attr_tree,0,1,0.0048,155,52,0,history
+django__django-12209,2,"git grep -n -C 15 ""Skip an UPDATE when adding an instance"" django/db/models/base.py",default,0,1,0.0038,139,50,3,history
+django__django-12209,3,"git grep -n -A 50 ""def __init__"" django/db/models/base.py",attr_tree,0,1,0.0044,155,52,0,history
+django__django-12209,3,"git grep -n -A 50 ""def __init__"" django/db/models/base.py",default,0,1,0.0040,139,50,3,history
+django__django-12209,4,"git grep -n -A 50 ""Assume object instance was passed in."" django/db/models/base.py",attr_tree,0,1,0.0044,155,52,0,history
+django__django-12209,4,"git grep -n -A 50 ""Assume object instance was passed in."" django/db/models/base.py",default,0,1,0.0045,139,50,3,history
+django__django-12209,5,"git grep -n ""def save"" django/db/models/base.py",default,0,1,0.0078,139,50,3,history
+django__django-12209,5,"git grep -n ""def save"" django/db/models/base.py",attr_tree,0,1,0.0044,155,52,0,history
+django__django-12209,6,"git grep -n -A 100 ""def save_base"" django/db/models/base.py",attr_tree,0,1,0.0040,155,52,0,history
+django__django-12209,6,"git grep -n -A 100 ""def save_base"" django/db/models/base.py",default,0,1,0.0039,139,50,3,history
+django__django-12209,7,"git grep -n -A 20 ""class ModelState"" django/db/models/base.py",default,0,1,0.0038,139,50,3,history
+django__django-12209,7,"git grep -n -A 20 ""class ModelState"" django/db/models/base.py",attr_tree,0,1,0.0039,155,52,0,history
+django__django-12209,8,"git grep -n ""def __setattr__"" django/db/models/base.py",default,1,1,0.0043,139,50,3,history
+django__django-12209,8,"git grep -n ""def __setattr__"" django/db/models/base.py",attr_tree,1,1,0.0043,155,52,0,history
+django__django-12209,9,"git grep -n ""pk"" django/db/models/base.py | grep -E ""4[0-9][0-9]:""",attr_tree,1,1,0.0046,197,55,0,history
+django__django-12209,9,"git grep -n ""pk"" django/db/models/base.py | grep -E ""4[0-9][0-9]:""",default,1,1,0.0047,181,54,3,history
+django__django-12209,10,"git grep -n ""def _get_pk_val"" django/db/models/base.py",attr_tree,0,1,0.0044,155,52,0,history
+django__django-12209,10,"git grep -n ""def _get_pk_val"" django/db/models/base.py",default,0,1,0.0043,139,50,3,history
+django__django-12209,11,"git grep -n -A 10 ""def _get_pk_val"" django/db/models/base.py",default,0,1,0.0046,139,50,3,history
+django__django-12209,11,"git grep -n -A 10 ""def _get_pk_val"" django/db/models/base.py",attr_tree,0,1,0.0049,155,52,0,history
+django__django-12209,13,"git grep -n ""save("" django/core/serializers/base.py",default,0,1,0.0040,139,50,3,history
+django__django-12209,13,"git grep -n ""save("" django/core/serializers/base.py",attr_tree,0,1,0.0045,155,52,0,history
+django__django-12209,14,"git grep -n -A 35 ""class DeserializedObject"" django/core/serializers/base.py",attr_tree,0,1,0.0042,155,52,0,history
+django__django-12209,14,"git grep -n -A 35 ""class DeserializedObject"" django/core/serializers/base.py",default,0,1,0.0040,139,50,3,history
+django__django-12209,15,"git grep -n -C 15 ""base.DeserializedObject"" django/core/serializers/python.py",default,0,1,0.0039,139,50,3,history
+django__django-12209,15,"git grep -n -C 15 ""base.DeserializedObject"" django/core/serializers/python.py",attr_tree,0,1,0.0048,155,52,0,history
+django__django-12209,16,"git grep -n -A 20 ""def build_instance"" django/core/serializers/base.py",attr_tree,0,1,0.0045,155,52,0,history
+django__django-12209,16,"git grep -n -A 20 ""def build_instance"" django/core/serializers/base.py",default,0,1,0.0043,139,50,3,history
+django__django-12209,17,"git grep -n -A 50 ""class Model(metaclass=ModelBase):"" django/db/models/base.py",default,0,1,0.0039,139,50,3,history
+django__django-12209,17,"git grep -n -A 50 ""class Model(metaclass=ModelBase):"" django/db/models/base.py",attr_tree,0,1,0.0044,155,52,0,history
+django__django-12209,18,"git grep -n -C 10 ""super().__init__()"" django/db/models/base.py",default,0,1,0.0046,139,50,3,history
+django__django-12209,18,"git grep -n -C 10 ""super().__init__()"" django/db/models/base.py",attr_tree,0,1,0.0056,155,52,0,history
+django__django-12209,19,"git grep -n ""NOT_PROVIDED"" django/db/models/base.py",attr_tree,0,1,0.0042,155,52,0,history
+django__django-12209,19,"git grep -n ""NOT_PROVIDED"" django/db/models/base.py",default,0,1,0.0039,139,50,3,history
+django__django-12209,20,"git grep -n -A 25 ""def from_db"" django/db/models/base.py",default,0,1,0.0040,139,50,3,history
+django__django-12209,20,"git grep -n -A 25 ""def from_db"" django/db/models/base.py",attr_tree,0,1,0.0047,155,52,0,history
+django__django-12209,22,"git grep -n -C 10 ""test_save_primary_with_default"" tests/basic/tests.py",attr_tree,0,1,0.0042,155,52,0,history
+django__django-12209,22,"git grep -n -C 10 ""test_save_primary_with_default"" tests/basic/tests.py",default,0,1,0.0038,138,49,2,history
+django__django-12209,23,"git grep -n -C 5 ""PrimaryKeyWithDefault"" tests/basic/models.py",attr_tree,0,1,0.0039,155,52,0,history
+django__django-12209,23,"git grep -n -C 5 ""PrimaryKeyWithDefault"" tests/basic/models.py",default,0,1,0.0038,138,49,2,history
+django__django-12209,24,"git grep -n -A 10 ""test_save_primary_with_default"" tests/basic/tests.py",default,0,1,0.0041,138,49,2,history
+django__django-12209,24,"git grep -n -A 10 ""test_save_primary_with_default"" tests/basic/tests.py",attr_tree,0,1,0.0048,155,52,0,history
+django__django-12209,27,"git grep -n -A 25 ""def __init__"" django/db/models/base.py",attr_tree,0,1,0.0043,155,52,0,history
+django__django-12209,27,"git grep -n -A 25 ""def __init__"" django/db/models/base.py",default,0,1,0.0038,139,50,3,history
+django__django-12209,28,"git grep -n -C 5 ""super().__init__()"" django/db/models/base.py",attr_tree,0,1,0.0050,155,52,0,history
+django__django-12209,28,"git grep -n -C 5 ""super().__init__()"" django/db/models/base.py",default,0,1,0.0042,139,50,3,history
+django__django-12209,29,"git grep -n -C 10 ""Skip an UPDATE when adding"" django/db/models/base.py",default,0,1,0.0042,139,50,3,history
+django__django-12209,29,"git grep -n -C 10 ""Skip an UPDATE when adding"" django/db/models/base.py",attr_tree,0,1,0.0046,155,52,0,history
+django__django-12209,31,git diff django/db/models/base.py,attr_tree,0,1,0.0065,161,52,0,history
+django__django-12209,31,git diff django/db/models/base.py,default,0,1,0.0047,136,45,3,history
+django__django-12209,35,"git grep ""PrimaryKeyWithDefault"" tests/",attr_tree,0,1,0.0418,4611,46,0,history
+django__django-12209,35,"git grep ""PrimaryKeyWithDefault"" tests/",default,0,1,0.0127,5251,109,69,history
+django__django-12209,36,git status,attr_tree,0,1,0.0244,19742,1446,0,history
+django__django-12209,36,git status,default,0,1,0.0277,19742,1446,0,history
+django__django-12209,37,"git grep -n ""primary_key=True"" tests/fixtures/models.py",default,0,1,0.0044,138,49,2,history
+django__django-12209,37,"git grep -n ""primary_key=True"" tests/fixtures/models.py",attr_tree,0,1,0.0042,155,52,0,history
+django__django-12209,38,"git grep -n -C 10 ""UUIDField"" tests/fixtures/models.py",attr_tree,0,1,0.0040,155,52,0,history
+django__django-12209,38,"git grep -n -C 10 ""UUIDField"" tests/fixtures/models.py",default,0,1,0.0038,138,49,2,history
+django__django-12209,39,"git grep -n ""PrimaryKeyUUIDModel"" tests/fixtures/tests.py",default,0,1,0.0037,138,49,2,history
+django__django-12209,39,"git grep -n ""PrimaryKeyUUIDModel"" tests/fixtures/tests.py",attr_tree,0,1,0.0045,155,52,0,history
+django__django-12209,40,"git grep -n -C 10 ""PrimaryKeyUUIDModel"" tests/fixtures/tests.py",default,0,1,0.0040,138,49,2,history
+django__django-12209,40,"git grep -n -C 10 ""PrimaryKeyUUIDModel"" tests/fixtures/tests.py",attr_tree,0,1,0.0040,155,52,0,history
+django__django-12209,47,git status,attr_tree,0,1,0.0265,19742,1446,0,history
+django__django-12209,47,git status,default,0,1,0.0288,19743,1446,0,history
+django__django-12209,48,git diff,default,0,1,0.0085,9310,32,0,history
+django__django-12209,48,git diff,attr_tree,0,1,0.0086,9310,32,0,history
+django__django-12273,36,"git log -S ""getattr(self, parent._meta.pk.attname) is None"" -p",default,0,1,6.7122,161585,161484,161422,history
+django__django-12273,36,"git log -S ""getattr(self, parent._meta.pk.attname) is None"" -p",attr_tree,0,1,7.9669,173,67,0,history
+django__django-12273,55,git diff django/,attr_tree,0,1,0.0112,5905,46,0,history
+django__django-12273,55,git diff django/,default,0,1,0.0094,5904,63,28,history
+django__django-12273,84,git status,attr_tree,0,1,0.0286,19745,1446,0,history
+django__django-12273,84,git status,default,0,1,0.0267,19744,1446,0,history
+django__django-12273,85,git diff,default,0,1,0.0095,9313,32,0,history
+django__django-12273,85,git diff,attr_tree,0,1,0.0093,9312,32,0,history
+django__django-12965,14,"git log -S ""single_alias"" -p django/db/models/sql/compiler.py",attr_tree,0,1,0.4090,186,73,0,history
+django__django-12965,14,"git log -S ""single_alias"" -p django/db/models/sql/compiler.py",default,0,1,0.4099,184,76,8,history
+django__django-12965,25,git show 7acef095d73322f45dcceb99afa1a4e50b520479,default,0,1,0.0056,188,88,16,history
+django__django-12965,25,git show 7acef095d73322f45dcceb99afa1a4e50b520479,attr_tree,0,1,0.0058,182,77,0,history
+django__django-12965,45,git diff django/db/models/sql/compiler.py,default,0,1,0.0047,139,46,4,history
+django__django-12965,45,git diff django/db/models/sql/compiler.py,attr_tree,0,1,0.0178,163,52,0,history
+django__django-12965,46,git status,attr_tree,0,1,0.0319,19802,1447,0,history
+django__django-12965,46,git status,default,0,1,0.0275,19801,1447,0,history
+django__django-13028,7,"git log -S ""check_filterable"" -p --oneline",default,0,1,7.4217,165237,165143,165081,history
+django__django-13028,7,"git log -S ""check_filterable"" -p --oneline",attr_tree,0,1,9.4789,166,67,0,history
+django__django-13028,10,git show 4edad1ddf6 --stat,default,0,1,0.0053,165,66,6,history
+django__django-13028,10,git show 4edad1ddf6 --stat,attr_tree,0,1,0.0057,170,65,0,history
+django__django-13028,11,git show 4edad1ddf6 -- tests/expressions_window/tests.py,default,0,1,0.0032,168,68,4,history
+django__django-13028,11,git show 4edad1ddf6 -- tests/expressions_window/tests.py,attr_tree,0,1,0.0041,174,69,0,history
+django__django-13028,12,git show bf12273db4,attr_tree,0,1,0.0055,181,76,0,history
+django__django-13028,12,git show bf12273db4,default,0,1,0.0048,187,87,16,history
+django__django-13028,20,git diff django/db/models/sql/query.py,attr_tree,0,1,0.0041,125,39,0,history
+django__django-13028,20,git diff django/db/models/sql/query.py,default,0,1,0.0042,125,39,0,history
+django__django-13028,33,git diff django/db/models/sql/query.py,attr_tree,0,1,0.0042,125,39,0,history
+django__django-13028,33,git diff django/db/models/sql/query.py,default,0,1,0.0047,125,39,0,history
+django__django-13028,49,git status,default,0,1,0.0305,19894,1455,0,history
+django__django-13028,49,git status,attr_tree,0,1,0.0333,19893,1455,0,history
+django__django-13028,50,git diff,default,0,1,0.0097,9410,32,0,history
+django__django-13028,50,git diff,attr_tree,0,1,0.0101,9410,32,0,history
+django__django-13112,0,"git grep ""was declared with a lazy reference to""",default,1,1,0.0312,15651,472,432,history
+django__django-13112,0,"git grep ""was declared with a lazy reference to""",attr_tree,1,1,0.0837,12666,46,0,history
+django__django-13112,1,"git grep ""lazy reference""",attr_tree,0,1,0.1004,12666,46,0,history
+django__django-13112,1,"git grep ""lazy reference""",default,0,1,0.0498,15651,539,499,history
+django__django-13112,2,"git grep ""lazy reference"" django/db/",default,1,1,0.0047,366,46,6,history
+django__django-13112,2,"git grep ""lazy reference"" django/db/",attr_tree,1,1,0.0060,371,46,0,history
+django__django-13112,3,"git grep -i ""was declared with a lazy reference""",default,0,1,0.0337,15651,532,492,history
+django__django-13112,3,"git grep -i ""was declared with a lazy reference""",attr_tree,0,1,0.0897,12666,46,0,history
+django__django-13112,4,"git grep -n ""The field"" tests/migrations/test_state.py",attr_tree,0,1,0.0052,155,52,0,history
+django__django-13112,4,"git grep -n ""The field"" tests/migrations/test_state.py",default,0,1,0.0042,138,49,2,history
+django__django-13112,6,"git grep -n ""class ProjectState"" django/db/migrations/state.py",attr_tree,0,1,0.0050,155,52,0,history
+django__django-13112,6,"git grep -n ""class ProjectState"" django/db/migrations/state.py",default,0,1,0.0042,139,50,3,history
+django__django-13112,9,"git grep -n ""_check_lazy_references"" django/core/checks/model_checks.py",default,0,1,0.0043,139,50,3,history
+django__django-13112,9,"git grep -n ""_check_lazy_references"" django/core/checks/model_checks.py",attr_tree,0,1,0.0043,155,52,0,history
+django__django-13112,11,"git grep -n ""_pending_operations"" django/",attr_tree,0,1,0.0664,6937,46,0,history
+django__django-13112,11,"git grep -n ""_pending_operations"" django/",default,0,1,0.0231,9190,300,260,history
+django__django-13112,13,"git grep -n ""_get_app_label_and_model_name"" django/db/migrations/state.py",default,0,1,0.0046,139,50,3,history
+django__django-13112,13,"git grep -n ""_get_app_label_and_model_name"" django/db/migrations/state.py",attr_tree,0,1,0.0040,155,52,0,history
+django__django-13112,15,"git grep -n ""lazy_model_operation"" django/",attr_tree,0,1,0.0639,6937,46,0,history
+django__django-13112,15,"git grep -n ""lazy_model_operation"" django/",default,0,1,0.0248,9190,224,184,history
+django__django-13112,17,"git grep -n ""get_registered_model"" django/",default,0,1,0.0225,9190,275,235,history
+django__django-13112,17,"git grep -n ""get_registered_model"" django/",attr_tree,0,1,0.0617,6937,46,0,history
+django__django-13112,19,"git grep -n ""lazy_related_operation"" django/db/models/fields/related.py",attr_tree,0,1,0.0048,155,52,0,history
+django__django-13112,19,"git grep -n ""lazy_related_operation"" django/db/models/fields/related.py",default,0,1,0.0062,140,51,4,history
+django__django-13112,22,"git grep -n ""def make_model_tuple""",attr_tree,0,1,0.0934,12666,46,0,history
+django__django-13112,22,"git grep -n ""def make_model_tuple""",default,0,1,0.0323,15651,372,332,history
+django__django-13112,24,"git grep -n ""def from_model"" django/db/migrations/state.py",attr_tree,0,1,0.0045,155,52,0,history
+django__django-13112,24,"git grep -n ""def from_model"" django/db/migrations/state.py",default,0,1,0.0042,139,50,3,history
+django__django-13112,26,"git grep -n ""def deconstruct"" django/db/models/fields/related.py",attr_tree,0,1,0.0042,155,52,0,history
+django__django-13112,26,"git grep -n ""def deconstruct"" django/db/models/fields/related.py",default,0,1,0.0036,140,51,4,history
+django__django-13112,30,"git grep -n ""label_lower"" django/db/models/options.py",attr_tree,0,1,0.0039,155,52,0,history
+django__django-13112,30,"git grep -n ""label_lower"" django/db/models/options.py",default,0,1,0.0037,139,50,3,history
+django__django-13112,32,"git grep -n ""class AppConfig"" django/apps/config.py",default,0,1,0.0037,138,49,2,history
+django__django-13112,32,"git grep -n ""class AppConfig"" django/apps/config.py",attr_tree,0,1,0.0040,155,52,0,history
+django__django-13112,34,"git grep -n ""class ModelState"" django/db/migrations/state.py",default,0,1,0.0045,139,50,3,history
+django__django-13112,34,"git grep -n ""class ModelState"" django/db/migrations/state.py",attr_tree,0,1,0.0044,155,52,0,history
+django__django-13112,38,"git grep -n ""def clone"" django/db/models/fields/",default,0,1,0.0050,143,44,4,history
+django__django-13112,38,"git grep -n ""def clone"" django/db/models/fields/",attr_tree,0,1,0.0042,159,46,0,history
+django__django-13112,40,"git grep -n ""def get_app_config"" django/apps/",default,0,1,0.0043,129,42,2,history
+django__django-13112,40,"git grep -n ""def get_app_config"" django/apps/",attr_tree,0,1,0.0042,147,46,0,history
+django__django-13112,42,"git grep -n ""def get_model"" django/apps/registry.py",attr_tree,0,1,0.0055,155,52,0,history
+django__django-13112,42,"git grep -n ""def get_model"" django/apps/registry.py",default,0,1,0.0039,138,49,2,history
+django__django-13112,44,"git log -S ""_check_lazy_references"" --oneline",default,0,1,6.8223,165611,165515,165463,history
+django__django-13112,44,"git log -S ""_check_lazy_references"" --oneline",attr_tree,0,1,9.6203,159,57,0,history
+django__django-13112,45,"git log -S ""lazy reference"" --oneline",default,0,1,7.4700,165620,165524,165463,history
+django__django-13112,45,"git log -S ""lazy reference"" --oneline",attr_tree,0,1,9.6996,168,66,0,history
+django__django-13112,46,"git log -S ""_check_lazy_references"" django/db/migrations/state.py",default,0,1,0.3039,173,66,3,history
+django__django-13112,46,"git log -S ""_check_lazy_references"" django/db/migrations/state.py",attr_tree,0,1,0.3128,181,68,0,history
+django__django-13112,47,git log -n 20 --oneline django/db/migrations/state.py,attr_tree,0,1,0.0654,176,71,0,history
+django__django-13112,47,git log -n 20 --oneline django/db/migrations/state.py,default,0,1,0.0710,176,71,0,history
+django__django-13112,48,"git grep -n ""self.app_label"" django/db/models/options.py",attr_tree,0,1,0.0044,155,52,0,history
+django__django-13112,48,"git grep -n ""self.app_label"" django/db/models/options.py",default,0,1,0.0045,139,50,3,history
+django__django-13112,50,"git grep -n ""app_label"" django/db/models/base.py",attr_tree,0,1,0.0048,155,52,0,history
+django__django-13112,50,"git grep -n ""app_label"" django/db/models/base.py",default,0,1,0.0042,139,50,3,history
+django__django-13112,52,"git grep -n ""app_label"" django/apps/registry.py",attr_tree,0,1,0.0039,155,52,0,history
+django__django-13112,52,"git grep -n ""app_label"" django/apps/registry.py",default,0,1,0.0038,138,49,2,history
+django__django-13112,53,"git grep ""app_configs\["" django/",attr_tree,0,1,0.0707,6937,46,0,history
+django__django-13112,53,"git grep ""app_configs\["" django/",default,0,1,0.0371,9190,441,401,history
+django__django-13112,62,git diff,attr_tree,0,1,0.0084,9424,32,0,history
+django__django-13112,62,git diff,default,0,1,0.0087,9424,32,0,history
+django__django-13112,64,"git grep -n ""class "" tests/migrations/test_state.py",default,0,1,0.0052,138,49,2,history
+django__django-13112,64,"git grep -n ""class "" tests/migrations/test_state.py",attr_tree,0,1,0.0059,155,52,0,history
+django__django-13112,72,git status,default,0,1,0.0351,19918,1457,0,history
+django__django-13112,72,git status,attr_tree,0,1,0.0275,19918,1457,0,history
+django__django-13297,3,git log -S _wrap_url_kwargs_with_deprecation_warning -p,default,0,1,6.4674,166882,166781,166719,history
+django__django-13297,3,git log -S _wrap_url_kwargs_with_deprecation_warning -p,attr_tree,0,1,8.1964,173,67,0,history
+django__django-13297,9,"git log -n 1 --grep=""19878"" -p",default,0,1,0.0137,195,91,20,history
+django__django-13297,9,"git log -n 1 --grep=""19878"" -p",attr_tree,0,1,0.0109,185,76,0,history
+django__django-13297,13,git diff django/views/generic/base.py,attr_tree,0,1,0.0040,124,39,0,history
+django__django-13297,13,git diff django/views/generic/base.py,default,0,1,0.0039,124,39,0,history
+django__django-13297,20,git diff tests/generic_views/views.py,attr_tree,0,1,0.0045,123,39,0,history
+django__django-13297,20,git diff tests/generic_views/views.py,default,0,1,0.0045,123,39,0,history
+django__django-13297,22,git diff,attr_tree,0,1,0.0561,11787,46,0,history
+django__django-13297,22,git diff,default,0,1,0.0435,12350,625,590,history
+django__django-13297,24,git status,attr_tree,0,1,0.0275,20491,1504,0,history
+django__django-13297,24,git status,default,0,1,0.0485,20491,1504,0,history
+django__django-13297,26,git status,attr_tree,0,1,0.0301,20492,1504,0,history
+django__django-13297,26,git status,default,0,1,0.0325,20491,1504,0,history
+django__django-13297,27,git diff,default,0,1,0.0113,9651,32,0,history
+django__django-13297,27,git diff,attr_tree,0,1,0.0099,9650,32,0,history
+django__django-13417,13,"git log -S ""self._meta_ordering"" -p django/db/models/sql/compiler.py",default,0,1,0.3734,186,78,8,history
+django__django-13417,13,"git log -S ""self._meta_ordering"" -p django/db/models/sql/compiler.py",attr_tree,0,1,0.3905,188,75,0,history
+django__django-13417,39,git diff django/db/models/query.py,default,0,1,0.0048,124,39,0,history
+django__django-13417,39,git diff django/db/models/query.py,attr_tree,0,1,0.0048,124,39,0,history
+django__django-13417,41,git status,attr_tree,0,1,0.0295,20498,1505,0,history
+django__django-13417,41,git status,default,0,1,0.0271,20497,1505,0,history
+django__django-13449,19,"git log -S ""SQLiteNumericMixin"" --oneline",attr_tree,0,1,8.5332,158,56,0,history
+django__django-13449,19,"git log -S ""SQLiteNumericMixin"" --oneline",default,0,1,7.0464,167452,167356,167305,history
+django__django-13449,20,git show c3c6c92d76,default,0,1,0.0057,179,76,10,history
+django__django-13449,20,git show c3c6c92d76,attr_tree,0,1,0.0047,179,71,0,history
+django__django-13449,43,git diff django/db/models/expressions.py,attr_tree,0,1,0.0046,124,39,0,history
+django__django-13449,43,git diff django/db/models/expressions.py,default,0,1,0.0047,124,39,0,history
+django__django-13449,53,git status,default,0,1,0.0303,20497,1505,0,history
+django__django-13449,53,git status,attr_tree,0,1,0.0305,20499,1505,0,history
+django__django-13449,54,git diff,attr_tree,0,1,0.0106,9654,32,0,history
+django__django-13449,54,git diff,default,0,1,0.0104,9652,32,0,history
+django__django-13516,6,"git log -S ""TextIOBase"" --oneline",attr_tree,0,1,9.8972,156,57,0,history
+django__django-13516,6,"git log -S ""TextIOBase"" --oneline",default,0,1,8.6915,167864,167771,167719,history
+django__django-13516,7,git show dc8834cad4,attr_tree,0,1,0.0169,259,139,0,history
+django__django-13516,7,git show dc8834cad4,default,0,1,0.0152,339,224,90,history
+django__django-13516,8,"git log -S ""class OutputWrapper"" --oneline",attr_tree,0,1,8.9805,156,57,0,history
+django__django-13516,8,"git log -S ""class OutputWrapper"" --oneline",default,0,1,7.2749,167864,167771,167719,history
+django__django-13516,9,git show 822d6d6dab,attr_tree,0,1,0.0086,194,89,0,history
+django__django-13516,9,git show 822d6d6dab,default,0,1,0.0046,216,116,32,history
+django__django-13516,33,git diff django/core/management/base.py,attr_tree,0,1,0.0047,124,39,0,history
+django__django-13516,33,git diff django/core/management/base.py,default,0,1,0.0045,124,39,0,history
+django__django-13516,36,git status,default,0,1,0.0308,20514,1507,0,history
+django__django-13516,36,git status,attr_tree,0,1,0.0295,20514,1507,0,history
+django__django-13516,38,git diff,attr_tree,0,1,0.0095,9661,32,0,history
+django__django-13516,38,git diff,default,0,1,0.0109,9662,32,0,history
+django__django-13821,0,git grep -n sqlite_version,default,0,1,0.0363,16076,350,310,history
+django__django-13821,0,git grep -n sqlite_version,attr_tree,0,1,0.1025,12988,46,0,history
+django__django-13821,1,git grep -n -i json django/db/backends/sqlite3/,attr_tree,0,1,0.0048,157,46,0,history
+django__django-13821,1,git grep -n -i json django/db/backends/sqlite3/,default,0,1,0.0045,141,44,4,history
+django__django-13821,2,git grep -n -i expression django/db/backends/sqlite3/,default,0,1,0.0055,141,44,4,history
+django__django-13821,2,git grep -n -i expression django/db/backends/sqlite3/,attr_tree,0,1,0.0041,157,46,0,history
+django__django-13821,3,"git grep -n ""supports_expression_indexes""",default,1,1,0.0355,16076,316,276,history
+django__django-13821,3,"git grep -n ""supports_expression_indexes""",attr_tree,1,1,0.0933,12988,46,0,history
+django__django-13821,4,"git grep -n -i ""index"" django/db/backends/base/features.py",default,0,1,0.0045,140,51,4,history
+django__django-13821,4,"git grep -n -i ""index"" django/db/backends/base/features.py",attr_tree,0,1,0.0054,155,52,0,history
+django__django-13821,5,"git log --all --grep=""26167""",default,0,1,0.4159,174,55,0,history
+django__django-13821,5,"git log --all --grep=""26167""",attr_tree,0,1,0.4516,174,55,0,history
+django__django-13821,6,"git grep -n -i ""expression"" django/db/backends/",attr_tree,0,1,0.0055,247,46,0,history
+django__django-13821,6,"git grep -n -i ""expression"" django/db/backends/",default,0,1,0.0043,236,46,6,history
+django__django-13821,8,"git grep -n -C 2 -i ""expression"" django/db/backends/*/features.py",attr_tree,0,1,0.0050,189,52,0,history
+django__django-13821,8,"git grep -n -C 2 -i ""expression"" django/db/backends/*/features.py",default,0,1,0.0045,179,53,6,history
+django__django-13821,9,"git grep -n ""index"" django/db/backends/base/features.py",attr_tree,0,1,0.0047,155,52,0,history
+django__django-13821,9,"git grep -n ""index"" django/db/backends/base/features.py",default,0,1,0.0042,140,51,4,history
+django__django-13821,10,"git grep -n -i ""index"" django/db/backends/sqlite3/schema.py",attr_tree,0,1,0.0045,155,52,0,history
+django__django-13821,10,"git grep -n -i ""index"" django/db/backends/sqlite3/schema.py",default,0,1,0.0043,140,51,4,history
+django__django-13821,11,"git grep -i ""expression"" django/db/backends/base/features.py",attr_tree,0,1,0.0044,155,52,0,history
+django__django-13821,11,"git grep -i ""expression"" django/db/backends/base/features.py",default,0,1,0.0048,140,51,4,history
+django__django-13821,12,git show d23cb83c99bc77c23e2fb5bff378d2f2092d7b29,default,0,1,0.0088,198,95,24,history
+django__django-13821,12,git show d23cb83c99bc77c23e2fb5bff378d2f2092d7b29,attr_tree,0,1,0.0059,184,76,0,history
+django__django-13821,13,"git log --all --grep=""26167"" -p -- django/",default,0,1,1.0272,297,156,60,history
+django__django-13821,13,"git log --all --grep=""26167"" -p -- django/",attr_tree,0,1,0.9841,247,101,0,history
+django__django-13821,14,"git grep -n ""sqlite_version_info""",attr_tree,0,1,0.0903,12988,46,0,history
+django__django-13821,14,"git grep -n ""sqlite_version_info""",default,0,1,0.0367,16076,356,316,history
+django__django-13821,15,"git grep -n -E ""3\.[0-8]\."" django/db/backends/sqlite3/",attr_tree,0,1,0.0044,157,46,0,history
+django__django-13821,15,"git grep -n -E ""3\.[0-8]\."" django/db/backends/sqlite3/",default,0,1,0.0043,141,44,4,history
+django__django-13821,17,"git grep -n -i ""sqlite"" | grep ""3\.8""",attr_tree,0,1,0.1097,13030,47,0,history
+django__django-13821,17,"git grep -n -i ""sqlite"" | grep ""3\.8""",default,0,1,0.0748,16118,799,753,history
+django__django-13821,19,"git grep -n -i ""expression"" | grep -i ""index""",default,0,1,0.0365,16118,567,525,history
+django__django-13821,19,"git grep -n -i ""expression"" | grep -i ""index""",attr_tree,0,1,0.1161,13030,54,0,history
+django__django-13821,20,"git grep -n ""supports_expression_indexes"" django/",default,1,1,0.0268,9497,259,219,history
+django__django-13821,20,"git grep -n ""supports_expression_indexes"" django/",attr_tree,1,1,0.0633,7153,46,0,history
+django__django-13821,21,"git grep -n -i ""index"" django/db/backends/base/features.py",attr_tree,0,1,0.0058,155,52,0,history
+django__django-13821,21,"git grep -n -i ""index"" django/db/backends/base/features.py",default,0,1,0.0048,140,51,4,history
+django__django-13821,22,"git grep -n ""sqlite_version_info""",attr_tree,0,1,0.1066,12988,46,0,history
+django__django-13821,22,"git grep -n ""sqlite_version_info""",default,0,1,0.0497,16076,332,292,history
+django__django-13821,23,"git grep ""supports_"" django/db/backends/base/features.py",default,0,1,0.0048,140,51,4,history
+django__django-13821,23,"git grep ""supports_"" django/db/backends/base/features.py",attr_tree,0,1,0.0044,155,52,0,history
+django__django-13821,25,"git log --oneline -n 100 | grep -i -E ""expression|index|sqlite""",attr_tree,0,1,0.0054,264,133,0,history
+django__django-13821,25,"git log --oneline -n 100 | grep -i -E ""expression|index|sqlite""",default,0,1,0.0084,264,126,0,history
+django__django-13821,26,"git grep -i ""expression_indexes""",attr_tree,1,1,0.0852,12988,46,0,history
+django__django-13821,26,"git grep -i ""expression_indexes""",default,1,1,0.0447,16076,431,391,history
+django__django-13821,27,"git grep -n "" (3,"" django/db/backends/sqlite3/",attr_tree,0,1,0.0061,157,46,0,history
+django__django-13821,27,"git grep -n "" (3,"" django/db/backends/sqlite3/",default,0,1,0.0053,141,44,4,history
+django__django-13821,28,"git grep -n ""test_check_sqlite_version""",default,0,1,0.0434,16076,331,291,history
+django__django-13821,28,"git grep -n ""test_check_sqlite_version""",attr_tree,0,1,0.1059,12988,46,0,history
+django__django-13821,34,"git grep -n -i ""sqlite"" django/contrib/gis/",default,0,1,0.0085,996,81,41,history
+django__django-13821,34,"git grep -n -i ""sqlite"" django/contrib/gis/",attr_tree,0,1,0.0118,799,46,0,history
+django__django-13821,35,"git grep ""sqlite_version_info"" django/contrib/gis/",default,1,1,0.0059,996,77,37,history
+django__django-13821,35,"git grep ""sqlite_version_info"" django/contrib/gis/",attr_tree,1,1,0.0111,799,46,0,history
+django__django-13821,36,"git grep -n -C 3 -i ""version"" django/contrib/gis/db/backends/spatialite/",attr_tree,0,1,0.0050,159,46,0,history
+django__django-13821,36,"git grep -n -C 3 -i ""version"" django/contrib/gis/db/backends/spatialite/",default,0,1,0.0044,145,46,6,history
+django__django-13821,38,git diff django/db/backends/sqlite3/base.py,default,0,1,0.0069,125,39,0,history
+django__django-13821,38,git diff django/db/backends/sqlite3/base.py,attr_tree,0,1,0.0091,125,39,0,history
+django__django-13821,40,git diff tests/backends/sqlite/tests.py,default,0,1,0.0068,124,39,0,history
+django__django-13821,40,git diff tests/backends/sqlite/tests.py,attr_tree,0,1,0.0051,124,39,0,history
+django__django-13821,42,git status,attr_tree,0,1,0.0282,20534,1507,0,history
+django__django-13821,42,git status,default,0,1,0.0272,20535,1507,0,history
+django__django-13821,44,git status,attr_tree,0,1,0.0367,20534,1507,0,history
+django__django-13821,44,git status,default,0,1,0.0299,20534,1507,0,history
+django__django-13821,45,git diff -- django/db/backends/sqlite3/base.py,attr_tree,0,1,0.0043,111,32,0,history
+django__django-13821,45,git diff -- django/db/backends/sqlite3/base.py,default,0,1,0.0044,111,32,0,history
+django__django-13964,0,git status,attr_tree,0,1,0.0627,21435,1517,0,history
+django__django-13964,0,git status,default,0,1,0.0289,20547,1508,0,history
+django__django-13964,18,"git log -S ""If the relationship's pk/to_field was changed"" --oneline",attr_tree,0,1,8.3643,156,57,0,history
+django__django-13964,18,"git log -S ""If the relationship's pk/to_field was changed"" --oneline",default,0,1,7.4270,169991,169898,169846,history
+django__django-13964,19,git show f77fc56c96,attr_tree,0,1,0.0052,179,74,0,history
+django__django-13964,19,git show f77fc56c96,default,0,1,0.0041,183,83,14,history
+django__django-13964,20,git show ee49306176a2d2f1751cb890bd607d42c7c09196,default,0,1,0.0044,180,80,12,history
+django__django-13964,20,git show ee49306176a2d2f1751cb890bd607d42c7c09196,attr_tree,0,1,0.0044,178,73,0,history
+django__django-13964,21,"git log -S ""class ForeignKeyDeferredAttribute"" --oneline",default,0,1,7.6330,169991,169898,169846,history
+django__django-13964,21,"git log -S ""class ForeignKeyDeferredAttribute"" --oneline",attr_tree,0,1,8.1278,156,57,0,history
+django__django-13964,22,git show 4122d9d3f1,attr_tree,0,1,0.0059,183,78,0,history
+django__django-13964,22,git show 4122d9d3f1,default,0,1,0.0048,191,91,18,history
+django__django-13964,41,git diff django/db/models/base.py,attr_tree,0,1,0.0045,124,39,0,history
+django__django-13964,41,git diff django/db/models/base.py,default,0,1,0.0039,124,39,0,history
+django__django-13964,44,git diff django/db/models/base.py,attr_tree,0,1,0.0044,124,39,0,history
+django__django-13964,44,git diff django/db/models/base.py,default,0,1,0.0037,124,39,0,history
+django__django-13964,54,git diff,default,0,1,0.0115,9689,32,0,history
+django__django-13964,54,git diff,attr_tree,0,1,0.0088,9690,32,0,history
+django__django-13964,55,git status,attr_tree,0,1,0.0349,20546,1508,0,history
+django__django-13964,55,git status,default,0,1,0.0292,20546,1508,0,history
+django__django-13964,57,git status,default,0,1,0.0343,20547,1508,0,history
+django__django-13964,57,git status,attr_tree,0,1,0.0282,20548,1508,0,history
+django__django-14011,4,"git log --grep=""22414""",attr_tree,0,1,0.2474,153,54,0,history
+django__django-14011,4,"git log --grep=""22414""",default,0,1,0.2401,153,54,0,history
+django__django-14011,5,git show f6cd669ff203192c29495174e53da6b16883b039,attr_tree,0,1,0.0048,178,73,0,history
+django__django-14011,5,git show f6cd669ff203192c29495174e53da6b16883b039,default,0,1,0.0055,176,76,8,history
+django__django-14011,8,"git log -S ""daemon_threads"" --oneline",attr_tree,0,1,9.6077,157,58,0,history
+django__django-14011,8,"git log -S ""daemon_threads"" --oneline",default,0,1,7.5976,171353,171260,171207,history
+django__django-14011,9,git show 4f72e5f03a,attr_tree,0,1,0.0037,177,72,0,history
+django__django-14011,9,git show 4f72e5f03a,default,0,1,0.0031,177,77,10,history
+django__django-14011,10,"git log -S ""ThreadedWSGIServer"" --oneline",attr_tree,0,1,8.6089,156,57,0,history
+django__django-14011,10,"git log -S ""ThreadedWSGIServer"" --oneline",default,0,1,7.4069,171352,171259,171207,history
+django__django-14011,11,git show bece837829,attr_tree,0,1,0.0052,185,80,0,history
+django__django-14011,11,git show bece837829,default,0,1,0.0044,191,91,16,history
+django__django-14011,12,"git log -S ""daemon_threads = True"" --oneline",default,0,1,7.6857,171353,171260,171207,history
+django__django-14011,12,"git log -S ""daemon_threads = True"" --oneline",attr_tree,0,1,9.4070,157,58,0,history
+django__django-14011,13,git show 934acf1126,attr_tree,0,1,0.0040,181,76,0,history
+django__django-14011,13,git show 934acf1126,default,0,1,0.0044,181,81,10,history
+django__django-14011,31,git diff django/core/servers/basehttp.py,default,0,1,0.0066,124,39,0,history
+django__django-14011,31,git diff django/core/servers/basehttp.py,attr_tree,0,1,0.0045,124,39,0,history
+django__django-14011,36,git status,attr_tree,0,1,0.0361,20569,1508,0,history
+django__django-14011,36,git status,default,0,1,0.0282,20570,1508,0,history
+django__django-14011,42,git diff django/core/servers/basehttp.py,attr_tree,0,1,0.0045,124,39,0,history
+django__django-14011,42,git diff django/core/servers/basehttp.py,default,0,1,0.0042,124,39,0,history
+django__django-14034,18,git log -S test_multivalue_optional_subfields -p,default,0,1,7.0182,173345,173244,173182,history
+django__django-14034,18,git log -S test_multivalue_optional_subfields -p,attr_tree,0,1,8.3673,173,67,0,history
+django__django-14034,22,git diff django/forms/fields.py,attr_tree,0,1,0.0044,123,39,0,history
+django__django-14034,22,git diff django/forms/fields.py,default,0,1,0.0040,123,39,0,history
+django__django-14034,23,git status,attr_tree,0,1,0.0303,20606,1508,0,history
+django__django-14034,23,git status,default,0,1,0.0286,20605,1508,0,history
+django__django-14122,1,git log -n 1 -p 0ddb4ebf,default,0,1,0.0055,205,105,28,history
+django__django-14122,1,git log -n 1 -p 0ddb4ebf,attr_tree,0,1,0.0066,187,82,0,history
+django__django-14122,39,git diff,attr_tree,0,1,0.0658,12094,46,0,history
+django__django-14122,39,git diff,default,0,1,0.0524,12615,586,551,history
+django__django-14122,45,git status,default,0,1,0.0384,20555,1508,0,history
+django__django-14122,45,git status,attr_tree,0,1,0.0288,20555,1508,0,history
+django__django-14122,50,git diff,attr_tree,0,1,0.0116,9697,32,0,history
+django__django-14122,50,git diff,default,0,1,0.0116,9697,32,0,history
+django__django-14315,10,git show bbe6fbb8768e8fb1aecb96d51c049d7ceaf802d3,default,0,1,0.0064,225,122,32,history
+django__django-14315,10,git show bbe6fbb8768e8fb1aecb96d51c049d7ceaf802d3,attr_tree,0,1,0.0064,203,95,0,history
+django__django-14315,16,git log -p -n 1 bbe6fbb8768e8fb1aecb96d51c049d7ceaf802d3 -- django/db/backends/postgresql/client.py,attr_tree,0,1,0.0040,173,68,0,history
+django__django-14315,16,git log -p -n 1 bbe6fbb8768e8fb1aecb96d51c049d7ceaf802d3 -- django/db/backends/postgresql/client.py,default,0,1,0.0034,171,71,8,history
+django__django-14315,21,git diff django/db/backends/base/client.py,default,0,1,0.0045,125,39,0,history
+django__django-14315,21,git diff django/db/backends/base/client.py,attr_tree,0,1,0.0042,125,39,0,history
+django__django-14315,26,git status,default,0,1,0.0396,20569,1508,0,history
+django__django-14315,26,git status,attr_tree,0,1,0.0303,20569,1508,0,history
+django__django-14315,27,git diff,attr_tree,0,1,0.0118,9712,32,0,history
+django__django-14315,27,git diff,default,0,1,0.0177,9712,32,0,history
+django__django-14493,24,git diff django/contrib/staticfiles/storage.py,attr_tree,0,1,0.0046,124,39,0,history
+django__django-14493,24,git diff django/contrib/staticfiles/storage.py,default,0,1,0.0041,124,39,0,history
+django__django-14580,3,"git log -S ""models.Model"" -p django/db/migrations/serializer.py",attr_tree,0,1,,194,76,0,history
+django__django-14580,3,"git log -S ""models.Model"" -p django/db/migrations/serializer.py",default,0,1,,190,77,6,history
+django__django-14580,26,git diff,attr_tree,0,1,,9748,35,0,history
+django__django-14580,26,git diff,default,0,1,,9748,35,0,history
+django__django-14580,28,git diff,default,0,1,,9748,35,0,history
+django__django-14580,28,git diff,attr_tree,0,1,,9750,35,0,history
+django__django-14765,0,"git grep ""class ProjectState""",attr_tree,0,1,,13108,49,0,history
+django__django-14765,0,"git grep ""class ProjectState""",default,0,1,,16199,348,305,history
+django__django-14765,1,"git grep -n -A 30 ""class ProjectState"" django/db/migrations/state.py",attr_tree,0,1,,163,55,0,history
+django__django-14765,1,"git grep -n -A 30 ""class ProjectState"" django/db/migrations/state.py",default,0,1,,147,53,3,history
+django__django-14765,2,"git grep -n ""ProjectState(""",attr_tree,0,1,,13108,49,0,history
+django__django-14765,2,"git grep -n ""ProjectState(""",default,0,1,,16199,409,366,history
+django__django-14765,3,"git grep ""unmigrated_apps""",attr_tree,0,1,,13108,49,0,history
+django__django-14765,3,"git grep ""unmigrated_apps""",default,0,1,,16199,307,264,history
+django__django-14765,4,"git grep ""real_apps"" django/db/migrations/graph.py",default,0,1,,147,53,3,history
+django__django-14765,4,"git grep ""real_apps"" django/db/migrations/graph.py",attr_tree,0,1,,163,55,0,history
+django__django-14765,6,"git grep ""make_state""",default,0,1,,16199,619,576,history
+django__django-14765,6,"git grep ""make_state""",attr_tree,0,1,,13108,49,0,history
+django__django-14765,8,"git grep -n ""ProjectState"" tests/migrations/test_state.py",attr_tree,0,1,,163,55,0,history
+django__django-14765,8,"git grep -n ""ProjectState"" tests/migrations/test_state.py",default,0,1,,146,52,2,history
+django__django-14765,10,"git grep -n ""real_apps"" django/db/migrations/state.py",default,0,1,,147,53,3,history
+django__django-14765,10,"git grep -n ""real_apps"" django/db/migrations/state.py",attr_tree,0,1,,163,55,0,history
+django__django-14765,12,"git log -S ""real_apps"" django/db/migrations/state.py",attr_tree,0,1,,189,71,0,history
+django__django-14765,12,"git log -S ""real_apps"" django/db/migrations/state.py",default,0,1,,181,69,3,history
+django__django-14765,13,git show 54a30a7a00fea6c5e3702282ade6e0238e06de3b,attr_tree,0,1,,194,81,0,history
+django__django-14765,13,git show 54a30a7a00fea6c5e3702282ade6e0238e06de3b,default,0,1,,196,88,12,history
+django__django-14765,16,git diff django/db/migrations/state.py,attr_tree,0,1,,132,42,0,history
+django__django-14765,16,git diff django/db/migrations/state.py,default,0,1,,132,42,0,history
+django__django-14765,19,git status,attr_tree,0,1,,20614,1511,0,history
+django__django-14765,19,git status,default,0,1,,20613,1511,0,history
+django__django-14765,20,git diff django/db/migrations/state.py,attr_tree,0,1,,132,42,0,history
+django__django-14765,20,git diff django/db/migrations/state.py,default,0,1,,132,42,0,history
+django__django-15022,2,"git grep -n ""def get_search_results""",attr_tree,0,1,,13308,49,0,history
+django__django-15022,2,"git grep -n ""def get_search_results""",default,0,1,,16443,358,315,history
+django__django-15022,11,"git log -S ""smart_split"" --oneline",attr_tree,0,1,,177,73,0,history
+django__django-15022,11,"git log -S ""smart_split"" --oneline",default,0,1,,175695,175597,175529,history
+django__django-15022,18,git diff django/contrib/admin/options.py,attr_tree,0,1,,132,42,0,history
+django__django-15022,18,git diff django/contrib/admin/options.py,default,0,1,,132,42,0,history
+django__django-15022,20,"git grep ""def lookup_spawns_duplicates""",attr_tree,0,1,,13308,49,0,history
+django__django-15022,20,"git grep ""def lookup_spawns_duplicates""",default,0,1,,16443,354,311,history
+django__django-15022,22,"git log --grep ""search_fields"" --oneline -n 30",attr_tree,0,1,,158,61,0,history
+django__django-15022,22,"git log --grep ""search_fields"" --oneline -n 30",default,0,1,,158,61,0,history
+django__django-15022,23,git show 065e6b6153,attr_tree,0,1,,185,75,0,history
+django__django-15022,23,git show 065e6b6153,default,0,1,,189,84,14,history
+django__django-15022,36,"git log --grep ""admin"" --oneline | grep -i ""join""",default,0,1,,470,299,0,history
+django__django-15022,36,"git log --grep ""admin"" --oneline | grep -i ""join""",attr_tree,0,1,,470,307,0,history
+django__django-15022,37,git show 698dd82eee,default,0,1,,187,79,10,history
+django__django-15022,37,git show 698dd82eee,attr_tree,0,1,,187,74,0,history
+django__django-15022,38,git show a8df8e34f9,default,0,1,,187,79,10,history
+django__django-15022,38,git show a8df8e34f9,attr_tree,0,1,,187,74,0,history
+django__django-15022,39,"git log --grep ""extraneous joins"" --oneline",attr_tree,0,1,,148,51,0,history
+django__django-15022,39,"git log --grep ""extraneous joins"" --oneline",default,0,1,,148,51,0,history
+django__django-15022,40,"git log --grep ""joins"" --oneline -n 30",attr_tree,0,1,,182,76,0,history
+django__django-15022,40,"git log --grep ""joins"" --oneline -n 30",default,0,1,,182,76,0,history
+django__django-15022,41,"git log --grep ""extraneous"" --oneline -n 30",attr_tree,0,1,,168,59,0,history
+django__django-15022,41,"git log --grep ""extraneous"" --oneline -n 30",default,0,1,,168,59,0,history
+django__django-15022,42,"git log --grep ""21241"" --oneline",default,0,1,,154,51,0,history
+django__django-15022,42,"git log --grep ""21241"" --oneline",attr_tree,0,1,,154,51,0,history
+django__django-15022,44,git log -p -L :get_search_results:django/contrib/admin/options.py --oneline,attr_tree,128,1,,163,59,0,history
+django__django-15022,44,git log -p -L :get_search_results:django/contrib/admin/options.py --oneline,default,128,1,,155,57,3,history
+django__django-15022,45,"git log --grep ""get_search_results"" --oneline",default,0,1,,155,55,0,history
+django__django-15022,45,"git log --grep ""get_search_results"" --oneline",attr_tree,0,1,,155,55,0,history
+django__django-15022,46,"git log --django/contrib/admin/ --oneline | grep -i ""search"" | head -n 40",default,0,1,,233,53,0,history
+django__django-15022,46,"git log --django/contrib/admin/ --oneline | grep -i ""search"" | head -n 40",attr_tree,0,1,,233,54,0,history
+django__django-15022,47,"git log --oneline -- django/contrib/admin/ | grep -i ""search"" | head -n 40",default,0,1,,512,306,0,history
+django__django-15022,47,"git log --oneline -- django/contrib/admin/ | grep -i ""search"" | head -n 40",attr_tree,0,1,,512,309,0,history
+django__django-15022,48,git show b5f0aff922,default,0,1,,195,90,16,history
+django__django-15022,48,git show b5f0aff922,attr_tree,0,1,,189,79,0,history
+django__django-15022,49,"git log -S ""lookup_spawns_duplicates"" --oneline",default,0,1,,175682,175584,175529,history
+django__django-15022,49,"git log -S ""lookup_spawns_duplicates"" --oneline",attr_tree,0,1,,164,60,0,history
+django__django-15022,50,"git log -S ""lookup_needs_distinct"" --oneline",default,0,1,,175688,175584,175529,history
+django__django-15022,50,"git log -S ""lookup_needs_distinct"" --oneline",attr_tree,0,1,,170,60,0,history
+django__django-15022,51,"git log --oneline -- django/contrib/admin/ | grep -i ""join""",default,0,1,,470,295,0,history
+django__django-15022,51,"git log --oneline -- django/contrib/admin/ | grep -i ""join""",attr_tree,0,1,,470,297,0,history
+django__django-15022,52,"git grep ""lookup_spawns_duplicates""",attr_tree,0,1,,13308,49,0,history
+django__django-15022,52,"git grep ""lookup_spawns_duplicates""",default,0,1,,16443,448,405,history
+django__django-15022,53,"git log -S ""test_multiple_search_fields"" --oneline",attr_tree,0,1,,164,60,0,history
+django__django-15022,53,"git log -S ""test_multiple_search_fields"" --oneline",default,0,1,,175682,175584,175529,history
+django__django-15022,54,git show 948d6d8805,default,0,1,,177,72,4,history
+django__django-15022,54,git show 948d6d8805,attr_tree,0,1,,183,73,0,history
+django__django-15022,55,"git log --grep ""16063"" --oneline",attr_tree,0,1,,150,53,0,history
+django__django-15022,55,"git log --grep ""16063"" --oneline",default,0,1,,150,53,0,history
+django__django-15022,56,"git grep -n ""reuse"" django/db/models/sql/",attr_tree,0,1,,163,49,0,history
+django__django-15022,56,"git grep -n ""reuse"" django/db/models/sql/",default,0,1,,147,47,4,history
+django__django-15022,57,git log --oneline -n 10 948d6d8805~5..948d6d8805^,attr_tree,0,1,,165,63,0,history
+django__django-15022,57,git log --oneline -n 10 948d6d8805~5..948d6d8805^,default,0,1,,165,63,0,history
+django__django-15022,58,git status && git branch -a,default,0,1,,21137,1617,0,history
+django__django-15022,58,git status && git branch -a,attr_tree,0,1,,21137,1617,0,history
+django__django-15022,74,"git grep ""LOOKUP_SEP"" django/contrib/admin/options.py",attr_tree,0,1,,163,55,0,history
+django__django-15022,74,"git grep ""LOOKUP_SEP"" django/contrib/admin/options.py",default,0,1,,147,53,3,history
+django__django-15022,75,"git grep ""FieldDoesNotExist"" django/contrib/admin/options.py",default,0,1,,147,53,3,history
+django__django-15022,75,"git grep ""FieldDoesNotExist"" django/contrib/admin/options.py",attr_tree,0,1,,163,55,0,history
+django__django-15022,77,git diff django/contrib/admin/options.py,default,0,1,,132,42,0,history
+django__django-15022,77,git diff django/contrib/admin/options.py,attr_tree,0,1,,132,42,0,history
+django__django-15022,80,git diff django/contrib/admin/options.py,attr_tree,0,1,,132,42,0,history
+django__django-15022,80,git diff django/contrib/admin/options.py,default,0,1,,132,42,0,history
+django__django-15022,85,git status,attr_tree,0,1,,20922,1533,0,history
+django__django-15022,85,git status,default,0,1,,20921,1533,0,history
+django__django-15098,0,"git grep -n ""def i18n_patterns""",default,0,1,,16358,328,285,history
+django__django-15098,0,"git grep -n ""def i18n_patterns""",attr_tree,0,1,,13248,49,0,history
+django__django-15098,2,"git grep -n ""class LocalePrefixPattern""",attr_tree,0,1,,13248,49,0,history
+django__django-15098,2,"git grep -n ""class LocalePrefixPattern""",default,0,1,,16358,331,288,history
+django__django-15098,5,"git grep -n ""def get_language_from_path""",default,0,1,,16358,362,319,history
+django__django-15098,5,"git grep -n ""def get_language_from_path""",attr_tree,0,1,,13248,49,0,history
+django__django-15098,8,"git grep -n ""language_code_prefix_re""",default,0,1,,16358,322,279,history
+django__django-15098,8,"git grep -n ""language_code_prefix_re""",attr_tree,0,1,,13248,49,0,history
+django__django-15098,9,"git grep -n ""language_code"" django/utils/translation/trans_real.py",attr_tree,0,1,,163,55,0,history
+django__django-15098,9,"git grep -n ""language_code"" django/utils/translation/trans_real.py",default,0,1,,147,53,3,history
+django__django-15098,11,"git grep ""get_language_from_path"" tests/",attr_tree,0,1,,4905,49,0,history
+django__django-15098,11,"git grep ""get_language_from_path"" tests/",default,0,1,,5586,120,77,history
+django__django-15098,12,"git grep -n ""def test_get_language_from_path_real"" tests/i18n/tests.py",attr_tree,0,1,,163,55,0,history
+django__django-15098,12,"git grep -n ""def test_get_language_from_path_real"" tests/i18n/tests.py",default,0,1,,146,52,2,history
+django__django-15098,14,"git grep -n ""def get_supported_language_variant"" django/utils/translation/trans_real.py",attr_tree,0,1,,163,55,0,history
+django__django-15098,14,"git grep -n ""def get_supported_language_variant"" django/utils/translation/trans_real.py",default,0,1,,147,53,3,history
+django__django-15098,16,"git log -S ""language_code_prefix_re"" -p django/utils/translation/trans_real.py",attr_tree,0,1,,194,76,0,history
+django__django-15098,16,"git log -S ""language_code_prefix_re"" -p django/utils/translation/trans_real.py",default,0,1,,190,77,6,history
+django__django-15098,17,"git log -S ""language_code_prefix_re"" -p --oneline django/utils/translation/trans_real.py",default,0,1,,178,72,6,history
+django__django-15098,17,"git log -S ""language_code_prefix_re"" -p --oneline django/utils/translation/trans_real.py",attr_tree,0,1,,182,71,0,history
+django__django-15098,18,"git log -p -S ""language_code_prefix_re""",attr_tree,0,1,,181,70,0,history
+django__django-15098,18,"git log -p -S ""language_code_prefix_re""",default,0,1,,175141,175035,174970,history
+django__django-15098,19,"git log -G ""language_code_prefix_re"" --oneline",attr_tree,0,1,,170,63,0,history
+django__django-15098,19,"git log -G ""language_code_prefix_re"" --oneline",default,0,1,,175123,175022,174964,history
+django__django-15098,20,git show 76d26d8922,attr_tree,0,1,,193,74,0,history
+django__django-15098,20,git show 76d26d8922,default,0,1,,197,83,14,history
+django__django-15098,21,git show a01d887a3a,default,0,1,,193,88,14,history
+django__django-15098,21,git show a01d887a3a,attr_tree,0,1,,189,79,0,history
+django__django-15098,22,"git grep -n ""class MiscTests"" tests/i18n/tests.py",attr_tree,0,1,,163,55,0,history
+django__django-15098,22,"git grep -n ""class MiscTests"" tests/i18n/tests.py",default,0,1,,146,52,2,history
+django__django-15098,24,"git grep -n ""de-ch"" tests/i18n/tests.py",default,0,1,,146,52,2,history
+django__django-15098,24,"git grep -n ""de-ch"" tests/i18n/tests.py",attr_tree,0,1,,163,55,0,history
+django__django-15098,25,"git grep -n ""de-at"" tests/i18n/",default,0,1,,473,74,31,history
+django__django-15098,25,"git grep -n ""de-at"" tests/i18n/",attr_tree,0,1,,389,49,0,history
+django__django-15098,28,"git grep -n ""de-ch"" tests/",attr_tree,0,1,,4905,49,0,history
+django__django-15098,28,"git grep -n ""de-ch"" tests/",default,0,1,,5586,152,109,history
+django__django-15098,29,"git grep ""get_language_from_path""",default,0,1,,16358,366,323,history
+django__django-15098,29,"git grep ""get_language_from_path""",attr_tree,0,1,,13248,49,0,history
+django__django-15098,30,"git grep -n ""en-gb"" tests/i18n/tests.py",attr_tree,0,1,,163,55,0,history
+django__django-15098,30,"git grep -n ""en-gb"" tests/i18n/tests.py",default,0,1,,146,52,2,history
+django__django-15098,31,"git grep -n ""get_language_from_path"" docs/",default,0,1,,1350,50,7,history
+django__django-15098,31,"git grep -n ""get_language_from_path"" docs/",attr_tree,0,1,,1321,49,0,history
+django__django-15098,33,"git grep -n ""get_supported_language_variant"" docs/",default,0,1,,1350,49,6,history
+django__django-15098,33,"git grep -n ""get_supported_language_variant"" docs/",attr_tree,0,1,,1321,49,0,history
+django__django-15098,35,"git grep -n ""redirect"" django/middleware/locale.py",attr_tree,0,1,,163,55,0,history
+django__django-15098,35,"git grep -n ""redirect"" django/middleware/locale.py",default,0,1,,146,52,2,history
+django__django-15098,36,"git grep -n ""LocalePrefixPattern"" django/urls/resolvers.py",attr_tree,0,1,,163,55,0,history
+django__django-15098,36,"git grep -n ""LocalePrefixPattern"" django/urls/resolvers.py",default,0,1,,146,52,2,history
+django__django-15098,47,"git grep -n ""language_code_prefix_re""",attr_tree,0,1,,13248,49,0,history
+django__django-15098,47,"git grep -n ""language_code_prefix_re""",default,0,1,,16358,591,548,history
+django__django-15098,52,git diff django/utils/translation/trans_real.py,attr_tree,0,1,,169,55,0,history
+django__django-15098,52,git diff django/utils/translation/trans_real.py,default,0,1,,144,48,3,history
+django__django-15098,56,git status,attr_tree,0,1,,22077,1529,0,history
+django__django-15098,56,git status,default,0,1,,20776,1520,0,history
+django__django-15098,58,git status,attr_tree,0,1,,20777,1520,0,history
+django__django-15098,58,git status,default,0,1,,20776,1520,0,history
+django__django-15315,3,"git log -S ""31750"" --oneline",attr_tree,0,1,,169,62,0,history
+django__django-15315,3,"git log -S ""31750"" --oneline",default,0,1,,176194,176093,176036,history
+django__django-15315,4,"git log -L 535,548:django/db/models/fields/__init__.py",attr_tree,0,1,,176,65,0,history
+django__django-15315,4,"git log -L 535,548:django/db/models/fields/__init__.py",default,0,1,,173,68,8,history
+django__django-15315,6,"git grep -n ""def __hash__"" django/db/models/",attr_tree,0,1,,227,49,0,history
+django__django-15315,6,"git grep -n ""def __hash__"" django/db/models/",default,0,1,,213,47,4,history
+django__django-15315,12,"git grep -n ""test_hash"" tests/",default,0,1,,5601,186,143,history
+django__django-15315,12,"git grep -n ""test_hash"" tests/",attr_tree,0,1,,4919,49,0,history
+django__django-15315,19,"git grep -n ""creation_counter"" django/db/models/",attr_tree,0,1,,227,49,0,history
+django__django-15315,19,"git grep -n ""creation_counter"" django/db/models/",default,0,1,,213,47,4,history
+django__django-15315,30,"git grep -n ""deepcopy"" django/db/models/",default,0,1,,213,47,4,history
+django__django-15315,30,"git grep -n ""deepcopy"" django/db/models/",attr_tree,0,1,,227,49,0,history
+django__django-15315,42,git diff django/db/models/fields/__init__.py,attr_tree,0,1,,171,55,0,history
+django__django-15315,42,git diff django/db/models/fields/__init__.py,default,0,1,,147,49,4,history
+django__django-15315,45,git status,attr_tree,0,1,,22706,1542,0,history
+django__django-15315,45,git status,default,0,1,,20929,1533,0,history
+django__django-15315,46,git diff,default,0,1,,9909,35,0,history
+django__django-15315,46,git diff,attr_tree,0,1,,9909,35,0,history
+django__django-15380,2,git show aa4acc164d1247c0de515c959f7b09648b57dc42,default,0,1,,186,81,10,history
+django__django-15380,2,git show aa4acc164d1247c0de515c959f7b09648b57dc42,attr_tree,0,1,,186,76,0,history
+django__django-15380,3,git diff aa4acc164d1247c0de515c959f7b09648b57dc42^! -- django/db/migrations/autodetector.py,attr_tree,0,1,,179,70,0,history
+django__django-15380,3,git diff aa4acc164d1247c0de515c959f7b09648b57dc42^! -- django/db/migrations/autodetector.py,default,0,1,,175,71,6,history
+django__django-15380,4,"git diff aa4acc164d1247c0de515c959f7b09648b57dc42^! -- django/db/migrations/autodetector.py | grep -C 20 ""def generate_renamed_fields""",default,1,1,,219,76,6,history
+django__django-15380,4,"git diff aa4acc164d1247c0de515c959f7b09648b57dc42^! -- django/db/migrations/autodetector.py | grep -C 20 ""def generate_renamed_fields""",attr_tree,1,1,,223,79,0,history
+django__django-15380,5,"git show aa4acc164d1247c0de515c959f7b09648b57dc42 -- django/db/migrations/autodetector.py | grep -n ""generate_renamed_fields"" -A 30 -B 10",attr_tree,1,1,,225,74,0,history
+django__django-15380,5,"git show aa4acc164d1247c0de515c959f7b09648b57dc42 -- django/db/migrations/autodetector.py | grep -n ""generate_renamed_fields"" -A 30 -B 10",default,1,1,,221,74,6,history
+django__django-15380,9,"git show aa4acc164d1247c0de515c959f7b09648b57dc42 -- django/db/migrations/autodetector.py | grep -C 5 ""old_model_name =""",default,0,1,,221,76,6,history
+django__django-15380,9,"git show aa4acc164d1247c0de515c959f7b09648b57dc42 -- django/db/migrations/autodetector.py | grep -C 5 ""old_model_name =""",attr_tree,0,1,,225,71,0,history
+django__django-15380,17,"git log -p -G ""rem_model_name"" django/db/migrations/autodetector.py",default,0,1,,195,82,6,history
+django__django-15380,17,"git log -p -G ""rem_model_name"" django/db/migrations/autodetector.py",attr_tree,0,1,,199,81,0,history
+django__django-15380,18,"git log -p -S ""self.old_field_keys - self.new_field_keys"" django/db/migrations/autodetector.py",default,0,1,,190,77,6,history
+django__django-15380,18,"git log -p -S ""self.old_field_keys - self.new_field_keys"" django/db/migrations/autodetector.py",attr_tree,0,1,,194,76,0,history
+django__django-15380,23,git diff django/db/migrations/autodetector.py,default,0,1,,132,42,0,history
+django__django-15380,23,git diff django/db/migrations/autodetector.py,attr_tree,0,1,,132,42,0,history
+django__django-15380,36,git status,attr_tree,0,1,,21402,1542,0,history
+django__django-15380,36,git status,default,0,1,,20941,1533,0,history
+django__django-15380,37,git diff tests/migrations/test_autodetector.py,attr_tree,0,1,,131,42,0,history
+django__django-15380,37,git diff tests/migrations/test_autodetector.py,default,0,1,,131,42,0,history
+django__django-15380,39,git status,attr_tree,0,1,,20941,1533,0,history
+django__django-15380,39,git status,default,0,1,,20942,1533,0,history
+django__django-15554,15,"git log -S ""Ignore filtered_relation in equality check"" -p",attr_tree,0,1,,181,70,0,history
+django__django-15554,15,"git log -S ""Ignore filtered_relation in equality check"" -p",default,0,1,,178202,178096,178031,history
+django__django-15554,16,git show bbf141bcdc31f1324048af9233583a523ac54c94,default,0,1,,196,88,14,history
+django__django-15554,16,git show bbf141bcdc31f1324048af9233583a523ac54c94,attr_tree,0,1,,192,79,0,history
+django__django-15554,17,"git log -S ""with_filtered_relation"" -p -n 3",attr_tree,0,1,,185,74,0,history
+django__django-15554,17,"git log -S ""with_filtered_relation"" -p -n 3",default,0,1,,10150,10044,9975,history
+django__django-15554,53,git diff django/db/models/sql/datastructures.py,attr_tree,0,1,,133,42,0,history
+django__django-15554,53,git diff django/db/models/sql/datastructures.py,default,0,1,,133,42,0,history
+django__django-15554,65,git diff django/db/models/sql/query.py,default,0,1,,133,42,0,history
+django__django-15554,65,git diff django/db/models/sql/query.py,attr_tree,0,1,,133,42,0,history
+django__django-15554,73,git diff django/db/models/sql/query.py,default,0,1,,133,42,0,history
+django__django-15554,73,git diff django/db/models/sql/query.py,attr_tree,0,1,,133,42,0,history
+django__django-15554,78,git status,default,0,1,,22595,1703,166,history
+django__django-15554,78,git status,attr_tree,0,1,,20966,1533,0,history
+django__django-15554,79,git diff,attr_tree,0,1,,9941,35,0,history
+django__django-15554,79,git diff,default,0,1,,9940,35,0,history
+django__django-15561,23,"git log -S ""non_database_attrs"" --oneline",default,0,1,,178264,178166,178111,history
+django__django-15561,23,"git log -S ""non_database_attrs"" --oneline",attr_tree,0,1,,164,60,0,history
+django__django-15561,24,git show 9159d173c3,default,0,1,,187,82,12,history
+django__django-15561,24,git show 9159d173c3,attr_tree,0,1,,185,75,0,history
+django__django-15561,27,git diff,default,0,1,,10174,85,47,history
+django__django-15561,27,git diff,attr_tree,0,1,,10156,49,0,history
+django__django-15561,29,git diff django/db/backends/base/schema.py,attr_tree,0,1,,133,42,0,history
+django__django-15561,29,git diff django/db/backends/base/schema.py,default,0,1,,133,42,0,history
+django__django-15561,42,git status,attr_tree,0,1,,21170,1541,0,history
+django__django-15561,42,git status,default,0,1,,20972,1532,0,history
+django__django-15863,4,"git log -S ""repr(text)"" -p django/template/defaultfilters.py",attr_tree,0,1,,194,76,0,history
+django__django-15863,4,"git log -S ""repr(text)"" -p django/template/defaultfilters.py",default,0,1,,188,75,4,history
+django__django-15863,5,git show 12f7928f5a455e330c0a7f19bc86b37baca12811,attr_tree,0,1,,184,74,0,history
+django__django-15863,5,git show 12f7928f5a455e330c0a7f19bc86b37baca12811,default,0,1,,184,79,10,history
+django__django-15863,13,git describe --tags,attr_tree,0,1,,170,55,0,history
+django__django-15863,13,git describe --tags,default,0,1,,170,55,0,history
+django__django-15863,21,git diff django/template/defaultfilters.py,default,0,1,,141,47,2,history
+django__django-15863,21,git diff django/template/defaultfilters.py,attr_tree,0,1,,167,55,0,history
+django__django-15863,29,git status,attr_tree,0,1,,22258,1545,0,history
+django__django-15863,29,git status,default,0,1,,21031,1536,0,history
+django__django-15863,31,git diff django/template/defaultfilters.py,attr_tree,0,1,,131,42,0,history
+django__django-15863,31,git diff django/template/defaultfilters.py,default,0,1,,131,42,0,history
+django__django-16100,8,"git log -S ""transaction.atomic(using=router.db_for_write"" --oneline",default,0,1,,181033,180935,180880,history
+django__django-16100,8,"git log -S ""transaction.atomic(using=router.db_for_write"" --oneline",attr_tree,0,1,,164,60,0,history
+django__django-16100,9,git show 9459ec82aa,default,0,1,,192,87,14,history
+django__django-16100,9,git show 9459ec82aa,attr_tree,0,1,,188,78,0,history
+django__django-16100,12,"git log --all --grep=""changelist_view"" --grep=""transaction"" -i",attr_tree,0,1,,194,70,0,history
+django__django-16100,12,"git log --all --grep=""changelist_view"" --grep=""transaction"" -i",default,0,1,,194,70,0,history
+django__django-16100,13,"git log -S ""list_editable"" --oneline",attr_tree,0,1,,219,109,0,history
+django__django-16100,13,"git log -S ""list_editable"" --oneline",default,0,1,,181088,180984,180880,history
+django__django-16100,19,"git grep ""changelist_view""",attr_tree,0,1,,13438,49,0,history
+django__django-16100,19,"git grep ""changelist_view""",default,0,1,,16583,563,520,history
+django__django-16100,20,"git grep -n ""def changelist_view"" tests/admin_views/admin.py",default,0,1,,146,52,2,history
+django__django-16100,20,"git grep -n ""def changelist_view"" tests/admin_views/admin.py",attr_tree,0,1,,163,55,0,history
+django__django-16100,22,"git grep ""_changeform_view""",attr_tree,0,1,,13438,49,0,history
+django__django-16100,22,"git grep ""_changeform_view""",default,0,1,,16583,426,383,history
+django__django-16100,23,"git grep ""_delete_view""",default,0,1,,16583,339,296,history
+django__django-16100,23,"git grep ""_delete_view""",attr_tree,0,1,,13438,49,0,history
+django__django-16100,26,"git grep ""transaction.atomic"" django/contrib/admin/",default,0,1,,1508,90,47,history
+django__django-16100,26,"git grep ""transaction.atomic"" django/contrib/admin/",attr_tree,0,1,,1309,49,0,history
+django__django-16100,34,git diff django/contrib/admin/options.py,attr_tree,0,1,,169,55,0,history
+django__django-16100,34,git diff django/contrib/admin/options.py,default,0,1,,144,48,3,history
+django__django-16100,40,git diff django/contrib/admin/options.py,attr_tree,0,1,,169,55,0,history
+django__django-16100,40,git diff django/contrib/admin/options.py,default,0,1,,144,48,3,history
+django__django-16100,42,git status,default,0,1,,21438,1630,91,history
+django__django-16100,42,git status,attr_tree,0,1,,21032,1535,0,history
+django__django-16100,43,git diff django/contrib/admin/options.py,default,0,1,,132,42,0,history
+django__django-16100,43,git diff django/contrib/admin/options.py,attr_tree,0,1,,132,42,0,history
+django__django-16255,9,"git log -S ""get_latest_lastmod"" -p django/contrib/sitemaps/__init__.py",attr_tree,0,1,,194,76,0,history
+django__django-16255,9,"git log -S ""get_latest_lastmod"" -p django/contrib/sitemaps/__init__.py",default,0,1,,190,77,6,history
+django__django-16255,15,git diff django/contrib/sitemaps/__init__.py,default,0,1,,132,42,0,history
+django__django-16255,15,git diff django/contrib/sitemaps/__init__.py,attr_tree,0,1,,132,42,0,history
+django__django-16255,20,git status,attr_tree,0,1,,21627,1545,0,history
+django__django-16255,20,git status,default,0,1,,21026,1536,0,history
+django__django-16485,5,"git log -S ""15789"" -p django/template/defaultfilters.py",default,0,1,,188,75,4,history
+django__django-16485,5,"git log -S ""15789"" -p django/template/defaultfilters.py",attr_tree,0,1,,194,76,0,history
+django__django-16485,6,"git log -p -G ""units = len"" django/template/defaultfilters.py",default,0,1,,194,78,4,history
+django__django-16485,6,"git log -p -G ""units = len"" django/template/defaultfilters.py",attr_tree,0,1,,200,79,0,history
+django__django-16485,21,git diff,attr_tree,0,1,,11396,49,0,history
+django__django-16485,21,git diff,default,0,1,,11657,330,292,history
+django__django-16485,26,git status,default,0,1,,22709,1833,292,history
+django__django-16485,26,git status,attr_tree,0,1,,21015,1537,0,history
+django__django-16493,9,"git log -S ""_storage_callable"" -p",attr_tree,0,1,,181,70,0,history
+django__django-16493,9,"git log -S ""_storage_callable"" -p",default,0,1,,183118,183012,182947,history
+django__django-16493,10,git show --name-only 2d42e23b6d8fd76f93a96b2310b2c9dfd441d009,attr_tree,0,1,,162,59,0,history
+django__django-16493,10,git show --name-only 2d42e23b6d8fd76f93a96b2310b2c9dfd441d009,default,0,1,,162,59,0,history
+django__django-16493,11,git show 2d42e23b6d8fd76f93a96b2310b2c9dfd441d009 -- tests/file_storage/tests.py,default,0,1,,175,70,4,history
+django__django-16493,11,git show 2d42e23b6d8fd76f93a96b2310b2c9dfd441d009 -- tests/file_storage/tests.py,attr_tree,0,1,,181,71,0,history
+django__django-16493,18,git diff django/db/models/fields/files.py,attr_tree,0,1,,133,42,0,history
+django__django-16493,18,git diff django/db/models/fields/files.py,default,0,1,,133,42,0,history
+django__django-16493,33,git status,attr_tree,0,1,,21096,1546,0,history
+django__django-16493,33,git status,default,0,1,,21013,1537,0,history
+django__django-16493,34,git diff,default,0,1,,9965,35,0,history
+django__django-16493,34,git diff,attr_tree,0,1,,9965,35,0,history
+django__django-16662,3,"git log --grep=""24155"" --grep=""25384"" -p",attr_tree,0,1,,185,74,0,history
+django__django-16662,3,"git log --grep=""24155"" --grep=""25384"" -p",default,0,1,,189,83,14,history
+django__django-16662,14,git diff django/db/migrations/writer.py,attr_tree,0,1,,132,42,0,history
+django__django-16662,14,git diff django/db/migrations/writer.py,default,0,1,,132,42,0,history
+django__django-16662,21,git status,attr_tree,0,1,,22599,1546,0,history
+django__django-16662,21,git status,default,0,1,,21037,1537,0,history
+django__django-16938,0,"git log --grep=""33937"" -p",default,0,1,,187,81,10,history
+django__django-16938,0,"git log --grep=""33937"" -p",attr_tree,0,1,,187,76,0,history
+django__django-16938,1,"git grep ""select_related"" django/db/models/query.py",attr_tree,0,1,,163,55,0,history
+django__django-16938,1,"git grep ""select_related"" django/db/models/query.py",default,0,1,,147,53,3,history
+django__django-16938,2,"git grep -n -C 10 ""If select_related(None) is called"" django/db/models/query.py",default,0,1,,147,53,3,history
+django__django-16938,2,"git grep -n -C 10 ""If select_related(None) is called"" django/db/models/query.py",attr_tree,0,1,,163,55,0,history
+django__django-16938,6,"git grep -n ""queryset_iterator"" django/core/serializers/python.py",default,0,1,,147,53,3,history
+django__django-16938,6,"git grep -n ""queryset_iterator"" django/core/serializers/python.py",attr_tree,0,1,,163,55,0,history
+django__django-16938,9,"git grep 'only(""pk"")' django/",attr_tree,0,1,,7363,49,0,history
+django__django-16938,9,"git grep 'only(""pk"")' django/",default,0,1,,9768,346,303,history
+django__django-16938,10,"git grep -n ""class "" tests/serializers/models.py",default,128,1,,139,49,0,history
+django__django-16938,10,"git grep -n ""class "" tests/serializers/models.py",attr_tree,128,1,,139,49,0,history
+django__django-16938,13,"git grep -n ""class "" tests/serializers/models/base.py",default,0,1,,147,53,3,history
+django__django-16938,13,"git grep -n ""class "" tests/serializers/models/base.py",attr_tree,0,1,,163,55,0,history
+django__django-16938,15,"git grep -n ""test_serialize_only_pk"" tests/serializers/tests.py",attr_tree,0,1,,163,55,0,history
+django__django-16938,15,"git grep -n ""test_serialize_only_pk"" tests/serializers/tests.py",default,0,1,,146,52,2,history
+django__django-16938,21,"git grep ""import"" tests/serializers/tests.py",attr_tree,0,1,,163,55,0,history
+django__django-16938,21,"git grep ""import"" tests/serializers/tests.py",default,0,1,,146,52,2,history
+django__django-16938,27,"git grep ""register_tests"" tests/serializers/tests.py",default,0,1,,146,52,2,history
+django__django-16938,27,"git grep ""register_tests"" tests/serializers/tests.py",attr_tree,0,1,,163,55,0,history
+django__django-16938,28,"git grep ""register_tests"" tests/serializers/",attr_tree,0,1,,177,49,0,history
+django__django-16938,28,"git grep ""register_tests"" tests/serializers/",default,0,1,,160,46,3,history
+django__django-16938,29,"git grep ""class "" tests/serializers/",default,0,1,,160,46,3,history
+django__django-16938,29,"git grep ""class "" tests/serializers/",attr_tree,0,1,,177,49,0,history
+django__django-16938,37,"git grep ""class Serializer"" django/core/serializers/",default,0,1,,146,46,3,history
+django__django-16938,37,"git grep ""class Serializer"" django/core/serializers/",attr_tree,0,1,,163,49,0,history
+django__django-16938,38,git diff django/,attr_tree,0,1,,6184,35,0,history
+django__django-16938,38,git diff django/,default,0,1,,6184,35,0,history
+django__django-16938,39,git status,default,0,1,,21213,1551,0,history
+django__django-16938,39,git status,attr_tree,0,1,,21212,1551,0,history
+django__django-16938,40,"git grep ""select_related_descend""",default,0,1,,16717,311,268,history
+django__django-16938,40,"git grep ""select_related_descend""",attr_tree,0,1,,13544,49,0,history
+django__django-16938,41,"git grep -n ""\.only("" django/",default,0,1,,9768,323,280,history
+django__django-16938,41,"git grep -n ""\.only("" django/",attr_tree,0,1,,7363,49,0,history
+django__django-16938,46,git status,attr_tree,0,1,,21213,1551,0,history
+django__django-16938,46,git status,default,0,1,,21212,1551,0,history
+django__django-16950,44,"git log -S ""to_field.has_default"" -p django/forms/models.py",attr_tree,0,1,,194,76,0,history
+django__django-16950,44,"git log -S ""to_field.has_default"" -p django/forms/models.py",default,0,1,,188,75,4,history
+django__django-16950,45,"git blame -L 1173,1184 django/forms/models.py",attr_tree,0,1,,185,69,0,history
+django__django-16950,45,"git blame -L 1173,1184 django/forms/models.py",default,0,1,,179,68,4,history
+django__django-16950,60,git show 1306cd1e8a,default,0,1,,185,80,8,history
+django__django-16950,60,git show 1306cd1e8a,attr_tree,0,1,,187,77,0,history
+django__django-16950,61,git show 4bc6b93994,default,0,1,,200,92,16,history
+django__django-16950,61,git show 4bc6b93994,attr_tree,0,1,,194,81,0,history
+django__django-16950,63,git show a50b66da30,default,0,1,,191,86,12,history
+django__django-16950,63,git show a50b66da30,attr_tree,0,1,,189,79,0,history
+django__django-16950,68,git diff django/forms/models.py,attr_tree,0,1,,131,42,0,history
+django__django-16950,68,git diff django/forms/models.py,default,0,1,,131,42,0,history
+django__django-16950,75,git status,default,0,1,,21430,1600,44,history
+django__django-16950,75,git status,attr_tree,0,1,,21225,1552,0,history
+django__django-16950,77,git diff django/forms/models.py,default,0,1,,131,42,0,history
+django__django-16950,77,git diff django/forms/models.py,attr_tree,0,1,,131,42,0,history
+psf__requests-2317,0,"git grep ""builtin_str""",attr_tree,0,1,,402,49,0,history
+psf__requests-2317,0,"git grep ""builtin_str""",default,0,1,,404,51,8,history
+psf__requests-2317,1,"git grep ""builtin_str"" requests/compat.py",attr_tree,0,1,,161,55,0,history
+psf__requests-2317,1,"git grep ""builtin_str"" requests/compat.py",default,0,1,,145,52,2,history
+psf__requests-2317,2,"git grep -n -C 5 ""builtin_str"" requests/compat.py",default,0,1,,145,52,2,history
+psf__requests-2317,2,"git grep -n -C 5 ""builtin_str"" requests/compat.py",attr_tree,0,1,,161,55,0,history
+psf__requests-2317,3,"git grep -n -C 10 ""method = builtin_str(method)"" requests/sessions.py",attr_tree,0,1,,161,55,0,history
+psf__requests-2317,3,"git grep -n -C 10 ""method = builtin_str(method)"" requests/sessions.py",default,0,1,,145,52,2,history
+psf__requests-2317,4,"git log -S ""builtin_str(method)"" -p",default,0,1,,1897,1795,1728,history
+psf__requests-2317,4,"git log -S ""builtin_str(method)"" -p",attr_tree,0,1,,181,72,0,history
+psf__requests-2317,5,"git log --grep=""1723"" -p",attr_tree,0,1,,181,72,0,history
+psf__requests-2317,5,"git log --grep=""1723"" -p",default,0,1,,173,71,4,history
+psf__requests-2317,6,"git grep -n ""builtin_str"" test_requests.py",default,0,1,,144,51,1,history
+psf__requests-2317,6,"git grep -n ""builtin_str"" test_requests.py",attr_tree,0,1,,161,55,0,history
+psf__requests-2317,8,git show 1511dfa637643bae5b6111a20ecb80ec9ae26032,attr_tree,0,1,,184,76,0,history
+psf__requests-2317,8,git show 1511dfa637643bae5b6111a20ecb80ec9ae26032,default,0,1,,176,75,4,history
+psf__requests-2317,10,"git grep -i ""native""",attr_tree,0,1,,402,49,0,history
+psf__requests-2317,10,"git grep -i ""native""",default,0,1,,404,50,7,history
+psf__requests-2317,11,"git grep -n -C 20 ""def to_native_string"" requests/utils.py",attr_tree,0,1,,161,55,0,history
+psf__requests-2317,11,"git grep -n -C 20 ""def to_native_string"" requests/utils.py",default,0,1,,145,52,2,history
+psf__requests-2317,12,"git grep -n ""to_native_string"" requests/sessions.py",attr_tree,0,1,,161,55,0,history
+psf__requests-2317,12,"git grep -n ""to_native_string"" requests/sessions.py",default,0,1,,145,52,2,history
+psf__requests-2317,19,"git grep -n ""test_unicode_method_name"" test_requests.py",attr_tree,0,1,,161,55,0,history
+psf__requests-2317,19,"git grep -n ""test_unicode_method_name"" test_requests.py",default,0,1,,144,51,1,history
+psf__requests-2317,23,git diff requests/sessions.py,default,0,1,,136,47,2,history
+psf__requests-2317,23,git diff requests/sessions.py,attr_tree,0,1,,161,55,0,history
+psf__requests-2317,26,"git grep -n ""method"" requests/models.py",default,0,1,,145,52,2,history
+psf__requests-2317,26,"git grep -n ""method"" requests/models.py",attr_tree,0,1,,161,55,0,history
+psf__requests-2317,27,"git grep ""to_native_string"" requests/models.py",default,0,1,,145,52,2,history
+psf__requests-2317,27,"git grep ""to_native_string"" requests/models.py",attr_tree,0,1,,161,55,0,history
+psf__requests-2317,34,git diff,default,0,1,,411,59,21,history
+psf__requests-2317,34,git diff,attr_tree,0,1,,418,49,0,history
+psf__requests-2317,35,git status,attr_tree,0,1,,569,95,0,history
+psf__requests-2317,35,git status,default,0,1,,426,86,0,history
+psf__requests-2931,8,git log -S to_native_string --oneline requests/models.py,default,0,1,,168,66,2,history
+psf__requests-2931,8,git log -S to_native_string --oneline requests/models.py,attr_tree,0,1,,178,69,0,history
+psf__requests-2931,9,git show edc68a0,default,0,1,,175,74,4,history
+psf__requests-2931,9,git show edc68a0,attr_tree,0,1,,183,75,0,history
+psf__requests-2931,39,git diff requests/models.py,default,0,1,,136,47,2,history
+psf__requests-2931,39,git diff requests/models.py,attr_tree,0,1,,161,55,0,history
+psf__requests-2931,49,git status,attr_tree,0,1,,520,95,0,history
+psf__requests-2931,49,git status,default,0,1,,433,86,0,history
+psf__requests-2931,58,git diff,attr_tree,0,1,,269,35,0,history
+psf__requests-2931,58,git diff,default,0,1,,269,35,0,history
+psf__requests-5414,21,"git log --grep=""invalid label"" -p",attr_tree,0,1,,158,57,0,history
+psf__requests-5414,21,"git log --grep=""invalid label"" -p",default,0,1,,158,57,0,history
+psf__requests-5414,22,"git log --grep=""label"" --oneline",attr_tree,0,1,,155,60,0,history
+psf__requests-5414,22,"git log --grep=""label"" --oneline",default,0,1,,155,60,0,history
+psf__requests-5414,23,git show 79d53d3b; git show e08b853a,attr_tree,0,1,,299,122,0,history
+psf__requests-5414,23,git show 79d53d3b; git show e08b853a,default,0,1,,283,120,8,history
+psf__requests-5414,25,"git log -S ""test_invalid_urls_throw_requests_exception"" -p",attr_tree,0,1,,181,72,0,history
+psf__requests-5414,25,"git log -S ""test_invalid_urls_throw_requests_exception"" -p",default,0,1,,3123,3021,2954,history
+psf__requests-5414,42,git diff requests/models.py,default,0,1,,136,47,2,history
+psf__requests-5414,42,git diff requests/models.py,attr_tree,0,1,,161,55,0,history
+psf__requests-5414,45,git status,default,0,1,,480,100,14,history
+psf__requests-5414,45,git status,attr_tree,0,1,,366,82,0,history
+psf__requests-5414,46,git diff,default,0,1,,225,35,0,history
+psf__requests-5414,46,git diff,attr_tree,0,1,,225,35,0,history
+pytest-dev__pytest-7490,2,"git log -S ""xfailed_key"" --oneline",default,0,1,,22618,22522,22466,history
+pytest-dev__pytest-7490,2,"git log -S ""xfailed_key"" --oneline",attr_tree,0,1,,163,61,0,history
+pytest-dev__pytest-7490,3,git show c9737ae91,attr_tree,0,1,,181,73,0,history
+pytest-dev__pytest-7490,3,git show c9737ae91,default,0,1,,175,72,4,history
+pytest-dev__pytest-7490,4,git show 3e6fe92b7,attr_tree,0,1,,183,75,0,history
+pytest-dev__pytest-7490,4,git show 3e6fe92b7,default,0,1,,179,76,6,history
+pytest-dev__pytest-7490,5,git show 3e6fe92b7 -- src/_pytest/skipping.py,attr_tree,0,1,,180,72,0,history
+pytest-dev__pytest-7490,5,git show 3e6fe92b7 -- src/_pytest/skipping.py,default,0,1,,174,71,4,history
+pytest-dev__pytest-7490,6,"git show 3e6fe92b7~1:src/_pytest/skipping.py | grep -A 50 ""class MarkEvaluator""",attr_tree,0,1,,204,68,0,history
+pytest-dev__pytest-7490,6,"git show 3e6fe92b7~1:src/_pytest/skipping.py | grep -A 50 ""class MarkEvaluator""",default,0,1,,204,64,0,history
+pytest-dev__pytest-7490,17,git diff src/_pytest/skipping.py,attr_tree,0,1,,162,55,0,history
+pytest-dev__pytest-7490,17,git diff src/_pytest/skipping.py,default,0,1,,138,47,2,history
+pytest-dev__pytest-7490,22,git diff src/_pytest/skipping.py,default,0,1,,138,47,2,history
+pytest-dev__pytest-7490,22,git diff src/_pytest/skipping.py,attr_tree,0,1,,162,55,0,history
+pytest-dev__pytest-7490,25,git diff src/_pytest/skipping.py,default,0,1,,138,47,2,history
+pytest-dev__pytest-7490,25,git diff src/_pytest/skipping.py,attr_tree,0,1,,162,55,0,history
+pytest-dev__pytest-7490,30,git status,default,0,1,,1263,142,36,history
+pytest-dev__pytest-7490,30,git status,attr_tree,0,1,,976,102,0,history
+pytest-dev__pytest-7490,32,git status,attr_tree,0,1,,976,102,0,history
+pytest-dev__pytest-7490,32,git status,default,0,1,,976,102,0,history
+pytest-dev__pytest-7490,33,git diff src/_pytest/skipping.py,attr_tree,0,1,,131,42,0,history
+pytest-dev__pytest-7490,33,git diff src/_pytest/skipping.py,default,0,1,,131,42,0,history
+pytest-dev__pytest-7521,13,"git log -p -S ""EncodedFile"" src/_pytest/capture.py",default,0,1,,186,75,4,history
+pytest-dev__pytest-7521,13,"git log -p -S ""EncodedFile"" src/_pytest/capture.py",attr_tree,0,1,,192,76,0,history
+pytest-dev__pytest-7521,14,"git log -p -S ""newline"" src/_pytest/capture.py",attr_tree,0,1,,194,78,0,history
+pytest-dev__pytest-7521,14,"git log -p -S ""newline"" src/_pytest/capture.py",default,0,1,,188,77,4,history
+pytest-dev__pytest-7521,16,"git log -p -S ""TemporaryFile"" src/_pytest/capture.py",default,0,1,,186,75,4,history
+pytest-dev__pytest-7521,16,"git log -p -S ""TemporaryFile"" src/_pytest/capture.py",attr_tree,0,1,,192,76,0,history
+pytest-dev__pytest-7521,26,git status,attr_tree,0,1,,1020,111,0,history
+pytest-dev__pytest-7521,26,git status,default,0,1,,980,102,0,history
+pytest-dev__pytest-7521,28,git diff src/_pytest/capture.py,attr_tree,0,1,,131,42,0,history
+pytest-dev__pytest-7521,28,git diff src/_pytest/capture.py,default,0,1,,131,42,0,history
+pytest-dev__pytest-7521,34,git diff,attr_tree,0,1,,662,35,0,history
+pytest-dev__pytest-7521,34,git diff,default,0,1,,662,35,0,history
+pytest-dev__pytest-7982,0,"git grep ""follow_symlinks""",attr_tree,0,1,,1160,49,0,history
+pytest-dev__pytest-7982,0,"git grep ""follow_symlinks""",default,0,1,,1210,51,8,history
+pytest-dev__pytest-7982,1,"git grep -n ""follow_symlinks"" src/_pytest/pathlib.py",attr_tree,0,1,,161,55,0,history
+pytest-dev__pytest-7982,1,"git grep -n ""follow_symlinks"" src/_pytest/pathlib.py",default,0,1,,146,52,2,history
+pytest-dev__pytest-7982,3,"git log -S ""follow_symlinks"" -p -n 1",attr_tree,0,1,,179,70,0,history
+pytest-dev__pytest-7982,3,"git log -S ""follow_symlinks"" -p -n 1",default,0,1,,798,694,629,history
+pytest-dev__pytest-7982,5,"git grep ""is_dir""",default,0,1,,1210,55,12,history
+pytest-dev__pytest-7982,5,"git grep ""is_dir""",attr_tree,0,1,,1160,49,0,history
+pytest-dev__pytest-7982,6,"git grep ""scandir""",attr_tree,0,1,,1160,49,0,history
+pytest-dev__pytest-7982,6,"git grep ""scandir""",default,0,1,,1210,50,7,history
+pytest-dev__pytest-7982,8,"git grep ""visit"" testing/test_pathlib.py",default,1,1,,145,51,1,history
+pytest-dev__pytest-7982,8,"git grep ""visit"" testing/test_pathlib.py",attr_tree,1,1,,161,55,0,history
+pytest-dev__pytest-7982,9,"git grep ""visit"" testing/",attr_tree,0,1,,457,49,0,history
+pytest-dev__pytest-7982,9,"git grep ""visit"" testing/",default,0,1,,480,57,14,history
+pytest-dev__pytest-7982,10,"git grep ""visit("" src/",default,0,1,,261,48,5,history
+pytest-dev__pytest-7982,10,"git grep ""visit("" src/",attr_tree,0,1,,271,49,0,history
+pytest-dev__pytest-7982,11,"git grep -n ""visit("" src/_pytest/main.py",default,0,1,,146,52,2,history
+pytest-dev__pytest-7982,11,"git grep -n ""visit("" src/_pytest/main.py",attr_tree,0,1,,161,55,0,history
+pytest-dev__pytest-7982,13,"git grep -n ""visit"" src/_pytest/python.py",default,0,1,,146,52,2,history
+pytest-dev__pytest-7982,13,"git grep -n ""visit"" src/_pytest/python.py",attr_tree,0,1,,161,55,0,history
+pytest-dev__pytest-7982,16,"git grep ""from _pytest.pathlib"" testing/test_pathlib.py",default,0,1,,145,51,1,history
+pytest-dev__pytest-7982,16,"git grep ""from _pytest.pathlib"" testing/test_pathlib.py",attr_tree,0,1,,161,55,0,history
+pytest-dev__pytest-7982,20,git diff src/_pytest/pathlib.py,attr_tree,0,1,,162,55,0,history
+pytest-dev__pytest-7982,20,git diff src/_pytest/pathlib.py,default,0,1,,138,47,2,history
+pytest-dev__pytest-7982,29,git status,attr_tree,0,1,,1280,111,0,history
+pytest-dev__pytest-7982,29,git status,default,0,1,,1013,102,0,history
+pytest-dev__pytest-7982,31,git diff src/_pytest/pathlib.py,attr_tree,0,1,,131,42,0,history
+pytest-dev__pytest-7982,31,git diff src/_pytest/pathlib.py,default,0,1,,131,42,0,history
+pytest-dev__pytest-8399,2,"git log -S ""unittest_"" -p src/_pytest/unittest.py",attr_tree,0,1,,204,88,0,history
+pytest-dev__pytest-8399,2,"git log -S ""unittest_"" -p src/_pytest/unittest.py",default,0,1,,198,87,4,history
+pytest-dev__pytest-8399,15,git diff src/_pytest/unittest.py,attr_tree,0,1,,162,55,0,history
+pytest-dev__pytest-8399,15,git diff src/_pytest/unittest.py,default,0,1,,138,47,2,history
+pytest-dev__pytest-8399,24,git status,default,0,1,,1272,137,31,history
+pytest-dev__pytest-8399,24,git status,attr_tree,0,1,,1044,102,0,history
+sphinx-doc__sphinx-7910,11,"git log -S ""cls_path"" -p",default,0,1,,27048,26946,26879,history
+sphinx-doc__sphinx-7910,11,"git log -S ""cls_path"" -p",attr_tree,0,1,,181,72,0,history
+sphinx-doc__sphinx-7910,18,git diff sphinx/ext/napoleon/__init__.py,attr_tree,0,1,,167,55,0,history
+sphinx-doc__sphinx-7910,18,git diff sphinx/ext/napoleon/__init__.py,default,0,1,,144,49,4,history
+sphinx-doc__sphinx-7910,26,git status,attr_tree,0,1,,4604,237,0,history
+sphinx-doc__sphinx-7910,26,git status,default,0,1,,3371,228,0,history
+sphinx-doc__sphinx-7910,27,git diff sphinx/ext/napoleon/__init__.py,attr_tree,0,1,,132,42,0,history
+sphinx-doc__sphinx-7910,27,git diff sphinx/ext/napoleon/__init__.py,default,0,1,,132,42,0,history
+sphinx-doc__sphinx-8265,14,"git log -S ""visit_Tuple"" -p sphinx/pycode/ast.py",default,0,1,,186,77,6,history
+sphinx-doc__sphinx-8265,14,"git log -S ""visit_Tuple"" -p sphinx/pycode/ast.py",attr_tree,0,1,,192,76,0,history
+sphinx-doc__sphinx-8265,15,"git log -S ""ast.Tuple"" -p sphinx/pycode/ast.py",default,0,1,,186,77,6,history
+sphinx-doc__sphinx-8265,15,"git log -S ""ast.Tuple"" -p sphinx/pycode/ast.py",attr_tree,0,1,,192,76,0,history
+sphinx-doc__sphinx-8265,32,git diff sphinx/pycode/ast.py,attr_tree,0,1,,131,42,0,history
+sphinx-doc__sphinx-8265,32,git diff sphinx/pycode/ast.py,default,0,1,,131,42,0,history
+sphinx-doc__sphinx-8265,58,git status,attr_tree,0,1,,4106,237,0,history
+sphinx-doc__sphinx-8265,58,git status,default,0,1,,3397,228,0,history
+sphinx-doc__sphinx-8265,59,git diff sphinx/pycode/ast.py,default,0,1,,131,42,0,history
+sphinx-doc__sphinx-8265,59,git diff sphinx/pycode/ast.py,attr_tree,0,1,,131,42,0,history
+sphinx-doc__sphinx-8638,13,"git log -S ""rolename='obj'"" --oneline",attr_tree,0,1,,167,65,0,history
+sphinx-doc__sphinx-8638,13,"git log -S ""rolename='obj'"" --oneline",default,0,1,,28816,28721,28661,history
+sphinx-doc__sphinx-8638,14,git show c98236bc6 -- sphinx/domains/python.py,attr_tree,0,1,,180,72,0,history
+sphinx-doc__sphinx-8638,14,git show c98236bc6 -- sphinx/domains/python.py,default,0,1,,174,73,6,history
+sphinx-doc__sphinx-8638,36,git diff sphinx/domains/python.py,attr_tree,0,1,,165,55,0,history
+sphinx-doc__sphinx-8638,36,git diff sphinx/domains/python.py,default,0,1,,141,48,3,history
+sphinx-doc__sphinx-8638,38,git status,default,0,1,,4445,333,101,history
+sphinx-doc__sphinx-8638,38,git status,attr_tree,0,1,,3432,228,0,history
+sphinx-doc__sphinx-8638,43,git status,default,0,1,,3432,228,0,history
+sphinx-doc__sphinx-8638,43,git status,attr_tree,0,1,,3432,228,0,history
+sphinx-doc__sphinx-9229,19,"git log --grep=""alias"" --oneline -n 30",default,0,1,,175,77,0,history
+sphinx-doc__sphinx-9229,19,"git log --grep=""alias"" --oneline -n 30",attr_tree,0,1,,175,77,0,history
+sphinx-doc__sphinx-9229,20,git show df8ab215c,attr_tree,0,1,,185,74,0,history
+sphinx-doc__sphinx-9229,20,git show df8ab215c,default,0,1,,181,77,8,history
+sphinx-doc__sphinx-9229,26,"git log --grep=""4422"" --oneline",default,0,1,,148,53,0,history
+sphinx-doc__sphinx-9229,26,"git log --grep=""4422"" --oneline",attr_tree,0,1,,148,53,0,history
+sphinx-doc__sphinx-9229,27,git show c1fd36cc9,default,0,1,,186,85,12,history
+sphinx-doc__sphinx-9229,27,git show c1fd36cc9,attr_tree,0,1,,186,78,0,history
+sphinx-doc__sphinx-9229,30,git log -S GenericAliasDocumenter --oneline,attr_tree,0,1,,163,61,0,history
+sphinx-doc__sphinx-9229,30,git log -S GenericAliasDocumenter --oneline,default,0,1,,30446,30351,30295,history
+sphinx-doc__sphinx-9229,31,git show bb63f0303,attr_tree,0,1,,197,86,0,history
+sphinx-doc__sphinx-9229,31,git show bb63f0303,default,0,1,,207,103,22,history
+sphinx-doc__sphinx-9229,68,git status,attr_tree,0,1,,4826,238,0,history
+sphinx-doc__sphinx-9229,68,git status,default,0,1,,3529,229,0,history
+sphinx-doc__sphinx-9229,69,git diff sphinx/ext/autodoc/__init__.py,attr_tree,0,1,,132,42,0,history
+sphinx-doc__sphinx-9229,69,git diff sphinx/ext/autodoc/__init__.py,default,0,1,,132,42,0,history
+sphinx-doc__sphinx-9658,0,git status,attr_tree,0,1,,4623,247,0,history
+sphinx-doc__sphinx-9658,0,git status,default,0,1,,4808,439,197,history
+sphinx-doc__sphinx-9658,9,git log -n 1,attr_tree,0,1,,161,59,0,history
+sphinx-doc__sphinx-9658,9,git log -n 1,default,0,1,,161,59,0,history
+sphinx-doc__sphinx-9658,21,"git log --all --grep=""8164""",default,0,1,,180,62,0,history
+sphinx-doc__sphinx-9658,21,"git log --all --grep=""8164""",attr_tree,0,1,,180,62,0,history
+sphinx-doc__sphinx-9658,22,git show 85567748d968cbd95587997788ba46cb29245b36,default,0,1,,192,91,16,history
+sphinx-doc__sphinx-9658,22,git show 85567748d968cbd95587997788ba46cb29245b36,attr_tree,0,1,,188,80,0,history
+sphinx-doc__sphinx-9658,43,"git log -S ""__qualname__ = ''"" -p",attr_tree,0,1,,183,74,0,history
+sphinx-doc__sphinx-9658,43,"git log -S ""__qualname__ = ''"" -p",default,0,1,,33418,33316,33247,history
+sphinx-doc__sphinx-9658,53,git diff sphinx/util/typing.py,attr_tree,0,1,,131,42,0,history
+sphinx-doc__sphinx-9658,53,git diff sphinx/util/typing.py,default,0,1,,131,42,0,history
+sphinx-doc__sphinx-9658,56,git diff sphinx/util/typing.py,attr_tree,0,1,,131,42,0,history
+sphinx-doc__sphinx-9658,56,git diff sphinx/util/typing.py,default,0,1,,131,42,0,history
+sphinx-doc__sphinx-9658,62,git status,default,0,1,,3689,238,0,history
+sphinx-doc__sphinx-9658,62,git status,attr_tree,0,1,,3689,238,0,history
+sphinx-doc__sphinx-9658,63,git diff,attr_tree,0,1,,2126,35,0,history
+sphinx-doc__sphinx-9658,63,git diff,default,0,1,,2126,35,0,history
+sympy__sympy-13031,41,"git log -S ""Allows you to build a matrix"" -p",default,0,1,,71618,70979,70897,history
+sympy__sympy-13031,41,"git log -S ""Allows you to build a matrix"" -p",attr_tree,0,1,,730,87,0,history
+sympy__sympy-13031,73,git diff sympy/matrices/common.py,attr_tree,0,1,,165,55,0,history
+sympy__sympy-13031,73,git diff sympy/matrices/common.py,default,0,1,,141,47,2,history
+sympy__sympy-13031,77,git diff sympy/matrices/sparse.py,attr_tree,0,1,,165,55,0,history
+sympy__sympy-13031,77,git diff sympy/matrices/sparse.py,default,0,1,,141,47,2,history
+sympy__sympy-13031,81,git diff sympy/matrices/sparse.py,attr_tree,0,1,,165,55,0,history
+sympy__sympy-13031,81,git diff sympy/matrices/sparse.py,default,0,1,,141,47,2,history
+sympy__sympy-13031,88,git status,attr_tree,0,1,,5013,155,0,history
+sympy__sympy-13031,88,git status,default,0,1,,2431,146,0,history
+sympy__sympy-13551,8,"git log -S ""p.as_coeff_Add()"" -p sympy/concrete/products.py",attr_tree,0,1,,192,75,0,history
+sympy__sympy-13551,8,"git log -S ""p.as_coeff_Add()"" -p sympy/concrete/products.py",default,0,1,,186,74,4,history
+sympy__sympy-13551,9,"git log -S ""sum([self._eval_product"" -p sympy/concrete/products.py",attr_tree,0,1,,192,75,0,history
+sympy__sympy-13551,9,"git log -S ""sum([self._eval_product"" -p sympy/concrete/products.py",default,0,1,,186,74,4,history
+sympy__sympy-13551,10,git show db70c45cb369c8a710d5c1637cd98c3e03def72f --stat,default,0,1,,167,64,3,history
+sympy__sympy-13551,10,git show db70c45cb369c8a710d5c1637cd98c3e03def72f --stat,attr_tree,0,1,,175,66,0,history
+sympy__sympy-13551,11,git show db70c45cb369c8a710d5c1637cd98c3e03def72f -- sympy/concrete/tests/test_products.py,attr_tree,0,1,,179,70,0,history
+sympy__sympy-13551,11,git show db70c45cb369c8a710d5c1637cd98c3e03def72f -- sympy/concrete/tests/test_products.py,default,0,1,,175,71,6,history
+sympy__sympy-13551,30,git diff sympy/concrete/products.py,default,0,1,,131,42,0,history
+sympy__sympy-13551,30,git diff sympy/concrete/products.py,attr_tree,0,1,,131,42,0,history
+sympy__sympy-13551,36,git status,attr_tree,0,1,,3491,158,0,history
+sympy__sympy-13551,36,git status,default,0,1,,2524,149,0,history
+sympy__sympy-13551,37,git diff,attr_tree,0,1,,1806,35,0,history
+sympy__sympy-13551,37,git diff,default,0,1,,1806,35,0,history
+sympy__sympy-13551,41,git diff,default,0,1,,1806,35,0,history
+sympy__sympy-13551,41,git diff,attr_tree,0,1,,1806,35,0,history
+sympy__sympy-15875,0,"git grep ""def _eval_is_zero""",attr_tree,0,1,,3462,49,0,history
+sympy__sympy-15875,0,"git grep ""def _eval_is_zero""",default,0,1,,3643,61,18,history
+sympy__sympy-15875,1,"git grep -n ""def _eval_is_zero"" sympy/core/add.py",attr_tree,0,1,,161,55,0,history
+sympy__sympy-15875,1,"git grep -n ""def _eval_is_zero"" sympy/core/add.py",default,0,1,,146,52,2,history
+sympy__sympy-15875,6,"git log -S ""im_or_z"" -p sympy/core/add.py",default,0,1,,186,74,4,history
+sympy__sympy-15875,6,"git log -S ""im_or_z"" -p sympy/core/add.py",attr_tree,0,1,,192,75,0,history
+sympy__sympy-15875,11,"git grep -n ""def is_zero"" sympy/",attr_tree,0,1,,2687,49,0,history
+sympy__sympy-15875,11,"git grep -n ""def is_zero"" sympy/",default,0,1,,2814,57,14,history
+sympy__sympy-15875,14,"git grep -n ""def _eval_is_real"" sympy/core/add.py",default,1,1,,146,52,2,history
+sympy__sympy-15875,14,"git grep -n ""def _eval_is_real"" sympy/core/add.py",attr_tree,1,1,,161,55,0,history
+sympy__sympy-15875,15,"git grep -n ""def _eval_is_real"" sympy/",attr_tree,0,1,,2687,49,0,history
+sympy__sympy-15875,15,"git grep -n ""def _eval_is_real"" sympy/",default,0,1,,2814,52,9,history
+sympy__sympy-15875,16,"git grep ""is_real"" sympy/core/add.py",default,0,1,,146,52,2,history
+sympy__sympy-15875,16,"git grep ""is_real"" sympy/core/add.py",attr_tree,0,1,,161,55,0,history
+sympy__sympy-15875,17,"git grep -n ""def _fuzzy_group"" sympy/",attr_tree,0,1,,2687,49,0,history
+sympy__sympy-15875,17,"git grep -n ""def _fuzzy_group"" sympy/",default,0,1,,2814,53,10,history
+sympy__sympy-15875,21,"git grep ""fuzzy_and"" sympy/core/add.py",default,1,1,,146,52,2,history
+sympy__sympy-15875,21,"git grep ""fuzzy_and"" sympy/core/add.py",attr_tree,1,1,,161,55,0,history
+sympy__sympy-15875,31,git diff sympy/core/add.py,default,0,1,,141,47,2,history
+sympy__sympy-15875,31,git diff sympy/core/add.py,attr_tree,0,1,,165,55,0,history
+sympy__sympy-15875,36,"git grep ""is_zero"" sympy/core/expr.py",attr_tree,0,1,,161,55,0,history
+sympy__sympy-15875,36,"git grep ""is_zero"" sympy/core/expr.py",default,0,1,,146,52,2,history
+sympy__sympy-15875,37,"git grep ""is_zero"" sympy/core/assumptions.py",attr_tree,1,1,,161,55,0,history
+sympy__sympy-15875,37,"git grep ""is_zero"" sympy/core/assumptions.py",default,1,1,,146,52,2,history
+sympy__sympy-15875,40,"git grep -n ""_make_yes_no"" sympy/core/assumptions.py",attr_tree,1,1,,161,55,0,history
+sympy__sympy-15875,40,"git grep -n ""_make_yes_no"" sympy/core/assumptions.py",default,1,1,,146,52,2,history
+sympy__sympy-15875,41,"git grep -n ""is_zero"" sympy/core/assumptions.py",attr_tree,1,1,,161,55,0,history
+sympy__sympy-15875,41,"git grep -n ""is_zero"" sympy/core/assumptions.py",default,1,1,,146,52,2,history
+sympy__sympy-15875,46,"git grep -n ""class "" sympy/core/assumptions.py",attr_tree,0,1,,161,55,0,history
+sympy__sympy-15875,46,"git grep -n ""class "" sympy/core/assumptions.py",default,0,1,,146,52,2,history
+sympy__sympy-15875,48,"git grep -n ""def make_property"" sympy/core/assumptions.py",default,0,1,,146,52,2,history
+sympy__sympy-15875,48,"git grep -n ""def make_property"" sympy/core/assumptions.py",attr_tree,0,1,,161,55,0,history
+sympy__sympy-15875,52,"git grep ""_eval_is_non"" sympy/core/add.py",default,0,1,,146,52,2,history
+sympy__sympy-15875,52,"git grep ""_eval_is_non"" sympy/core/add.py",attr_tree,0,1,,161,55,0,history
+sympy__sympy-15875,57,git diff sympy/core/add.py,attr_tree,0,1,,165,55,0,history
+sympy__sympy-15875,57,git diff sympy/core/add.py,default,0,1,,141,47,2,history
+sympy__sympy-15875,60,"git grep ""15872""",default,1,1,,3643,65,22,history
+sympy__sympy-15875,60,"git grep ""15872""",attr_tree,1,1,,3462,49,0,history
+sympy__sympy-15875,64,git diff,attr_tree,0,1,,4023,49,0,history
+sympy__sympy-15875,64,git diff,default,0,1,,4160,202,164,history
+sympy__sympy-19495,5,"git log -S ""if cond is S.true:"" -p sympy/sets/conditionset.py",default,0,1,,186,74,4,history
+sympy__sympy-19495,5,"git log -S ""if cond is S.true:"" -p sympy/sets/conditionset.py",attr_tree,0,1,,192,75,0,history
+sympy__sympy-19495,7,"git log -S ""ConditionSet(new, Contains"" -p",default,0,1,,92979,92445,92370,history
+sympy__sympy-19495,7,"git log -S ""ConditionSet(new, Contains"" -p",attr_tree,0,1,,618,80,0,history
+sympy__sympy-19495,12,"git log -S ""Interval(-oo, 0)).subs"" -p",default,0,1,,92981,92447,92372,history
+sympy__sympy-19495,12,"git log -S ""Interval(-oo, 0)).subs"" -p",attr_tree,0,1,,618,80,0,history
+sympy__sympy-19495,17,git show e38f40340a63d336f615d0dc90d781d8072cf5d4,attr_tree,0,1,,182,73,0,history
+sympy__sympy-19495,17,git show e38f40340a63d336f615d0dc90d781d8072cf5d4,default,0,1,,178,74,6,history
+sympy__sympy-19495,37,git diff,attr_tree,0,1,,4961,49,0,history
+sympy__sympy-19495,37,git diff,default,0,1,,5128,232,194,history
+sympy__sympy-19495,38,git status,default,0,1,,5934,357,194,history
+sympy__sympy-19495,38,git status,attr_tree,0,1,,2903,159,0,history
+sympy__sympy-20590,7,"git grep ""class EvalfMixin""",default,0,1,,3998,56,13,history
+sympy__sympy-20590,7,"git grep ""class EvalfMixin""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,8,"git grep -n ""class EvalfMixin""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,8,"git grep -n ""class EvalfMixin""",default,0,1,,3998,68,25,history
+sympy__sympy-20590,13,git diff sympy/core/_print_helpers.py,default,0,1,,141,47,2,history
+sympy__sympy-20590,13,git diff sympy/core/_print_helpers.py,attr_tree,0,1,,165,55,0,history
+sympy__sympy-20590,23,"git grep ""class NotIterable""",default,0,1,,3998,62,19,history
+sympy__sympy-20590,23,"git grep ""class NotIterable""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,24,"git grep -n ""class NotIterable""",default,0,1,,3998,62,19,history
+sympy__sympy-20590,24,"git grep -n ""class NotIterable""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,27,git diff sympy/core/compatibility.py,default,0,1,,141,47,2,history
+sympy__sympy-20590,27,git diff sympy/core/compatibility.py,attr_tree,0,1,,165,55,0,history
+sympy__sympy-20590,28,"git grep ""class MatrixCalculus""",default,0,1,,3998,57,14,history
+sympy__sympy-20590,28,"git grep ""class MatrixCalculus""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,29,"git grep ""class Matrix"" sympy/matrices/matrices.py",attr_tree,0,1,,161,55,0,history
+sympy__sympy-20590,29,"git grep ""class Matrix"" sympy/matrices/matrices.py",default,0,1,,146,52,2,history
+sympy__sympy-20590,30,"git grep ""class MatrixCommon""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,30,"git grep ""class MatrixCommon""",default,0,1,,3998,56,13,history
+sympy__sympy-20590,31,"git grep ""class Matrix"" sympy/matrices/common.py",default,0,1,,146,52,2,history
+sympy__sympy-20590,31,"git grep ""class Matrix"" sympy/matrices/common.py",attr_tree,0,1,,161,55,0,history
+sympy__sympy-20590,35,"git grep -n ""class MatrixRequired""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,35,"git grep -n ""class MatrixRequired""",default,0,1,,3998,57,14,history
+sympy__sympy-20590,37,"git grep -n ""class Matrix"" sympy/matrices/common.py sympy/matrices/matrices.py",attr_tree,0,1,,164,55,0,history
+sympy__sympy-20590,37,"git grep -n ""class Matrix"" sympy/matrices/common.py sympy/matrices/matrices.py",default,0,1,,149,52,2,history
+sympy__sympy-20590,39,"git grep ""__slots__"" sympy/matrices/matrices.py",attr_tree,1,1,,161,55,0,history
+sympy__sympy-20590,39,"git grep ""__slots__"" sympy/matrices/matrices.py",default,1,1,,146,52,2,history
+sympy__sympy-20590,44,"git log -S ""class Printable"" --oneline",attr_tree,0,1,,582,68,0,history
+sympy__sympy-20590,44,"git log -S ""class Printable"" --oneline",default,0,1,,95590,95081,95018,history
+sympy__sympy-20590,45,git show 98ab966bb4,attr_tree,0,1,,197,88,0,history
+sympy__sympy-20590,45,git show 98ab966bb4,default,0,1,,205,101,18,history
+sympy__sympy-20590,46,git show 98ab966bb4^:sympy/core/_print_helpers.py,attr_tree,0,1,,160,59,0,history
+sympy__sympy-20590,46,git show 98ab966bb4^:sympy/core/_print_helpers.py,default,0,1,,160,59,0,history
+sympy__sympy-20590,47,git log -n 10 --oneline sympy/core/basic.py,default,0,1,,169,66,0,history
+sympy__sympy-20590,47,git log -n 10 --oneline sympy/core/basic.py,attr_tree,0,1,,169,66,0,history
+sympy__sympy-20590,48,git show 726b440029,default,0,1,,172,69,5,history
+sympy__sympy-20590,48,git show 726b440029,attr_tree,0,1,,178,69,0,history
+sympy__sympy-20590,49,git show 3d8216faa4,attr_tree,0,1,,181,72,0,history
+sympy__sympy-20590,49,git show 3d8216faa4,default,0,1,,175,71,4,history
+sympy__sympy-20590,50,"git log -S ""class Basic(StrPrintable"" --oneline",attr_tree,0,1,,583,69,0,history
+sympy__sympy-20590,50,"git log -S ""class Basic(StrPrintable"" --oneline",default,0,1,,95591,95082,95018,history
+sympy__sympy-20590,51,git show 03928ac153,default,0,1,,201,97,18,history
+sympy__sympy-20590,51,git show 03928ac153,attr_tree,0,1,,193,84,0,history
+sympy__sympy-20590,52,"git grep ""class ManagedProperties""",default,0,1,,3998,54,11,history
+sympy__sympy-20590,52,"git grep ""class ManagedProperties""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,53,"git grep -n ""class ManagedProperties""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,53,"git grep -n ""class ManagedProperties""",default,0,1,,3998,53,10,history
+sympy__sympy-20590,55,"git grep ""class BasicMeta""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,55,"git grep ""class BasicMeta""",default,0,1,,3998,59,16,history
+sympy__sympy-20590,56,"git grep -n ""class BasicMeta""",default,0,1,,3998,55,12,history
+sympy__sympy-20590,56,"git grep -n ""class BasicMeta""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,59,"git log -S ""class Basic(DefaultPrinting"" --oneline",attr_tree,0,1,,583,69,0,history
+sympy__sympy-20590,59,"git log -S ""class Basic(DefaultPrinting"" --oneline",default,0,1,,95591,95082,95018,history
+sympy__sympy-20590,60,git show 5644df199f,attr_tree,0,1,,183,74,0,history
+sympy__sympy-20590,60,git show 5644df199f,default,0,1,,181,77,8,history
+sympy__sympy-20590,69,"git grep ""class IndexedBase""",default,0,1,,3998,90,47,history
+sympy__sympy-20590,69,"git grep ""class IndexedBase""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,70,"git grep -n ""class IndexedBase""",default,0,1,,3998,51,8,history
+sympy__sympy-20590,70,"git grep -n ""class IndexedBase""",attr_tree,0,1,,3802,49,0,history
+sympy__sympy-20590,72,"git grep ""__slots__"" sympy/tensor/indexed.py",attr_tree,1,1,,161,55,0,history
+sympy__sympy-20590,72,"git grep ""__slots__"" sympy/tensor/indexed.py",default,1,1,,146,52,2,history
+sympy__sympy-20590,73,git status,default,0,1,,4522,296,131,history
+sympy__sympy-20590,73,git status,attr_tree,0,1,,2981,161,0,history
+sympy__sympy-20590,74,git diff,attr_tree,0,1,,2161,35,0,history
+sympy__sympy-20590,74,git diff,default,0,1,,2161,35,0,history
+sympy__sympy-20590,75,git diff --stat,attr_tree,0,1,,2162,36,0,history
+sympy__sympy-20590,75,git diff --stat,default,0,1,,2162,36,0,history
+sympy__sympy-21596,6,"git log -S ""base_set -="" -p sympy/sets/handlers/intersection.py",default,0,1,,188,76,6,history
+sympy__sympy-21596,6,"git log -S ""base_set -="" -p sympy/sets/handlers/intersection.py",attr_tree,0,1,,192,75,0,history
+sympy__sympy-21596,7,"git log -L 290,320:sympy/sets/handlers/intersection.py",attr_tree,0,1,,174,64,0,history
+sympy__sympy-21596,7,"git log -L 290,320:sympy/sets/handlers/intersection.py",default,0,1,,351,247,188,history
+sympy__sympy-21596,38,git diff sympy/sets/handlers/intersection.py,attr_tree,0,1,,167,55,0,history
+sympy__sympy-21596,38,git diff sympy/sets/handlers/intersection.py,default,0,1,,144,48,3,history
+sympy__sympy-21596,47,git status,default,0,1,,4903,315,149,history
+sympy__sympy-21596,47,git status,attr_tree,0,1,,3070,162,0,history
+sympy__sympy-21596,48,git diff sympy/sets/handlers/intersection.py,attr_tree,0,1,,132,42,0,history
+sympy__sympy-21596,48,git diff sympy/sets/handlers/intersection.py,default,0,1,,132,42,0,history
+sympy__sympy-21847,7,"git log -S ""max(powers.values())"" -p",default,0,1,,100334,99805,99729,history
+sympy__sympy-21847,7,"git log -S ""max(powers.values())"" -p",attr_tree,0,1,,614,81,0,history
+sympy__sympy-21847,11,git diff sympy/polys/monomials.py,default,0,1,,131,42,0,history
+sympy__sympy-21847,11,git diff sympy/polys/monomials.py,attr_tree,0,1,,131,42,0,history
+sympy__sympy-21847,20,git diff sympy/polys/tests/test_monomials.py,default,0,1,,132,42,0,history
+sympy__sympy-21847,20,git diff sympy/polys/tests/test_monomials.py,attr_tree,0,1,,132,42,0,history
+sympy__sympy-21847,22,git status,default,0,1,,3705,256,90,history
+sympy__sympy-21847,22,git status,attr_tree,0,1,,3084,162,0,history
+sympy__sympy-21847,24,git status,default,0,1,,3084,162,0,history
+sympy__sympy-21847,24,git status,attr_tree,0,1,,3084,162,0,history
+sympy__sympy-21847,25,git diff,default,0,1,,2245,35,0,history
+sympy__sympy-21847,25,git diff,attr_tree,0,1,,2245,35,0,history
+sympy__sympy-21930,10,"git log --all --grep=""12886""",attr_tree,0,1,,178,59,0,history
+sympy__sympy-21930,10,"git log --all --grep=""12886""",default,0,1,,178,59,0,history
+sympy__sympy-21930,11,git show 98b65fa7aa8a23ac49bdd9d1fbfc0e01cb04e12f,attr_tree,0,1,,180,71,0,history
+sympy__sympy-21930,11,git show 98b65fa7aa8a23ac49bdd9d1fbfc0e01cb04e12f,default,0,1,,176,72,6,history
+sympy__sympy-21930,12,git log 142bbd4b379608d1560af4a370b7574985658972^2~3..142bbd4b379608d1560af4a370b7574985658972^2 -p,attr_tree,0,1,,194,79,0,history
+sympy__sympy-21930,12,git log 142bbd4b379608d1560af4a370b7574985658972^2~3..142bbd4b379608d1560af4a370b7574985658972^2 -p,default,0,1,,190,80,6,history
+sympy__sympy-21930,13,git log 142bbd4b379608d1560af4a370b7574985658972^2~1 -p -1,attr_tree,0,1,,180,71,0,history
+sympy__sympy-21930,13,git log 142bbd4b379608d1560af4a370b7574985658972^2~1 -p -1,default,0,1,,174,70,4,history
+sympy__sympy-21930,14,git log --oneline 142bbd4b379608d1560af4a370b7574985658972^1..142bbd4b379608d1560af4a370b7574985658972^2,attr_tree,0,1,,161,60,0,history
+sympy__sympy-21930,14,git log --oneline 142bbd4b379608d1560af4a370b7574985658972^1..142bbd4b379608d1560af4a370b7574985658972^2,default,0,1,,161,60,0,history
+sympy__sympy-21930,15,"git log -S ""parenthesize_super"" --oneline",default,0,1,,100762,100241,100172,history
+sympy__sympy-21930,15,"git log -S ""parenthesize_super"" --oneline",attr_tree,0,1,,600,74,0,history
+sympy__sympy-21930,16,git show 5fbf0491f5 -- sympy/printing/latex.py,attr_tree,0,1,,180,71,0,history
+sympy__sympy-21930,16,git show 5fbf0491f5 -- sympy/printing/latex.py,default,0,1,,174,70,4,history
+sympy__sympy-21930,44,git diff sympy/printing/latex.py,default,0,1,,141,47,2,history
+sympy__sympy-21930,44,git diff sympy/printing/latex.py,attr_tree,0,1,,165,55,0,history
+sympy__sympy-21930,49,git status,attr_tree,0,1,,3388,171,0,history
+sympy__sympy-21930,49,git status,default,0,1,,3123,162,0,history
+sympy__sympy-21930,50,git diff sympy/printing/latex.py,attr_tree,0,1,,131,42,0,history
+sympy__sympy-21930,50,git diff sympy/printing/latex.py,default,0,1,,131,42,0,history
+sympy__sympy-22456,10,"git log -S ""not_in_args"" -p",default,0,1,,103024,102549,102465,history
+sympy__sympy-22456,10,"git log -S ""not_in_args"" -p",attr_tree,0,1,,568,89,0,history
+sympy__sympy-22456,19,git diff sympy/codegen/ast.py,attr_tree,0,1,,131,42,0,history
+sympy__sympy-22456,19,git diff sympy/codegen/ast.py,default,0,1,,131,42,0,history
+sympy__sympy-22456,35,git diff sympy/codegen/ast.py,attr_tree,0,1,,131,42,0,history
+sympy__sympy-22456,35,git diff sympy/codegen/ast.py,default,0,1,,131,42,0,history
+sympy__sympy-22456,45,git diff sympy/core/traversal.py,attr_tree,0,1,,165,55,0,history
+sympy__sympy-22456,45,git diff sympy/core/traversal.py,default,0,1,,141,47,2,history
+sympy__sympy-22456,51,git diff sympy/core/basic.py,default,0,1,,131,42,0,history
+sympy__sympy-22456,51,git diff sympy/core/basic.py,attr_tree,0,1,,131,42,0,history
+sympy__sympy-22456,57,git status,default,0,1,,5164,304,135,history
+sympy__sympy-22456,57,git status,attr_tree,0,1,,3145,165,0,history
+sympy__sympy-22456,58,git diff,default,0,1,,2282,35,0,history
+sympy__sympy-22456,58,git diff,attr_tree,0,1,,2282,35,0,history
+sympy__sympy-23950,22,"git log -p -S ""as_set"" sympy/sets/contains.py",default,0,1,,186,74,4,history
+sympy__sympy-23950,22,"git log -p -S ""as_set"" sympy/sets/contains.py",attr_tree,0,1,,192,75,0,history
+sympy__sympy-23950,23,git log -p sympy/sets/contains.py,default,0,1,,201,89,4,history
+sympy__sympy-23950,23,git log -p sympy/sets/contains.py,attr_tree,0,1,,207,90,0,history
+sympy__sympy-23950,31,git diff sympy/sets/contains.py,default,0,1,,141,47,2,history
+sympy__sympy-23950,31,git diff sympy/sets/contains.py,attr_tree,0,1,,165,55,0,history
+sympy__sympy-23950,39,git status,default,0,1,,5433,363,190,history
+sympy__sympy-23950,39,git status,attr_tree,0,1,,3236,169,0,history
+sympy__sympy-23950,40,git diff sympy/sets/contains.py,attr_tree,0,1,,131,42,0,history
+sympy__sympy-23950,40,git diff sympy/sets/contains.py,default,0,1,,131,42,0,history
+sympy__sympy-19040,48,git diff sympy/polys/factortools.py,default,0,1,,141,47,2,random
+sympy__sympy-19040,48,git diff sympy/polys/factortools.py,attr_tree,0,1,,165,55,0,random
+sympy__sympy-19040,55,git status,attr_tree,0,1,,5768,168,0,random
+sympy__sympy-19040,55,git status,default,0,1,,5953,359,196,random
+sympy__sympy-19040,56,git diff,default,0,1,,2091,35,0,random
+sympy__sympy-19040,56,git diff,attr_tree,0,1,,2091,35,0,random
+django__django-14007,0,"git grep -n ""returning_fields""",default,0,1,,16135,506,463,random
+django__django-14007,0,"git grep -n ""returning_fields""",attr_tree,0,1,,13046,49,0,random
+django__django-14007,2,"git grep ""from_db_value""",default,0,1,,16135,398,355,random
+django__django-14007,2,"git grep ""from_db_value""",attr_tree,0,1,,13046,49,0,random
+django__django-14007,3,"git grep ""get_db_converters""",default,0,1,,16135,383,340,random
+django__django-14007,3,"git grep ""get_db_converters""",attr_tree,0,1,,13046,49,0,random
+django__django-14007,4,"git grep -n ""get_db_converters"" django/db/models/sql/compiler.py",default,0,1,,148,54,4,random
+django__django-14007,4,"git grep -n ""get_db_converters"" django/db/models/sql/compiler.py",attr_tree,0,1,,163,55,0,random
+django__django-14007,6,"git grep -n ""class SQLInsertCompiler"" django/db/models/sql/compiler.py",attr_tree,0,1,,163,55,0,random
+django__django-14007,6,"git grep -n ""class SQLInsertCompiler"" django/db/models/sql/compiler.py",default,0,1,,148,54,4,random
+django__django-14007,13,"git grep -n ""def get_db_converters"" django/db/models/fields/",default,0,1,,151,47,4,random
+django__django-14007,13,"git grep -n ""def get_db_converters"" django/db/models/fields/",attr_tree,0,1,,167,49,0,random
+django__django-14007,15,"git grep -n ""def get_db_converters"" django/db/backends/base/operations.py",default,0,1,,148,54,4,random
+django__django-14007,15,"git grep -n ""def get_db_converters"" django/db/backends/base/operations.py",attr_tree,0,1,,163,55,0,random
+django__django-14007,17,"git grep -n ""def get_db_converters"" django/db/backends/sqlite3/operations.py",attr_tree,0,1,,163,55,0,random
+django__django-14007,17,"git grep -n ""def get_db_converters"" django/db/backends/sqlite3/operations.py",default,0,1,,148,54,4,random
+django__django-14007,19,"git grep ""output_field"" django/db/models/fields/__init__.py",default,0,1,,148,54,4,random
+django__django-14007,19,"git grep ""output_field"" django/db/models/fields/__init__.py",attr_tree,0,1,,163,55,0,random
+django__django-14007,20,"git grep -n ""output_field"" django/db/models/expressions.py",attr_tree,0,1,,163,55,0,random
+django__django-14007,20,"git grep -n ""output_field"" django/db/models/expressions.py",default,0,1,,147,53,3,random
+django__django-14007,21,"git grep ""\.output_field"" django/db/backends/",default,0,1,,244,50,7,random
+django__django-14007,21,"git grep ""\.output_field"" django/db/backends/",attr_tree,0,1,,255,49,0,random
+django__django-14007,22,"git grep -n ""class Field"" django/db/models/fields/__init__.py",attr_tree,0,1,,163,55,0,random
+django__django-14007,22,"git grep -n ""class Field"" django/db/models/fields/__init__.py",default,0,1,,148,54,4,random
+django__django-14007,23,"git grep ""returning"" django/db/models/sql/compiler.py",default,0,1,,148,54,4,random
+django__django-14007,23,"git grep ""returning"" django/db/models/sql/compiler.py",attr_tree,0,1,,163,55,0,random
+django__django-14007,37,git diff django/db/models/fields/__init__.py,attr_tree,0,1,,133,42,0,random
+django__django-14007,37,git diff django/db/models/fields/__init__.py,default,0,1,,133,42,0,random
+django__django-14007,40,git diff django/db/models/sql/compiler.py,default,0,1,,133,42,0,random
+django__django-14007,40,git diff django/db/models/sql/compiler.py,attr_tree,0,1,,133,42,0,random
+django__django-14007,45,"git grep -n ""def from_db_value"" django/contrib/gis/db/models/fields.py",default,0,1,,149,55,5,random
+django__django-14007,45,"git grep -n ""def from_db_value"" django/contrib/gis/db/models/fields.py",attr_tree,0,1,,163,55,0,random
+django__django-14007,47,"git grep -n ""def from_db_value"" django/contrib/gis/db/models/sql/conversion.py",attr_tree,0,1,,163,55,0,random
+django__django-14007,47,"git grep -n ""def from_db_value"" django/contrib/gis/db/models/sql/conversion.py",default,0,1,,150,56,6,random
+django__django-14007,49,"git grep -n ""def _from_db_value"" django/contrib/postgres/fields/array.py",default,0,1,,148,54,4,random
+django__django-14007,49,"git grep -n ""def _from_db_value"" django/contrib/postgres/fields/array.py",attr_tree,0,1,,163,55,0,random
+django__django-14007,57,git diff django/db/models/sql/compiler.py,attr_tree,0,1,,133,42,0,random
+django__django-14007,57,git diff django/db/models/sql/compiler.py,default,0,1,,133,42,0,random
+django__django-14007,62,git status,default,0,1,,24633,1933,418,random
+django__django-14007,62,git status,attr_tree,0,1,,20577,1511,0,random
+django__django-14007,64,git status,default,0,1,,20577,1511,0,random
+django__django-14007,64,git status,attr_tree,0,1,,20577,1511,0,random
+django__django-14007,65,git diff,default,0,1,,9720,35,0,random
+django__django-14007,65,git diff,attr_tree,0,1,,9720,35,0,random
+django__django-15732,47,git diff django/db/backends/base/schema.py,default,0,1,,147,49,4,random
+django__django-15732,47,git diff django/db/backends/base/schema.py,attr_tree,0,1,,171,55,0,random
+django__django-15732,48,git diff tests/schema/tests.py,default,0,1,,141,47,2,random
+django__django-15732,48,git diff tests/schema/tests.py,attr_tree,0,1,,167,55,0,random
+django__django-15732,50,git status,default,0,1,,29189,2664,1127,random
+django__django-15732,50,git status,attr_tree,0,1,,20988,1533,0,random
+django__django-16901,17,git diff tests/xor_lookups/tests.py,attr_tree,0,1,,131,42,0,random
+django__django-16901,17,git diff tests/xor_lookups/tests.py,default,0,1,,131,42,0,random
+django__django-16901,24,git status,attr_tree,0,1,,25368,1560,0,random
+django__django-16901,24,git status,default,0,1,,21213,1551,0,random
+django__django-16901,25,git diff django/db/models/sql/where.py,default,0,1,,133,42,0,random
+django__django-16901,25,git diff django/db/models/sql/where.py,attr_tree,0,1,,133,42,0,random
+django__django-16901,27,git status,attr_tree,0,1,,21213,1551,0,random
+django__django-16901,27,git status,default,0,1,,21214,1551,0,random
+django__django-12308,39,git status,default,0,1,,19802,1450,0,random
+django__django-12308,39,git status,attr_tree,0,1,,19801,1450,0,random
+django__django-12308,40,git diff,default,0,1,,9365,35,0,random
+django__django-12308,40,git diff,attr_tree,0,1,,9365,35,0,random
+django__django-12308,42,git diff,attr_tree,0,1,,9366,35,0,random
+django__django-12308,42,git diff,default,0,1,,9365,35,0,random
+django__django-16661,18,git diff tests/modeladmin/tests.py,default,0,1,,141,47,2,random
+django__django-16661,18,git diff tests/modeladmin/tests.py,attr_tree,0,1,,167,55,0,random
+django__django-16661,20,git status,default,0,1,,32057,3226,1685,random
+django__django-16661,20,git status,attr_tree,0,1,,21040,1537,0,random
+django__django-16661,21,git diff,attr_tree,0,1,,9989,35,0,random
+django__django-16661,21,git diff,default,0,1,,9989,35,0,random
+django__django-12155,9,git diff django/contrib/admindocs/utils.py,default,0,1,,132,42,0,random
+django__django-12155,9,git diff django/contrib/admindocs/utils.py,attr_tree,0,1,,132,42,0,random
+django__django-12155,12,git status,attr_tree,0,1,,19700,1445,0,random
+django__django-12155,12,git status,default,0,1,,19699,1445,0,random
+django__django-12155,13,git diff,attr_tree,0,1,,9299,35,0,random
+django__django-12155,13,git diff,default,0,1,,9298,35,0,random
+django__django-10973,5,"git grep -n ""_escape_pgpass""",attr_tree,0,1,,12256,49,0,random
+django__django-10973,5,"git grep -n ""_escape_pgpass""",default,0,1,,15197,323,280,random
+django__django-10973,10,git diff django/db/backends/postgresql/client.py,default,0,1,,133,42,0,random
+django__django-10973,10,git diff django/db/backends/postgresql/client.py,attr_tree,0,1,,133,42,0,random
+django__django-10973,16,git status,attr_tree,0,1,,19518,1441,0,random
+django__django-10973,16,git status,default,0,1,,19518,1441,0,random
+django__django-10973,17,git diff django/db/backends/postgresql/client.py,default,0,1,,133,42,0,random
+django__django-10973,17,git diff django/db/backends/postgresql/client.py,attr_tree,0,1,,133,42,0,random
+django__django-14089,7,git diff django/utils/datastructures.py,attr_tree,0,1,,167,55,0,random
+django__django-14089,7,git diff django/utils/datastructures.py,default,0,1,,141,47,2,random
+django__django-14089,10,git status,default,0,1,,30272,3234,1719,random
+django__django-14089,10,git status,attr_tree,0,1,,20562,1511,0,random
+django__django-13807,35,git diff django/db/backends/sqlite3/base.py,default,0,1,,133,42,0,random
+django__django-13807,35,git diff django/db/backends/sqlite3/base.py,attr_tree,0,1,,133,42,0,random
+django__django-13807,39,git status,default,0,1,,21226,1620,106,random
+django__django-13807,39,git status,attr_tree,0,1,,20539,1510,0,random
+django__django-13807,40,git diff,default,0,1,,9687,35,0,random
+django__django-13807,40,git diff,attr_tree,0,1,,9687,35,0,random
+psf__requests-1921,23,git diff requests/models.py,default,0,1,,136,47,2,random
+psf__requests-1921,23,git diff requests/models.py,attr_tree,0,1,,161,55,0,random
+psf__requests-1921,31,git diff,attr_tree,0,1,,403,49,0,random
+psf__requests-1921,31,git diff,default,0,1,,395,58,20,random
+psf__requests-1921,32,git status,attr_tree,0,1,,551,95,0,random
+psf__requests-1921,32,git status,default,0,1,,559,110,20,random
+psf__requests-1921,35,git status,default,0,1,,559,110,20,random
+psf__requests-1921,35,git status,attr_tree,0,1,,551,95,0,random
+django__django-17029,27,git diff django/apps/registry.py,attr_tree,0,1,,131,42,0,random
+django__django-17029,27,git diff django/apps/registry.py,default,0,1,,131,42,0,random
+django__django-17029,31,git status,default,0,1,,23819,1843,287,random
+django__django-17029,31,git status,attr_tree,0,1,,21224,1552,0,random
+django__django-17029,32,git diff django/apps/registry.py,attr_tree,0,1,,131,42,0,random
+django__django-17029,32,git diff django/apps/registry.py,default,0,1,,131,42,0,random
+django__django-13925,25,git diff django/db/models/base.py,default,0,1,,144,48,3,random
+django__django-13925,25,git diff django/db/models/base.py,attr_tree,0,1,,169,55,0,random
+django__django-13925,31,git status,attr_tree,0,1,,28486,1520,0,random
+django__django-13925,31,git status,default,0,1,,20539,1511,0,random
+django__django-13925,33,git status,default,0,1,,20539,1511,0,random
+django__django-13925,33,git status,attr_tree,0,1,,20539,1511,0,random
+django__django-13925,34,git diff django/db/models/base.py,default,0,1,,132,42,0,random
+django__django-13925,34,git diff django/db/models/base.py,attr_tree,0,1,,132,42,0,random
+django__django-13810,17,git diff django/core/handlers/base.py,default,0,1,,144,48,3,random
+django__django-13810,17,git diff django/core/handlers/base.py,attr_tree,0,1,,169,55,0,random
+django__django-13810,23,git diff django/core/handlers/base.py,default,0,1,,144,48,3,random
+django__django-13810,23,git diff django/core/handlers/base.py,attr_tree,0,1,,169,55,0,random
+django__django-13810,24,git status,default,0,1,,21558,1690,176,random
+django__django-13810,24,git status,attr_tree,0,1,,20540,1510,0,random
+django__django-13810,25,git diff tests/middleware_exceptions/tests.py,attr_tree,0,1,,131,42,0,random
+django__django-13810,25,git diff tests/middleware_exceptions/tests.py,default,0,1,,131,42,0,random
+django__django-13810,27,git status,attr_tree,0,1,,20540,1510,0,random
+django__django-13810,27,git status,default,0,1,,20539,1510,0,random
+pytest-dev__pytest-10051,22,git diff src/_pytest/logging.py,attr_tree,0,1,,162,55,0,random
+pytest-dev__pytest-10051,22,git diff src/_pytest/logging.py,default,0,1,,138,47,2,random
+pytest-dev__pytest-10051,30,git status,default,0,1,,1417,150,43,random
+pytest-dev__pytest-10051,30,git status,attr_tree,0,1,,1385,112,0,random
+sphinx-doc__sphinx-7462,22,git diff sphinx/domains/python.py,default,0,1,,131,42,0,random
+sphinx-doc__sphinx-7462,22,git diff sphinx/domains/python.py,attr_tree,0,1,,131,42,0,random
+sphinx-doc__sphinx-7462,26,git diff sphinx/pycode/ast.py,attr_tree,0,1,,165,55,0,random
+sphinx-doc__sphinx-7462,26,git diff sphinx/pycode/ast.py,default,0,1,,141,48,3,random
+sphinx-doc__sphinx-7462,29,git status,default,0,1,,4410,363,135,random
+sphinx-doc__sphinx-7462,29,git status,attr_tree,0,1,,4287,233,0,random
+sphinx-doc__sphinx-7462,30,git diff,default,0,1,,3008,173,135,random
+sphinx-doc__sphinx-7462,30,git diff,attr_tree,0,1,,2901,49,0,random
+django__django-16877,0,"git grep -n ""safeseq""",default,0,1,,16713,351,308,random
+django__django-16877,0,"git grep -n ""safeseq""",attr_tree,0,1,,13540,49,0,random
+django__django-16877,2,"git grep -n ""def escape"" django/template/defaultfilters.py",default,0,1,,146,52,2,random
+django__django-16877,2,"git grep -n ""def escape"" django/template/defaultfilters.py",attr_tree,0,1,,163,55,0,random
+django__django-16877,5,"git grep -n ""def conditional_escape"" django/utils/html.py",attr_tree,0,1,,163,55,0,random
+django__django-16877,5,"git grep -n ""def conditional_escape"" django/utils/html.py",default,0,1,,146,52,2,random
+django__django-16877,7,"git grep -n ""def escape"" django/utils/html.py",default,0,1,,146,52,2,random
+django__django-16877,7,"git grep -n ""def escape"" django/utils/html.py",attr_tree,0,1,,163,55,0,random
+django__django-16877,9,"git grep -n ""def join"" django/template/defaultfilters.py",attr_tree,0,1,,163,55,0,random
+django__django-16877,9,"git grep -n ""def join"" django/template/defaultfilters.py",default,0,1,,146,52,2,random
+django__django-16877,12,"git grep ""safeseq"" django/",attr_tree,0,1,,7363,49,0,random
+django__django-16877,12,"git grep ""safeseq"" django/",default,0,1,,9768,273,230,random
+django__django-16877,15,"git grep -n ""TypeError"" django/template/defaultfilters.py",attr_tree,0,1,,163,55,0,random
+django__django-16877,15,"git grep -n ""TypeError"" django/template/defaultfilters.py",default,0,1,,146,52,2,random
+django__django-16877,18,"git grep -n ""def mark_safe"" django/utils/safestring.py",default,0,1,,146,52,2,random
+django__django-16877,18,"git grep -n ""def mark_safe"" django/utils/safestring.py",attr_tree,0,1,,163,55,0,random
+django__django-16877,21,"git grep -n ""HTML STRINGS"" django/template/defaultfilters.py",default,0,1,,146,52,2,random
+django__django-16877,21,"git grep -n ""HTML STRINGS"" django/template/defaultfilters.py",attr_tree,0,1,,163,55,0,random
+django__django-16877,26,git diff django/template/defaultfilters.py,attr_tree,0,1,,167,55,0,random
+django__django-16877,26,git diff django/template/defaultfilters.py,default,0,1,,141,47,2,random
+django__django-16877,30,"git grep ""safeseq"" django/",default,0,1,,9768,333,290,random
+django__django-16877,30,"git grep ""safeseq"" django/",attr_tree,0,1,,7363,49,0,random
+django__django-16877,37,git diff docs/ref/templates/builtins.txt,default,0,1,,144,48,3,random
+django__django-16877,37,git diff docs/ref/templates/builtins.txt,attr_tree,0,1,,169,55,0,random
+django__django-16877,44,git status,default,0,1,,31327,3055,1500,random
+django__django-16877,44,git status,attr_tree,0,1,,21206,1551,0,random
+django__django-16877,46,git diff,default,0,1,,10057,35,0,random
+django__django-16877,46,git diff,attr_tree,0,1,,10057,35,0,random
+django__django-13158,43,git diff,default,0,1,,13275,436,398,random
+django__django-13158,43,git diff,attr_tree,0,1,,12907,49,0,random
+django__django-13158,45,git status,attr_tree,0,1,,23385,1469,0,random
+django__django-13158,45,git status,default,0,1,,19928,1460,0,random
+django__django-13158,46,git diff,attr_tree,0,1,,9434,35,0,random
+django__django-13158,46,git diff,default,0,1,,9435,35,0,random
+django__django-15252,46,git status,attr_tree,0,1,,27223,1542,0,random
+django__django-15252,46,git status,default,0,1,,20930,1533,0,random
+django__django-15252,47,git diff django/db/migrations/recorder.py,default,0,1,,132,42,0,random
+django__django-15252,47,git diff django/db/migrations/recorder.py,attr_tree,0,1,,132,42,0,random
+sphinx-doc__sphinx-8120,0,"git grep -n ""locale_dirs""",default,0,1,,3411,104,61,random
+sphinx-doc__sphinx-8120,0,"git grep -n ""locale_dirs""",attr_tree,0,1,,3030,49,0,random
+sphinx-doc__sphinx-8120,3,"git grep ""locale.init""",default,0,1,,3411,85,42,random
+sphinx-doc__sphinx-8120,3,"git grep ""locale.init""",attr_tree,0,1,,3030,49,0,random
+sphinx-doc__sphinx-8120,5,"git grep -n ""locale.init"" sphinx/application.py",attr_tree,0,1,,161,55,0,random
+sphinx-doc__sphinx-8120,5,"git grep -n ""locale.init"" sphinx/application.py",default,0,1,,145,52,2,random
+sphinx-doc__sphinx-8120,11,"git grep ""package_dir"" sphinx/",default,0,1,,1315,74,31,random
+sphinx-doc__sphinx-8120,11,"git grep ""package_dir"" sphinx/",attr_tree,0,1,,1157,49,0,random
+sphinx-doc__sphinx-8120,12,"git grep -n ""locale"" sphinx/builders/html/__init__.py",default,0,1,,147,54,4,random
+sphinx-doc__sphinx-8120,12,"git grep -n ""locale"" sphinx/builders/html/__init__.py",attr_tree,0,1,,161,55,0,random
+sphinx-doc__sphinx-8120,22,"git grep -n ""fallback"" sphinx/locale/__init__.py",default,0,1,,146,53,3,random
+sphinx-doc__sphinx-8120,22,"git grep -n ""fallback"" sphinx/locale/__init__.py",attr_tree,0,1,,161,55,0,random
+sphinx-doc__sphinx-8120,25,"git grep -n ""None,"" sphinx/",attr_tree,0,1,,1157,49,0,random
+sphinx-doc__sphinx-8120,25,"git grep -n ""None,"" sphinx/",default,0,1,,1315,69,26,random
+sphinx-doc__sphinx-8120,27,git diff sphinx/application.py,attr_tree,0,1,,163,55,0,random
+sphinx-doc__sphinx-8120,27,git diff sphinx/application.py,default,0,1,,138,47,2,random
+sphinx-doc__sphinx-8120,31,git diff,attr_tree,0,1,,3107,49,0,random
+sphinx-doc__sphinx-8120,31,git diff,default,0,1,,3294,253,215,random
+sphinx-doc__sphinx-8120,33,"git grep -n ""locale_dirs"" tests/",attr_tree,0,1,,1681,49,0,random
+sphinx-doc__sphinx-8120,33,"git grep -n ""locale_dirs"" tests/",default,0,1,,1861,76,33,random
+sphinx-doc__sphinx-8120,39,git diff sphinx/application.py,attr_tree,0,1,,163,55,0,random
+sphinx-doc__sphinx-8120,39,git diff sphinx/application.py,default,0,1,,138,47,2,random
+sphinx-doc__sphinx-8120,43,git status,default,0,1,,4736,447,215,random
+sphinx-doc__sphinx-8120,43,git status,attr_tree,0,1,,3397,228,0,random
+django__django-12262,13,git diff django/template/library.py,attr_tree,0,1,,131,42,0,random
+django__django-12262,13,git diff django/template/library.py,default,0,1,,131,42,0,random
+sympy__sympy-13798,0,"git grep -n ""mul_symbol""",default,0,1,,3326,56,13,random
+sympy__sympy-13798,0,"git grep -n ""mul_symbol""",attr_tree,0,1,,3160,49,0,random
+sympy__sympy-13798,2,"git grep -n ""mul_symbol_latex_numbers""",attr_tree,0,1,,3160,49,0,random
+sympy__sympy-13798,2,"git grep -n ""mul_symbol_latex_numbers""",default,0,1,,3326,58,15,random
+sympy__sympy-13798,5,"git grep ""_between_two_numbers_p""",default,0,1,,3326,57,14,random
+sympy__sympy-13798,5,"git grep ""_between_two_numbers_p""",attr_tree,0,1,,3160,49,0,random
+sympy__sympy-13798,6,"git grep -A 10 ""_between_two_numbers_p ="" sympy/printing/latex.py",default,0,1,,146,52,2,random
+sympy__sympy-13798,6,"git grep -A 10 ""_between_two_numbers_p ="" sympy/printing/latex.py",attr_tree,0,1,,161,55,0,random
+sympy__sympy-13798,12,"git grep -n ""ValueError"" sympy/printing/latex.py",default,0,1,,146,52,2,random
+sympy__sympy-13798,12,"git grep -n ""ValueError"" sympy/printing/latex.py",attr_tree,0,1,,161,55,0,random
+sympy__sympy-13798,13,"git grep -n -C 3 ""mul_symbol"" sympy/printing/latex.py",default,0,1,,146,52,2,random
+sympy__sympy-13798,13,"git grep -n -C 3 ""mul_symbol"" sympy/printing/latex.py",attr_tree,0,1,,161,55,0,random
+sympy__sympy-13798,20,git diff sympy/printing/latex.py,default,0,1,,141,47,2,random
+sympy__sympy-13798,20,git diff sympy/printing/latex.py,attr_tree,0,1,,165,55,0,random
+sympy__sympy-13798,23,git diff sympy/printing/latex.py,attr_tree,0,1,,165,55,0,random
+sympy__sympy-13798,23,git diff sympy/printing/latex.py,default,0,1,,141,47,2,random
+sympy__sympy-13798,31,git diff sympy/printing/latex.py,default,0,1,,141,47,2,random
+sympy__sympy-13798,31,git diff sympy/printing/latex.py,attr_tree,0,1,,165,55,0,random
+sympy__sympy-13798,33,git status,attr_tree,0,1,,5031,158,0,random
+sympy__sympy-13798,33,git status,default,0,1,,2528,149,0,random
+django__django-12276,9,"git grep ""class "" | grep ""FileInput""",default,0,1,,15506,698,650,random
+django__django-12276,9,"git grep ""class "" | grep ""FileInput""",attr_tree,0,1,,12538,53,0,random
+django__django-12276,12,git diff django/forms/widgets.py,attr_tree,0,1,,131,42,0,random
+django__django-12276,12,git diff django/forms/widgets.py,default,0,1,,131,42,0,random
+django__django-12276,16,git diff tests/forms_tests/widget_tests/test_fileinput.py,attr_tree,0,1,,132,42,0,random
+django__django-12276,16,git diff tests/forms_tests/widget_tests/test_fileinput.py,default,0,1,,132,42,0,random
+django__django-12276,19,git diff tests/forms_tests/widget_tests/test_fileinput.py,attr_tree,0,1,,132,42,0,random
+django__django-12276,19,git diff tests/forms_tests/widget_tests/test_fileinput.py,default,0,1,,132,42,0,random
+django__django-12276,21,git status,attr_tree,0,1,,19993,1458,0,random
+django__django-12276,21,git status,default,0,1,,19751,1449,0,random
+django__django-12276,22,git diff django/forms/widgets.py,default,0,1,,131,42,0,random
+django__django-12276,22,git diff django/forms/widgets.py,attr_tree,0,1,,131,42,0,random
+django__django-16569,14,git diff django/forms/formsets.py,default,0,1,,131,42,0,random
+django__django-16569,14,git diff django/forms/formsets.py,attr_tree,0,1,,131,42,0,random
+django__django-16569,17,git status,attr_tree,0,1,,21027,1537,0,random
+django__django-16569,17,git status,default,0,1,,21027,1537,0,random
+django__django-13590,6,"git grep -i ""_fields"" django/",attr_tree,0,1,,7157,49,0,random
+django__django-13590,6,"git grep -i ""_fields"" django/",default,0,1,,9501,293,250,random
+django__django-13590,7,"git grep ""namedtuple"" django/ | head -n 40",default,0,1,,9543,569,515,random
+django__django-13590,7,"git grep ""namedtuple"" django/ | head -n 40",attr_tree,0,1,,7199,53,0,random
+django__django-13590,13,"git grep ""__range"" tests/",default,0,1,,5461,146,103,random
+django__django-13590,13,"git grep ""__range"" tests/",attr_tree,0,1,,4793,49,0,random
+django__django-13590,14,"git grep -i ""range"" tests/lookup/test_lookups.py",default,1,1,,146,52,2,random
+django__django-13590,14,"git grep -i ""range"" tests/lookup/test_lookups.py",attr_tree,1,1,,163,55,0,random
+django__django-13590,16,"git grep -i ""range"" tests/lookup/tests.py",default,0,1,,146,52,2,random
+django__django-13590,16,"git grep -i ""range"" tests/lookup/tests.py",attr_tree,0,1,,163,55,0,random
+django__django-13590,17,"git grep ""__range="" tests/",default,0,1,,5461,104,61,random
+django__django-13590,17,"git grep ""__range="" tests/",attr_tree,0,1,,4793,49,0,random
+django__django-13590,21,git status,default,0,1,,29539,2837,1323,random
+django__django-13590,21,git status,attr_tree,0,1,,20526,1510,0,random
+django__django-13590,22,"git grep ""type(value)"" django/",attr_tree,0,1,,7157,49,0,random
+django__django-13590,22,"git grep ""type(value)"" django/",default,0,1,,9501,494,451,random
+django__django-13590,28,git diff django/db/models/sql/query.py,default,0,1,,133,42,0,random
+django__django-13590,28,git diff django/db/models/sql/query.py,attr_tree,0,1,,133,42,0,random
+django__django-13590,35,git status,attr_tree,0,1,,20526,1510,0,random
+django__django-13590,35,git status,default,0,1,,20526,1510,0,random
+django__django-13590,37,git status,attr_tree,0,1,,20526,1510,0,random
+django__django-13590,37,git status,default,0,1,,20526,1510,0,random
+django__django-13590,38,git diff,default,0,1,,9674,35,0,random
+django__django-13590,38,git diff,attr_tree,0,1,,9673,35,0,random
+django__django-13590,41,git status,attr_tree,0,1,,20527,1510,0,random
+django__django-13590,41,git status,default,0,1,,20528,1510,0,random
+django__django-12708,29,git diff django/db/backends/base/schema.py,default,0,1,,147,49,4,random
+django__django-12708,29,git diff django/db/backends/base/schema.py,attr_tree,0,1,,171,55,0,random
+django__django-12708,38,git diff tests/schema/tests.py,attr_tree,0,1,,167,55,0,random
+django__django-12708,38,git diff tests/schema/tests.py,default,0,1,,141,47,2,random
+django__django-12708,43,git status,default,0,1,,24193,2230,776,random
+django__django-12708,43,git status,attr_tree,0,1,,19792,1450,0,random
+django__django-12708,44,git diff django/db/backends/base/schema.py,default,0,1,,133,42,0,random
+django__django-12708,44,git diff django/db/backends/base/schema.py,attr_tree,0,1,,133,42,0,random
+django__django-12708,46,git status,default,0,1,,19792,1450,0,random
+django__django-12708,46,git status,attr_tree,0,1,,19793,1450,0,random
+django__django-14999,17,git diff django/db/migrations/operations/models.py,default,0,1,,133,42,0,random
+django__django-14999,17,git diff django/db/migrations/operations/models.py,attr_tree,0,1,,133,42,0,random
+django__django-14999,27,git status,default,0,1,,20736,1517,0,random
+django__django-14999,27,git status,attr_tree,0,1,,20736,1517,0,random
+django__django-14999,29,git diff django/db/migrations/operations/models.py,default,0,1,,133,42,0,random
+django__django-14999,29,git diff django/db/migrations/operations/models.py,attr_tree,0,1,,133,42,0,random
+django__django-14999,30,git diff,default,0,1,,9826,35,0,random
+django__django-14999,30,git diff,attr_tree,0,1,,9825,35,0,random
+django__django-14559,2,"git grep ""bulk_update"" tests/",attr_tree,0,1,,4847,49,0,random
+django__django-14559,2,"git grep ""bulk_update"" tests/",default,0,1,,5518,144,101,random
+django__django-14559,14,git status,default,0,1,,22588,1839,324,random
+django__django-14559,14,git status,attr_tree,0,1,,20604,1511,0,random
+django__django-14559,16,git diff django/db/models/query.py,default,0,1,,132,42,0,random
+django__django-14559,16,git diff django/db/models/query.py,attr_tree,0,1,,132,42,0,random
+django__django-14559,23,git diff tests/queries/test_bulk_update.py,attr_tree,0,1,,131,42,0,random
+django__django-14559,23,git diff tests/queries/test_bulk_update.py,default,0,1,,131,42,0,random
+django__django-14559,26,git status,default,0,1,,20606,1511,0,random
+django__django-14559,26,git status,attr_tree,0,1,,20606,1511,0,random
+django__django-14559,27,git diff django/db/models/query.py,default,0,1,,132,42,0,random
+django__django-14559,27,git diff django/db/models/query.py,attr_tree,0,1,,132,42,0,random
+django__django-14559,30,git status,default,0,1,,20604,1511,0,random
+django__django-14559,30,git status,attr_tree,0,1,,20604,1511,0,random
+pytest-dev__pytest-5809,5,git grep -i lexer,default,0,1,,1044,54,11,random
+pytest-dev__pytest-5809,5,git grep -i lexer,attr_tree,0,1,,992,49,0,random
+pytest-dev__pytest-5809,10,git diff src/_pytest/pastebin.py,attr_tree,0,1,,162,55,0,random
+pytest-dev__pytest-5809,10,git diff src/_pytest/pastebin.py,default,0,1,,138,47,2,random
+pytest-dev__pytest-5809,13,git status,attr_tree,0,1,,1335,111,0,random
+pytest-dev__pytest-5809,13,git status,default,0,1,,938,102,0,random
+django__django-10880,18,git diff django/db/models/aggregates.py,attr_tree,0,1,,132,42,0,random
+django__django-10880,18,git diff django/db/models/aggregates.py,default,0,1,,132,42,0,random
+django__django-10880,32,git diff,attr_tree,0,1,,9167,35,0,random
+django__django-10880,32,git diff,default,0,1,,9167,35,0,random
+sympy__sympy-18211,1,"git grep ""def as_set""",default,0,1,,3776,63,20,random
+sympy__sympy-18211,1,"git grep ""def as_set""",attr_tree,0,1,,3592,49,0,random
+sympy__sympy-18211,2,"git grep -n ""def as_set"" sympy/logic/boolalg.py",attr_tree,0,1,,161,55,0,random
+sympy__sympy-18211,2,"git grep -n ""def as_set"" sympy/logic/boolalg.py",default,0,1,,146,52,2,random
+sympy__sympy-18211,3,"git grep -n -C 15 ""def as_set"" sympy/logic/boolalg.py",default,0,1,,146,52,2,random
+sympy__sympy-18211,3,"git grep -n -C 15 ""def as_set"" sympy/logic/boolalg.py",attr_tree,0,1,,161,55,0,random
+sympy__sympy-18211,5,"git grep -n ""def _eval_as_set""",default,0,1,,3776,55,12,random
+sympy__sympy-18211,5,"git grep -n ""def _eval_as_set""",attr_tree,0,1,,3592,49,0,random
+sympy__sympy-18211,6,"git grep -n -C 20 ""def _eval_as_set"" sympy/core/relational.py",attr_tree,0,1,,161,55,0,random
+sympy__sympy-18211,6,"git grep -n -C 20 ""def _eval_as_set"" sympy/core/relational.py",default,0,1,,146,52,2,random
+sympy__sympy-18211,7,"git grep -n ""def solve_univariate_inequality""",attr_tree,0,1,,3592,49,0,random
+sympy__sympy-18211,7,"git grep -n ""def solve_univariate_inequality""",default,0,1,,3776,58,15,random
+sympy__sympy-18211,13,"git grep -n -C 5 ""def _eval_as_set"" sympy/logic/boolalg.py",attr_tree,0,1,,161,55,0,random
+sympy__sympy-18211,13,"git grep -n -C 5 ""def _eval_as_set"" sympy/logic/boolalg.py",default,0,1,,146,52,2,random
+sympy__sympy-18211,16,"git grep -n ""def solvify""",default,0,1,,3776,60,17,random
+sympy__sympy-18211,16,"git grep -n ""def solvify""",attr_tree,0,1,,3592,49,0,random
+sympy__sympy-18211,18,"git grep -n ""class Equality"" sympy/core/relational.py",default,0,1,,146,52,2,random
+sympy__sympy-18211,18,"git grep -n ""class Equality"" sympy/core/relational.py",attr_tree,0,1,,161,55,0,random
+sympy__sympy-18211,19,"git grep -n ""class Unequality"" sympy/core/relational.py",default,0,1,,146,52,2,random
+sympy__sympy-18211,19,"git grep -n ""class Unequality"" sympy/core/relational.py",attr_tree,0,1,,161,55,0,random
+sympy__sympy-18211,25,"git grep ""as_set"" sympy/solvers/inequalities.py",attr_tree,1,1,,161,55,0,random
+sympy__sympy-18211,25,"git grep ""as_set"" sympy/solvers/inequalities.py",default,1,1,,146,52,2,random
+sympy__sympy-18211,30,"git grep ""from sympy.core.singleton import"" sympy/core/relational.py",attr_tree,1,1,,161,55,0,random
+sympy__sympy-18211,30,"git grep ""from sympy.core.singleton import"" sympy/core/relational.py",default,1,1,,146,52,2,random
+sympy__sympy-18211,31,"git grep ""S\."" sympy/core/relational.py",attr_tree,0,1,,161,55,0,random
+sympy__sympy-18211,31,"git grep ""S\."" sympy/core/relational.py",default,0,1,,146,52,2,random
+sympy__sympy-18211,34,"git grep -n ""eq.negated"" sympy/core/relational.py",default,0,1,,146,52,2,random
+sympy__sympy-18211,34,"git grep -n ""eq.negated"" sympy/core/relational.py",attr_tree,0,1,,161,55,0,random
+sympy__sympy-18211,35,git diff sympy/core/relational.py,default,0,1,,131,42,0,random
+sympy__sympy-18211,35,git diff sympy/core/relational.py,attr_tree,0,1,,131,42,0,random
+sympy__sympy-18211,39,git diff sympy/core/relational.py,default,0,1,,131,42,0,random
+sympy__sympy-18211,39,git diff sympy/core/relational.py,attr_tree,0,1,,131,42,0,random
+sympy__sympy-18211,53,git status,default,0,1,,2825,156,0,random
+sympy__sympy-18211,53,git status,attr_tree,0,1,,2825,156,0,random
+sympy__sympy-18211,54,git diff,default,0,1,,2046,35,0,random
+sympy__sympy-18211,54,git diff,attr_tree,0,1,,2046,35,0,random
+sphinx-doc__sphinx-9281,41,git diff sphinx/util/inspect.py,default,0,1,,131,42,0,random
+sphinx-doc__sphinx-9281,41,git diff sphinx/util/inspect.py,attr_tree,0,1,,131,42,0,random
+sphinx-doc__sphinx-9281,43,git status,attr_tree,0,1,,3537,229,0,random
+sphinx-doc__sphinx-9281,43,git status,default,0,1,,3537,229,0,random
+django__django-11179,36,git status,default,0,1,,22632,2082,636,random
+django__django-11179,36,git status,attr_tree,0,1,,19544,1442,0,random
+django__django-11179,38,git diff django/db/models/deletion.py,default,0,1,,132,42,0,random
+django__django-11179,38,git diff django/db/models/deletion.py,attr_tree,0,1,,132,42,0,random
+django__django-11179,40,git status,attr_tree,0,1,,19544,1442,0,random
+django__django-11179,40,git status,default,0,1,,19544,1442,0,random
+django__django-14725,34,git diff,attr_tree,0,1,,9918,35,0,random
+django__django-14725,34,git diff,default,0,1,,9919,35,0,random
+django__django-14725,45,git status,default,0,1,,20942,1533,0,random
+django__django-14725,45,git status,attr_tree,0,1,,20942,1533,0,random
+django__django-14725,46,git diff -- django/contrib/contenttypes/forms.py django/forms/models.py,default,0,1,,121,35,0,random
+django__django-14725,46,git diff -- django/contrib/contenttypes/forms.py django/forms/models.py,attr_tree,0,1,,121,35,0,random
+django__django-14725,48,git status,attr_tree,0,1,,20941,1533,0,random
+django__django-14725,48,git status,default,0,1,,20942,1533,0,random
+django__django-14373,9,"git grep -n ""dateformat.format"" | head -n 30",attr_tree,0,1,,13100,58,0,random
+django__django-14373,9,"git grep -n ""dateformat.format"" | head -n 30",default,0,1,,16189,655,610,random
+django__django-14373,26,git diff django/utils/dateformat.py,attr_tree,0,1,,167,55,0,random
+django__django-14373,26,git diff django/utils/dateformat.py,default,0,1,,141,47,2,random
+django__django-14373,28,git status,attr_tree,0,1,,23929,1520,0,random
+django__django-14373,28,git status,default,0,1,,20579,1511,0,random
+django__django-14373,33,git status,default,0,1,,20580,1511,0,random
+django__django-14373,33,git status,attr_tree,0,1,,20581,1511,0,random
+django__django-13363,15,git diff django/db/models/functions/datetime.py,attr_tree,0,1,,171,55,0,random
+django__django-13363,15,git diff django/db/models/functions/datetime.py,default,0,1,,147,49,4,random
+django__django-13363,28,git status,default,0,1,,24586,2239,728,random
+django__django-13363,28,git status,attr_tree,0,1,,20513,1507,0,random
+django__django-13363,30,git status,default,0,1,,20513,1507,0,random
+django__django-13363,30,git status,attr_tree,0,1,,20514,1507,0,random
+django__django-13363,31,git diff,attr_tree,0,1,,9663,35,0,random
+django__django-13363,31,git diff,default,0,1,,9664,35,0,random
+django__django-15499,21,git diff django/db/migrations/operations/models.py,attr_tree,0,1,,133,42,0,random
+django__django-15499,21,git diff django/db/migrations/operations/models.py,default,0,1,,133,42,0,random
+django__django-15499,29,git status,default,0,1,,25706,2014,477,random
+django__django-15499,29,git status,attr_tree,0,1,,20958,1533,0,random
+django__django-15499,30,git diff django/db/migrations/operations/models.py,attr_tree,0,1,,133,42,0,random
+django__django-15499,30,git diff django/db/migrations/operations/models.py,default,0,1,,133,42,0,random
+pytest-dev__pytest-6197,0,git log -n 20 --oneline,default,0,1,,166,71,0,random
+pytest-dev__pytest-6197,0,git log -n 20 --oneline,attr_tree,0,1,,166,71,0,random
+pytest-dev__pytest-6197,1,git show 85288b532,default,0,1,,170,68,3,random
+pytest-dev__pytest-6197,1,git show 85288b532,attr_tree,0,1,,178,70,0,random
+pytest-dev__pytest-6197,2,git diff 85288b532^ 85288b532,default,0,1,,184,82,8,random
+pytest-dev__pytest-6197,2,git diff 85288b532^ 85288b532,attr_tree,0,1,,186,79,0,random
+pytest-dev__pytest-6197,17,"git log --grep=""5830"" --oneline",attr_tree,0,1,,149,54,0,random
+pytest-dev__pytest-6197,17,"git log --grep=""5830"" --oneline",default,0,1,,149,54,0,random
+pytest-dev__pytest-6197,18,"git log --grep=""5831"" --oneline",attr_tree,0,1,,151,56,0,random
+pytest-dev__pytest-6197,18,"git log --grep=""5831"" --oneline",default,0,1,,151,56,0,random
+pytest-dev__pytest-6197,19,git log 5f9db8a01..5cefcb205 --oneline,attr_tree,0,1,,162,62,0,random
+pytest-dev__pytest-6197,19,git log 5f9db8a01..5cefcb205 --oneline,default,0,1,,162,62,0,random
+pytest-dev__pytest-6197,20,git show 9275012ef,attr_tree,0,1,,187,79,0,random
+pytest-dev__pytest-6197,20,git show 9275012ef,default,0,1,,185,82,8,random
+pytest-dev__pytest-6197,35,git diff src/_pytest/python.py,attr_tree,0,1,,162,55,0,random
+pytest-dev__pytest-6197,35,git diff src/_pytest/python.py,default,0,1,,138,47,2,random
+pytest-dev__pytest-6197,43,git status,default,0,1,,1331,174,68,random
+pytest-dev__pytest-6197,43,git status,attr_tree,0,1,,964,102,0,random
+pytest-dev__pytest-6197,44,git diff src/_pytest/python.py,default,0,1,,131,42,0,random
+pytest-dev__pytest-6197,44,git diff src/_pytest/python.py,attr_tree,0,1,,131,42,0,random
+sphinx-doc__sphinx-10449,23,git diff sphinx/ext/autodoc/typehints.py,attr_tree,0,1,,167,55,0,random
+sphinx-doc__sphinx-10449,23,git diff sphinx/ext/autodoc/typehints.py,default,0,1,,144,49,4,random
+sphinx-doc__sphinx-10449,39,git diff,default,0,1,,4035,282,244,random
+sphinx-doc__sphinx-10449,39,git diff,attr_tree,0,1,,3819,49,0,random
+sphinx-doc__sphinx-10449,41,git status,attr_tree,0,1,,5398,249,0,random
+sphinx-doc__sphinx-10449,41,git status,default,0,1,,3755,240,0,random
+sphinx-doc__sphinx-10449,42,git diff,default,0,1,,2163,35,0,random
+sphinx-doc__sphinx-10449,42,git diff,attr_tree,0,1,,2163,35,0,random
+sphinx-doc__sphinx-9367,14,git diff sphinx/pycode/ast.py,attr_tree,0,1,,165,55,0,random
+sphinx-doc__sphinx-9367,14,git diff sphinx/pycode/ast.py,default,0,1,,141,48,3,random
+sphinx-doc__sphinx-9367,19,git diff,attr_tree,0,1,,3527,49,0,random
+sphinx-doc__sphinx-9367,19,git diff,default,0,1,,3708,247,209,random
+sphinx-doc__sphinx-9367,21,git status,attr_tree,0,1,,5009,239,0,random
+sphinx-doc__sphinx-9367,21,git status,default,0,1,,3559,230,0,random

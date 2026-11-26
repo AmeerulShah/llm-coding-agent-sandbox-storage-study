@@ -1,0 +1,33 @@
+instance,cmd,cache,delay_us,attr_tree,seconds,requests,lookups,rc
+django__django-16493,"git log -S ""_storage_callable"" -p",short,0,0,34.077,209064,206395,0
+django__django-16493,"git log -S ""_storage_callable"" -p",long,0,1,11.295,2671,35,0
+django__django-16493,"git log -S ""_storage_callable"" -p",long,100,1,11.762,2671,35,0
+django__django-16493,"git log -S ""_storage_callable"" -p",short,100,0,77.771,220981,218267,0
+django__django-16493,"git log -S ""_storage_callable"" -p",short,0,1,11.012,2686,49,0
+django__django-16493,"git log -S ""_storage_callable"" -p",long,100,0,12.372,9248,6611,0
+django__django-16493,"git log -S ""_storage_callable"" -p",long,0,0,10.099,9248,6611,0
+django__django-16493,"git log -S ""_storage_callable"" -p",short,100,1,12.197,2686,49,0
+django__django-16100,"git log -S ""list_editable"" --oneline",long,100,1,12.575,2691,80,0
+django__django-16100,"git log -S ""list_editable"" --oneline",long,0,1,12.254,2691,80,0
+django__django-16100,"git log -S ""list_editable"" --oneline",long,100,0,12.852,9269,6655,0
+django__django-16100,"git log -S ""list_editable"" --oneline",short,100,0,79.628,219026,216333,0
+django__django-16100,"git log -S ""list_editable"" --oneline",short,100,1,12.219,2724,105,0
+django__django-16100,"git log -S ""list_editable"" --oneline",short,0,0,21.143,205133,202498,0
+django__django-16100,"git log -S ""list_editable"" --oneline",long,0,0,9.794,9269,6655,0
+django__django-16100,"git log -S ""list_editable"" --oneline",short,0,1,11.245,2724,105,0
+django__django-15561,"git log -S ""non_database_attrs"" --oneline",short,100,0,76.898,215376,212723,0
+django__django-15561,"git log -S ""non_database_attrs"" --oneline",short,0,0,20.456,201932,199335,0
+django__django-15561,"git log -S ""non_database_attrs"" --oneline",short,0,1,10.737,2616,40,0
+django__django-15561,"git log -S ""non_database_attrs"" --oneline",long,100,0,11.852,9165,6588,0
+django__django-15561,"git log -S ""non_database_attrs"" --oneline",long,0,0,9.221,9165,6588,0
+django__django-15561,"git log -S ""non_database_attrs"" --oneline",long,100,1,11.784,2604,29,0
+django__django-15561,"git log -S ""non_database_attrs"" --oneline",long,0,1,10.749,2604,29,0
+django__django-15561,"git log -S ""non_database_attrs"" --oneline",short,100,1,11.305,2616,40,0
+django__django-15554,"git log -S ""Ignore filtered_relation in equality check"" -p",long,100,0,11.204,9171,6594,0
+django__django-15554,"git log -S ""Ignore filtered_relation in equality check"" -p",short,0,0,19.937,201774,199178,0
+django__django-15554,"git log -S ""Ignore filtered_relation in equality check"" -p",short,100,0,76.696,215355,212702,0
+django__django-15554,"git log -S ""Ignore filtered_relation in equality check"" -p",long,100,1,11.087,2611,35,0
+django__django-15554,"git log -S ""Ignore filtered_relation in equality check"" -p",long,0,0,9.083,9171,6594,0
+django__django-15554,"git log -S ""Ignore filtered_relation in equality check"" -p",short,0,1,10.359,2622,46,0
+django__django-15554,"git log -S ""Ignore filtered_relation in equality check"" -p",long,0,1,10.281,2611,35,0
+django__django-15554,"git log -S ""Ignore filtered_relation in equality check"" -p",short,100,1,11.175,2622,46,0

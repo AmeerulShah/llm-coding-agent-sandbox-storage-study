@@ -1,0 +1,3 @@
+{"note": "Two history searches traced in detail (django__django-14011 base commit; git log -S <term> --oneline under strace -f, trace=openat,newfstatat,statx,access,lstat,stat): failed .gitattributes lookups in total and distinct paths. Command recorded in the session; rerun with tools/git_attr_distinct.sh.",
+ "calls": [{"term": "daemon_threads", "total": 171207, "distinct": 4735}, {"term": "TextIOBase", "total": 171207, "distinct": 4735}],
+ "worktree_dirs": 3108}
